@@ -1,4 +1,4 @@
-﻿endpoint,patient_id,feature_row,source,tss,label,label_name,internal_fold,prob_raw_class_0,prob_calibrated_class_0,prob_raw_class_1,prob_calibrated_class_1,prob_raw_class_2,prob_calibrated_class_2,prob_raw_class_3,prob_calibrated_class_3
+endpoint,patient_id,feature_row,source,tss,label,label_name,internal_fold,prob_raw_class_0,prob_calibrated_class_0,prob_raw_class_1,prob_calibrated_class_1,prob_raw_class_2,prob_calibrated_class_2,prob_raw_class_3,prob_calibrated_class_3
 ER_binary,TCGA-3C-AALJ,1,batch01,3C,1,Positive,0,0.3514513123170513,0.2911845286589879,0.6485486876829487,0.7088154713410121,,,,
 ER_binary,TCGA-4H-AAAK,3,batch01,4H,1,Positive,0,0.135703028816593,0.1798372559398775,0.864296971183407,0.8201627440601225,,,,
 ER_binary,TCGA-A1-A0SD,7,batch01,A1,1,Positive,0,0.163639122971132,0.1502052401111302,0.836360877028868,0.8497947598888699,,,,

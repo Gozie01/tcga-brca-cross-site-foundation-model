@@ -1,0 +1,69 @@
+{
+  "pipeline_version": "stage10b_internal_prediction_calibration_v1",
+  "status": "LOCKED_COMPLETE",
+  "seed": 20260905,
+  "model": "L2-regularized logistic-regression linear probe",
+  "preprocessing": "StandardScaler fitted within each training fold",
+  "hyperparameter_selection": {
+    "C_grid": [
+      0.001,
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0
+    ],
+    "inner_cv_max_folds": 4,
+    "binary_metric": "average_precision",
+    "multiclass_metric": "negative_log_loss"
+  },
+  "calibration": "sigmoid calibration fitted by stratified CV inside each outer-training set; outer test folds untouched",
+  "evaluation": "frozen endpoint-specific patient-level five-fold OOF",
+  "bootstrap_replicates": 1000,
+  "endpoint_evaluable_counts": {
+    "ER_binary": 337,
+    "PR_binary": 337,
+    "HER2_binary": 314,
+    "PIK3CA_binary": 345,
+    "PAM50_primary_4class": 335
+  },
+  "software": {
+    "python": "3.11.9",
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scikit_learn": "1.8.0"
+  },
+  "stage10a_metadata_sha256": "ec0f61903bf84c88c8edb256e2b886ce01c605817215fdb91b6dc6686e733d9d",
+  "validation": {
+    "input_feature_shape": true,
+    "input_feature_dtype_float32": true,
+    "input_feature_index_rows": true,
+    "input_five_folds_per_endpoint": true,
+    "input_endpoint_counts": true,
+    "input_unique_endpoint_patients": true,
+    "twenty_five_split_checkpoints": true,
+    "complete_oof_predictions": true,
+    "no_oof_duplicates": true,
+    "two_calibration_states_per_fold": true,
+    "all_primary_metrics_finite": true,
+    "bootstrap_rows_present": true
+  },
+  "outputs": {
+    "stage10b_internal_oof_predictions_v1.csv": {
+      "path": "<PROJECT_ROOT>\\stage10b_internal_prediction_calibration_v1\\stage10b_internal_oof_predictions_v1.csv",
+      "sha256": "ee17df1ea82cdb793f1cde98a7c5d76ad2548a8a41bf79e5e7c16670389dfe2a"
+    },
+    "stage10b_internal_fold_metrics_v1.csv": {
+      "path": "<PROJECT_ROOT>\\stage10b_internal_prediction_calibration_v1\\stage10b_internal_fold_metrics_v1.csv",
+      "sha256": "dfa1da87ff5bf6fc5f9826ca207011a773b015b9bb4c5ab023eac7c4256ccd18"
+    },
+    "stage10b_internal_summary_metrics_v1.csv": {
+      "path": "<PROJECT_ROOT>\\stage10b_internal_prediction_calibration_v1\\stage10b_internal_summary_metrics_v1.csv",
+      "sha256": "1f815ff24c0c6757fc36e16838d6d8e70a9d5caa7fe24ad78d824123c411d591"
+    },
+    "stage10b_internal_bootstrap_ci_v1.csv": {
+      "path": "<PROJECT_ROOT>\\stage10b_internal_prediction_calibration_v1\\stage10b_internal_bootstrap_ci_v1.csv",
+      "sha256": "151d314e076f7f88e0ba5717246dd9501477756e55d26c4fd1b70efae235df66"
+    }
+  }
+}

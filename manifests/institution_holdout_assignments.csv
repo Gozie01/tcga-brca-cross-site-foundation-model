@@ -1,4 +1,4 @@
-﻿patient_id,feature_row,source,tss,label,label_name,endpoint,holdout_site,partition
+patient_id,feature_row,source,tss,label,label_name,endpoint,holdout_site,partition
 TCGA-3C-AALI,0,batch01,3C,1,Positive,ER_binary,A2,train
 TCGA-3C-AALJ,1,batch01,3C,1,Positive,ER_binary,A2,train
 TCGA-3C-AALK,2,batch01,3C,1,Positive,ER_binary,A2,validation

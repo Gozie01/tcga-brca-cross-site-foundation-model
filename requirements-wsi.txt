@@ -1,0 +1,7 @@
+-r requirements-analysis.txt
+Pillow
+opencv-python
+openslide-python
+timm==1.0.29
+# Install a CUDA-compatible PyTorch build for the local platform.
+# The frozen production run used torch 2.13.0+cu130.

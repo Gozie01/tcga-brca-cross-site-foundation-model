@@ -1,4 +1,4 @@
-﻿endpoint,holdout_site,calibration_state,paired_patients,metric,first_estimate,second_estimate,delta_second_minus_first,delta_ci_lower_95,delta_ci_upper_95,paired_bootstrap_p_two_sided,bootstrap_valid_replicates
+endpoint,holdout_site,calibration_state,paired_patients,metric,first_estimate,second_estimate,delta_second_minus_first,delta_ci_lower_95,delta_ci_upper_95,paired_bootstrap_p_two_sided,bootstrap_valid_replicates
 ER_binary,A2,raw,85,auroc,0.8708133971291866,0.8995215311004785,0.028708133971291905,-0.05806153384861425,0.1348383001157859,0.6293706293706294,1000
 ER_binary,A2,raw,85,auprc,0.9405909765058404,0.9713075843364832,0.030716607830642784,-0.019774321882057022,0.09583100828596819,0.5194805194805194,1000
 ER_binary,A2,raw,85,brier,0.11922928936797429,0.13478168585648326,0.015552396488508965,-0.02510440331095293,0.05271697058074225,0.3956043956043956,1000

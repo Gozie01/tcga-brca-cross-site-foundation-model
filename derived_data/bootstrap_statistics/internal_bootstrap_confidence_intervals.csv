@@ -1,4 +1,4 @@
-﻿endpoint,calibration,metric,estimate,ci_lower_95,ci_upper_95,bootstrap_valid_replicates
+endpoint,calibration,metric,estimate,ci_lower_95,ci_upper_95,bootstrap_valid_replicates
 ER_binary,raw,auroc,0.8176822686684329,0.7507925944293331,0.8766088151957718,1000
 ER_binary,raw,auprc,0.9063295802412816,0.8553562446021071,0.9495095020503215,1000
 ER_binary,raw,balanced_accuracy,0.7665832597389854,0.7074877274473089,0.8220445010239664,1000

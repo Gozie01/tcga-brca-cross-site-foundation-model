@@ -1,4 +1,4 @@
-﻿feature_row,patient_id,source,source_patient_feature_row,slide_count,patch_count,tss,expected_wsi_count,recovered_wsi_count,er_status,pr_status,her2_status,receptor_group_secondary,pam50_source_subtype,pam50_primary_4class_label,pik3ca_status,er_evaluable,pr_evaluable,her2_evaluable,pam50_5class_evaluable,pam50_primary4_evaluable,pik3ca_evaluable
+feature_row,patient_id,source,source_patient_feature_row,slide_count,patch_count,tss,expected_wsi_count,recovered_wsi_count,er_status,pr_status,her2_status,receptor_group_secondary,pam50_source_subtype,pam50_primary_4class_label,pik3ca_status,er_evaluable,pr_evaluable,her2_evaluable,pam50_5class_evaluable,pam50_primary4_evaluable,pik3ca_evaluable
 0,TCGA-3C-AALI,batch01,0,2,2000,3C,2,2,Positive,Positive,Positive,HER2-positive,BRCA_Her2,BRCA_Her2,WT,1,1,1,1,1,1
 1,TCGA-3C-AALJ,batch01,1,2,2000,3C,2,2,Positive,Positive,,Unresolved,BRCA_LumB,BRCA_LumB,WT,1,1,0,1,1,1
 2,TCGA-3C-AALK,batch01,2,1,1000,3C,1,1,Positive,Positive,Positive,HER2-positive,BRCA_LumA,BRCA_LumA,MUT,1,1,1,1,1,1

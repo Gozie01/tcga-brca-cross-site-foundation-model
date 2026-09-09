@@ -1,4 +1,4 @@
-﻿endpoint,holdout_site,patient_id,feature_row,source,tss,label,label_name,prob_raw_class_0,prob_calibrated_class_0,prob_raw_class_1,prob_calibrated_class_1,prob_raw_class_2,prob_calibrated_class_2,prob_raw_class_3,prob_calibrated_class_3
+endpoint,holdout_site,patient_id,feature_row,source,tss,label,label_name,prob_raw_class_0,prob_calibrated_class_0,prob_raw_class_1,prob_calibrated_class_1,prob_raw_class_2,prob_calibrated_class_2,prob_raw_class_3,prob_calibrated_class_3
 ER_binary,A2,TCGA-A2-A04N,17,batch01,A2,1,Positive,0.18228442831539826,0.021093897564329778,0.8177155716846017,0.9789061024356702,,,,
 ER_binary,A2,TCGA-A2-A04P,18,batch01,A2,0,Negative,0.6319151607979125,0.5166009702596044,0.36808483920208745,0.48339902974039556,,,,
 ER_binary,A2,TCGA-A2-A04Q,19,batch01,A2,0,Negative,0.47116291672054067,0.23362988109400973,0.5288370832794593,0.7663701189059903,,,,

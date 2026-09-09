@@ -1,0 +1,22 @@
+{
+  "status": "LOCKED_COMPLETE",
+  "working_title": "Evaluating Cross-Site Generalization of Breast Cancer Molecular Phenotype Prediction from Whole-Slide Histology Using UNI Foundation-Model Embeddings",
+  "cohort": {
+    "patients": 345,
+    "slides": 347,
+    "patches": 345937
+  },
+  "primary_endpoint_interpretation": {
+    "ER": "strong",
+    "PR": "moderate",
+    "HER2": "limited_and_site_sensitive",
+    "PIK3CA": "weak",
+    "PAM50": "strong_but_compression_sensitive"
+  },
+  "caution": "Site-held-out validation is within TCGA-BRCA, not an independent external cohort.",
+  "outputs": {
+    "figures": 8,
+    "tables": 5,
+    "results_draft": "RESULTS_SECTION_DRAFT.md"
+  }
+}

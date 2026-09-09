@@ -1,4 +1,4 @@
-﻿endpoint,holdout_site,calibration,metric,estimate,ci_lower_95,ci_upper_95,bootstrap_valid_replicates
+endpoint,holdout_site,calibration,metric,estimate,ci_lower_95,ci_upper_95,bootstrap_valid_replicates
 ER_binary,A2,raw,auroc,0.8995215311004785,0.8269608032812258,0.9607937158469947,1000
 ER_binary,A2,raw,auprc,0.9713075843364832,0.9432897649549592,0.9910748747684827,1000
 ER_binary,A2,raw,balanced_accuracy,0.8341307814992025,0.7232553609701688,0.9255695515911282,1000

@@ -1,0 +1,121 @@
+{
+  "pipeline_version": "stage10a_cohort_split_freeze_v1",
+  "status": "LOCKED_COMPLETE",
+  "seed": 20260905,
+  "modeling_unit": "TCGA patient",
+  "aggregation": "patch mean to slide mean to patient mean",
+  "cohort": {
+    "patch_embeddings": 345937,
+    "wsis": 347,
+    "patients": 345,
+    "embedding_dimension": 1024,
+    "batch01_patients": 91,
+    "multisite_patients": 254,
+    "cross_source_patient_overlap": 0
+  },
+  "endpoint_evaluable_counts": {
+    "ER_binary": 337,
+    "PR_binary": 337,
+    "HER2_binary": 314,
+    "PIK3CA_binary": 345,
+    "PAM50_primary_4class": 335
+  },
+  "holdout_sites": [
+    "A2",
+    "C8",
+    "E2",
+    "BH"
+  ],
+  "split_policies": {
+    "internal": "endpoint-specific deterministic stratified 5-fold patient split",
+    "site_holdout": "endpoint-specific external test site; deterministic 20% validation sampling within development-site/class strata; remaining patients train",
+    "leakage_control": "all slides and patches from a patient remain in one partition"
+  },
+  "software": {
+    "python": "3.11.9",
+    "numpy": "2.4.4",
+    "pandas": "3.0.2"
+  },
+  "upstream": {
+    "batch_embeddings_sha256": "513c2aff758e932fb61753e5972f48aaf3e1664f44b0d42abf164f4d2b53834b",
+    "batch_index_sha256": "b8b037f98b19bd97e6ed3897b29569378a9101c4c6e5d9d47f90076143589393",
+    "multisite_embeddings_sha256": "d164af032fbce00b9e8b63281a14cdf7f72fb4ea6c3be5e2e18081c32f2e75d5",
+    "multisite_index_sha256": "216a164f1216e03b59856b152cd35ed75cfbf9a236c543b715816755092d44d2",
+    "endpoint_master_sha256": "3c0c7a100d8114683af6ef3e642f23891d55595e57cc60f6ef52b727f35bb131"
+  },
+  "validation": {
+    "batch_embedding_gates": {
+      "matrix_shape": true,
+      "matrix_dtype": true,
+      "index_rows": true,
+      "slide_count": true,
+      "patient_count": true,
+      "embedding_hash": true,
+      "index_hash": true
+    },
+    "multisite_embedding_gates": {
+      "matrix_shape": true,
+      "matrix_dtype": true,
+      "index_rows": true,
+      "slide_count": true,
+      "patient_count": true,
+      "embedding_hash": true,
+      "index_hash": true
+    },
+    "freeze_gates": {
+      "expected_patch_count": true,
+      "expected_slide_count": true,
+      "expected_patient_count": true,
+      "zero_cross_source_patient_overlap": true,
+      "zero_cross_source_slide_overlap": true,
+      "all_embedding_patients_endpoint_matched": true,
+      "patient_feature_shape": true,
+      "patient_features_finite": true,
+      "patient_features_nonzero": true,
+      "patch_count_conservation": true,
+      "slide_count_conservation": true,
+      "endpoint_counts": true,
+      "four_site_holdouts_per_endpoint": true,
+      "no_patient_partition_overlap": true,
+      "five_internal_folds_per_endpoint": true
+    }
+  },
+  "outputs": {
+    "stage10a_uni_patient_features_v1.npy": {
+      "path": "<PROJECT_ROOT>\\stage10a_cohort_split_freeze_v1\\stage10a_uni_patient_features_v1.npy",
+      "sha256": "555460c3e05a5e71ac36548e35ed0f9c4e145e8fdb7c1e903d6cecccf78037b1"
+    },
+    "stage10a_uni_patient_features_index_v1.csv": {
+      "path": "<PROJECT_ROOT>\\stage10a_cohort_split_freeze_v1\\stage10a_uni_patient_features_index_v1.csv",
+      "sha256": "ff5b6352f9b7ddecf129a2bd6345ce2066cf9adc8e436394d2b6d272efdbcf43"
+    },
+    "stage10a_patient_endpoint_master_v1.csv": {
+      "path": "<PROJECT_ROOT>\\stage10a_cohort_split_freeze_v1\\stage10a_patient_endpoint_master_v1.csv",
+      "sha256": "141a22c2d7dcd6daedfba5577ebdc6be84d0dd18b569afe9509812c2537c5397"
+    },
+    "stage10a_slide_pooling_audit_v1.csv": {
+      "path": "<PROJECT_ROOT>\\stage10a_cohort_split_freeze_v1\\stage10a_slide_pooling_audit_v1.csv",
+      "sha256": "71743a28f8729955f1b26144c176b730ad7c2c8ae863b64ba8fee3008e4fa99e"
+    },
+    "stage10a_endpoint_eligibility_summary_v1.csv": {
+      "path": "<PROJECT_ROOT>\\stage10a_cohort_split_freeze_v1\\stage10a_endpoint_eligibility_summary_v1.csv",
+      "sha256": "7986f7a86a56ea2e2fd24c719fa1ae0c389a5c1e4a45914c589dc7382832386a"
+    },
+    "stage10a_internal_5fold_manifest_v1.csv": {
+      "path": "<PROJECT_ROOT>\\stage10a_cohort_split_freeze_v1\\stage10a_internal_5fold_manifest_v1.csv",
+      "sha256": "3e4e2a23d8bbd1dc2989d466a77ce8e79c75ea24dc7a0a9f57df1a26395222b1"
+    },
+    "stage10a_internal_5fold_summary_v1.csv": {
+      "path": "<PROJECT_ROOT>\\stage10a_cohort_split_freeze_v1\\stage10a_internal_5fold_summary_v1.csv",
+      "sha256": "38ad07ab4fc71780cfb9d043e591766d2f05106e3e8f9e2b21c5667e3f6d1647"
+    },
+    "stage10a_site_holdout_manifest_v1.csv": {
+      "path": "<PROJECT_ROOT>\\stage10a_cohort_split_freeze_v1\\stage10a_site_holdout_manifest_v1.csv",
+      "sha256": "1ec113b4db1bd49f1e7921c0f53d626d5fd33ef1c08f4d5def9d85afdc90f11c"
+    },
+    "stage10a_site_holdout_summary_v1.csv": {
+      "path": "<PROJECT_ROOT>\\stage10a_cohort_split_freeze_v1\\stage10a_site_holdout_summary_v1.csv",
+      "sha256": "94f31bf919a03e51084103d88a21c52ad1f2d1bd12f8caec7aca229d3f138088"
+    }
+  }
+}

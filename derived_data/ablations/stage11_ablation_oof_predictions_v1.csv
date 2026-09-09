@@ -1,4 +1,4 @@
-﻿endpoint,patient_id,feature_row,source,tss,label,label_name,internal_fold,ablation,prob_class_0,prob_class_1,prob_class_2,prob_class_3
+endpoint,patient_id,feature_row,source,tss,label,label_name,internal_fold,ablation,prob_class_0,prob_class_1,prob_class_2,prob_class_3
 ER_binary,TCGA-3C-AALJ,1,batch01,3C,1,Positive,0,l2_normalized,0.44509259561391923,0.5549074043860808,,
 ER_binary,TCGA-4H-AAAK,3,batch01,4H,1,Positive,0,l2_normalized,0.25170419554212076,0.7482958044578792,,
 ER_binary,TCGA-A1-A0SD,7,batch01,A1,1,Positive,0,l2_normalized,0.1815277539882446,0.8184722460117554,,

@@ -1,4 +1,4 @@
-﻿feature_row,patient_id,source,source_patient_feature_row,slide_count,patch_count,tss
+feature_row,patient_id,source,source_patient_feature_row,slide_count,patch_count,tss
 0,TCGA-3C-AALI,batch01,0,2,2000,3C
 1,TCGA-3C-AALJ,batch01,1,2,2000,3C
 2,TCGA-3C-AALK,batch01,2,1,1000,3C

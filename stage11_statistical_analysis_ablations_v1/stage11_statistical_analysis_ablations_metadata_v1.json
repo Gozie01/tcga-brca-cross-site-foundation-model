@@ -1,0 +1,64 @@
+{
+  "pipeline_version": "stage11_statistical_analysis_ablations_v1",
+  "status": "LOCKED_COMPLETE",
+  "seed": 20260905,
+  "bootstrap_reps": 1000,
+  "paired_statistics": "patient-level nonparametric paired bootstrap with percentile 95% CIs and finite-sample corrected two-sided bootstrap p-values",
+  "ablations": {
+    "reference": "Stage 10B full 1024-dimensional raw OOF predictions",
+    "variants": [
+      "l2_normalized",
+      "pca_32",
+      "pca_64",
+      "pca_128"
+    ],
+    "leakage_control": "normalization, scaling, PCA, and model selection fitted only within each outer-training fold"
+  },
+  "software": {
+    "python": "3.11.9",
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scikit_learn": "1.8.0"
+  },
+  "validation": {
+    "frozen_stage10_inputs": true,
+    "calibration_statistics_complete": true,
+    "domain_statistics_complete": true,
+    "twenty_site_models_summarized": true,
+    "one_hundred_ablation_checkpoints": true,
+    "ablation_predictions_complete": true,
+    "no_ablation_prediction_duplicates": true,
+    "paired_ablation_statistics_complete": true,
+    "all_primary_results_finite": true
+  },
+  "outputs": {
+    "stage11_paired_calibration_statistics_v1.csv": {
+      "path": "<PROJECT_ROOT>\\stage11_statistical_analysis_ablations_v1\\stage11_paired_calibration_statistics_v1.csv",
+      "sha256": "8e4a71cde4310f0098ecd22a140ca0fb3987789afebe7000bd0a740a313003d5"
+    },
+    "stage11_paired_domain_shift_statistics_v1.csv": {
+      "path": "<PROJECT_ROOT>\\stage11_statistical_analysis_ablations_v1\\stage11_paired_domain_shift_statistics_v1.csv",
+      "sha256": "858f228c77b09cebaf2e129239fe50e06db158a770fbbcbee5054b508c211352"
+    },
+    "stage11_site_heterogeneity_summary_v1.csv": {
+      "path": "<PROJECT_ROOT>\\stage11_statistical_analysis_ablations_v1\\stage11_site_heterogeneity_summary_v1.csv",
+      "sha256": "041e6983023f7c80f7973d060422c00dcd46c354f5fbf0e0aee18da8b1b3062a"
+    },
+    "stage11_ablation_oof_predictions_v1.csv": {
+      "path": "<PROJECT_ROOT>\\stage11_statistical_analysis_ablations_v1\\stage11_ablation_oof_predictions_v1.csv",
+      "sha256": "3511eb4b297d4c960d3b6e5ef472ade19d00aab20d080352e5ba2bcff071da92"
+    },
+    "stage11_ablation_fold_metrics_v1.csv": {
+      "path": "<PROJECT_ROOT>\\stage11_statistical_analysis_ablations_v1\\stage11_ablation_fold_metrics_v1.csv",
+      "sha256": "33ee148b103259685d536650f584c8acd4d0e1cdd3e6ec7e00602891a2e962b3"
+    },
+    "stage11_ablation_summary_v1.csv": {
+      "path": "<PROJECT_ROOT>\\stage11_statistical_analysis_ablations_v1\\stage11_ablation_summary_v1.csv",
+      "sha256": "143d72e87954e17a0ce0afd80ddc58307d614572d23b80a129d5d0cff4488d21"
+    },
+    "stage11_paired_ablation_statistics_v1.csv": {
+      "path": "<PROJECT_ROOT>\\stage11_statistical_analysis_ablations_v1\\stage11_paired_ablation_statistics_v1.csv",
+      "sha256": "8f2bd7365e66beb7a80975655c434d7971c53a238ef41cf9fa62b1261b7e1564"
+    }
+  }
+}

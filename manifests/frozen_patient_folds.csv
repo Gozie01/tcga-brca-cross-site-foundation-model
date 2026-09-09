@@ -1,4 +1,4 @@
-﻿patient_id,feature_row,source,tss,label,label_name,endpoint,internal_fold
+patient_id,feature_row,source,tss,label,label_name,endpoint,internal_fold
 TCGA-3C-AALI,0,batch01,3C,1,Positive,ER_binary,2
 TCGA-3C-AALJ,1,batch01,3C,1,Positive,ER_binary,0
 TCGA-3C-AALK,2,batch01,3C,1,Positive,ER_binary,1

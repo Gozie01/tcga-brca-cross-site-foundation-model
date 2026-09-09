@@ -1,4 +1,4 @@
-﻿endpoint,holdout_site,calibration_state,internal_auroc,external_auroc,auroc_gap_external_minus_internal,internal_auprc,external_auprc,auprc_gap_external_minus_internal
+endpoint,holdout_site,calibration_state,internal_auroc,external_auroc,auroc_gap_external_minus_internal,internal_auprc,external_auprc,auprc_gap_external_minus_internal
 ER_binary,A2,raw,0.8176822686684329,0.8995215311004785,0.08183926243204565,0.9063295802412816,0.9713075843364832,0.0649780040952016
 ER_binary,C8,raw,0.8176822686684329,0.8141176470588236,-0.003564621609609242,0.9063295802412816,0.8325914908172802,-0.0737380894240014
 ER_binary,E2,raw,0.8176822686684329,0.9311740890688258,0.11349182040039296,0.9063295802412816,0.9668810425382874,0.06055146229700581

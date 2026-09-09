@@ -1,9 +1,15 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite this archived release."
+message: "If you use this software or its derived outputs, please cite this archived release and the associated manuscript."
 title: "TCGA-BRCA cross-site pathology foundation-model evaluation pipeline"
 version: 1.0.0
 type: software
 license: MIT
+repository-code: "https://github.com/Gozie01/tcga-brca-cross-site-foundation-model"
+abstract: >-
+  Reproducible pipeline and frozen derived outputs for patient-separated internal
+  evaluation, probability calibration, TCGA tissue-source-site holdouts, and
+  representation ablations using UNI pathology foundation-model representations
+  for breast cancer molecular phenotype prediction.
 authors:
   - given-names: "Chigozie Athanasius"
     family-names: "Nnadiekwe"
@@ -30,4 +36,3 @@ keywords:
   - domain shift
   - probability calibration
   - trustworthy artificial intelligence
-repository-code: "https://github.com/Gozie01/tcga-brca-cross-site-foundation-model"

@@ -1,0 +1,6 @@
+endpoint,evaluable_n,class_count,class_counts_json
+ER_binary,337,2,"{""Negative"": 79, ""Positive"": 258}"
+PR_binary,337,2,"{""Negative"": 111, ""Positive"": 226}"
+HER2_binary,314,2,"{""Negative"": 259, ""Positive"": 55}"
+PIK3CA_binary,345,2,"{""MUT"": 120, ""WT"": 225}"
+PAM50_primary_4class,335,4,"{""BRCA_Basal"": 59, ""BRCA_Her2"": 34, ""BRCA_LumA"": 175, ""BRCA_LumB"": 67}"

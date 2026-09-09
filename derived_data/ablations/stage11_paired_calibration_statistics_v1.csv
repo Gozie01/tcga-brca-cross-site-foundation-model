@@ -1,4 +1,4 @@
-﻿endpoint,metric,first_estimate,second_estimate,delta_second_minus_first,delta_ci_lower_95,delta_ci_upper_95,paired_bootstrap_p_two_sided,bootstrap_valid_replicates
+endpoint,metric,first_estimate,second_estimate,delta_second_minus_first,delta_ci_lower_95,delta_ci_upper_95,paired_bootstrap_p_two_sided,bootstrap_valid_replicates
 ER_binary,auroc,0.8176822686684329,0.8431459130605437,0.025463644392110796,-0.005249232909210724,0.0643866571018652,0.12187812187812187,1000
 ER_binary,auprc,0.9063295802412816,0.9231503273967431,0.016820747155461446,-0.016049780860423628,0.05571097628535035,0.3776223776223776,1000
 ER_binary,brier,0.13999425799315132,0.12080353606742925,-0.019190721925722076,-0.034940640048023504,-0.0037184273167063424,0.02197802197802198,1000
