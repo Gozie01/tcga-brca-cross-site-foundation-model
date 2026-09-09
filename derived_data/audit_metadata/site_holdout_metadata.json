@@ -1,0 +1,53 @@
+{
+  "pipeline_version": "stage10c_site_holdout_domain_shift_v1",
+  "status": "LOCKED_COMPLETE",
+  "holdout_sites": [
+    "A2",
+    "C8",
+    "E2",
+    "BH"
+  ],
+  "endpoint_counts": {
+    "ER_binary": 337,
+    "PR_binary": 337,
+    "HER2_binary": 314,
+    "PIK3CA_binary": 345,
+    "PAM50_primary_4class": 335
+  },
+  "expected_test_rows": 1586,
+  "bootstrap_reps": 1000,
+  "calibration": {
+    "binary": "Platt sigmoid on frozen validation",
+    "multiclass": "temperature scaling on frozen validation"
+  },
+  "software": {
+    "python": "3.11.9",
+    "sklearn": "1.8.0"
+  },
+  "validation": {
+    "twenty_checkpoints": true,
+    "two_states_per_experiment": true,
+    "test_predictions_complete": true,
+    "no_duplicate_test_predictions": true,
+    "bootstrap_intervals_present": true,
+    "metrics_finite": true
+  },
+  "outputs": {
+    "stage10c_site_holdout_predictions_v1.csv": {
+      "path": "C:\\Users\\Gozie\\Desktop\\BioMedical\\TCGA_BRCA_Mutation_Audit\\stage10c_site_holdout_domain_shift_v1\\stage10c_site_holdout_predictions_v1.csv",
+      "sha256": "752574f93aa6762033ca2b393196967a477b6d0dab34cf69851960ce3d3b8651"
+    },
+    "stage10c_site_holdout_metrics_v1.csv": {
+      "path": "C:\\Users\\Gozie\\Desktop\\BioMedical\\TCGA_BRCA_Mutation_Audit\\stage10c_site_holdout_domain_shift_v1\\stage10c_site_holdout_metrics_v1.csv",
+      "sha256": "06df6667f97a62a58234d8c04e31d2f4ba84f02a1d95e83e0ae1c21a9119fffd"
+    },
+    "stage10c_site_holdout_bootstrap_intervals_v1.csv": {
+      "path": "C:\\Users\\Gozie\\Desktop\\BioMedical\\TCGA_BRCA_Mutation_Audit\\stage10c_site_holdout_domain_shift_v1\\stage10c_site_holdout_bootstrap_intervals_v1.csv",
+      "sha256": "fde7b2fb86ea063e28a7fd3de600d987c45ae31d15a92569886a4658054ccc44"
+    },
+    "stage10c_domain_gap_v1.csv": {
+      "path": "C:\\Users\\Gozie\\Desktop\\BioMedical\\TCGA_BRCA_Mutation_Audit\\stage10c_site_holdout_domain_shift_v1\\stage10c_domain_gap_v1.csv",
+      "sha256": "8ae27fd14ea4c7a5aea2ac441480c4ae2281617d919b68017c7e6fd9e67530e4"
+    }
+  }
+}

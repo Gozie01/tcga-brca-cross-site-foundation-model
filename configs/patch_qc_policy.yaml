@@ -1,0 +1,4 @@
+target_mpp: 0.50
+patch_size_pixels: 256
+maximum_patches_per_slide: 1000
+policy: "Use the frozen combined QC manifest; retain only patches marked retained."

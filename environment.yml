@@ -1,0 +1,10 @@
+name: tcga-brca-cross-site-foundation-model
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.11.9
+  - pip=25.0
+  - openslide=4.0.0
+  - pip:
+      - -r requirements.txt

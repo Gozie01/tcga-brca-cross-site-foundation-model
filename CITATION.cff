@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this archived release."
+title: "TCGA-BRCA cross-site pathology foundation-model evaluation pipeline"
+version: 1.0.0
+type: software
+license: MIT
+authors:
+  - given-names: "Chigozie Athanasius"
+    family-names: "Nnadiekwe"
+    orcid: "https://orcid.org/0009-0000-6014-2703"
+    affiliation: "Kumoh National Institute of Technology"
+  - given-names: "Simeon Okechukwu"
+    family-names: "Ajakwe"
+    orcid: "https://orcid.org/0000-0002-6973-530X"
+    affiliation: "Kyungdong University"
+  - given-names: "Jae Min"
+    family-names: "Lee"
+    orcid: "https://orcid.org/0000-0001-6885-5185"
+    affiliation: "Kumoh National Institute of Technology"
+  - given-names: "Dong-Seong"
+    family-names: "Kim"
+    orcid: "https://orcid.org/0000-0002-2977-5964"
+    affiliation: "Kumoh National Institute of Technology"
+keywords:
+  - computational pathology
+  - breast cancer
+  - TCGA-BRCA
+  - pathology foundation model
+  - UNI
+  - domain shift
+  - probability calibration
+  - trustworthy artificial intelligence
+repository-code: "https://github.com/Gozie01/tcga-brca-cross-site-foundation-model"

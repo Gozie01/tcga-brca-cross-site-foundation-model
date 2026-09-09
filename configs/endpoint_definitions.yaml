@@ -1,0 +1,5 @@
+ER_binary: {evaluable_column: er_evaluable, label_column: er_status, labels: {Negative: 0, Positive: 1}}
+PR_binary: {evaluable_column: pr_evaluable, label_column: pr_status, labels: {Negative: 0, Positive: 1}}
+HER2_binary: {evaluable_column: her2_evaluable, label_column: her2_status, labels: {Negative: 0, Positive: 1}}
+PIK3CA_binary: {evaluable_column: pik3ca_evaluable, label_column: pik3ca_status, labels: {WT: 0, MUT: 1}}
+PAM50_primary_4class: {evaluable_column: pam50_primary4_evaluable, label_column: pam50_primary_4class_label, labels: {BRCA_LumA: 0, BRCA_LumB: 1, BRCA_Basal: 2, BRCA_Her2: 3}}

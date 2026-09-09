@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+data/
+outputs/
+*.svs
+*.npy
+!derived_data/patient_features/patient_feature_matrix.npy
+*.zip
+*.log
+split_checkpoints/
+**/*token*

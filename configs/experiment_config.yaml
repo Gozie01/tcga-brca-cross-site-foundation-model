@@ -1,0 +1,12 @@
+seed: 20260905
+feature_dimension: 1024
+holdout_sites: [A2, C8, E2, BH]
+internal_folds: 5
+bootstrap_replicates: 1000
+linear_probe:
+  c_grid: [0.001, 0.01, 0.1, 1.0, 10.0, 100.0]
+  scaler: StandardScaler
+  penalty: l2
+calibration:
+  binary: Platt sigmoid
+  multiclass: temperature scaling
