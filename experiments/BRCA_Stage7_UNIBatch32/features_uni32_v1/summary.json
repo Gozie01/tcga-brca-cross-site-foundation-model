@@ -1,0 +1,75 @@
+{
+  "status": "UNI32_EXTRACTION_COMPLETE_REVIEW_PENDING",
+  "models": {
+    "UNI": {
+      "status": "COMPLETE",
+      "completed_slides": 391,
+      "completed_patches": 368985,
+      "reused_slides": 0,
+      "dimension": 1024,
+      "patient_count": 120,
+      "batch8_reference_probe_max_absolute_difference": 0.0,
+      "batch_size": 32,
+      "revision": "b55a5ec6cade1a39edfe6534189a9b8ca7a022f0",
+      "settings": {
+        "data_config": {
+          "input_size": [
+            3,
+            224,
+            224
+          ],
+          "interpolation": "bilinear",
+          "mean": [
+            0.485,
+            0.456,
+            0.406
+          ],
+          "std": [
+            0.229,
+            0.224,
+            0.225
+          ],
+          "crop_pct": 1,
+          "crop_mode": "center"
+        },
+        "transform": "Compose(\n    Resize(size=224, interpolation=bilinear, max_size=None, antialias=True)\n    CenterCrop(size=[224, 224])\n    MaybeToTensor()\n    Normalize(mean=tensor([0.4850, 0.4560, 0.4060]), std=tensor([0.2290, 0.2240, 0.2250]))\n)",
+        "precision": "float16_autocast"
+      },
+      "model_identity": "721720648b4d195a294a0e2ea094041d7f5e290a6cf8bdbf4a9452309e9ea6e6",
+      "elapsed_seconds_this_invocation": 5609.543307099986,
+      "peak_allocated_gpu_bytes": 1451167744,
+      "inventory_sha256": "6f4adee760cbe394982fba6341074fbabbf4b444c24b5f846547f73b7bbf7b1a",
+      "batch8_comparison": {
+        "patient_count": 120,
+        "patient_max_absolute_feature_difference": 0.0003713369369506836,
+        "patient_max_relative_l2": 9.878237801894388e-05,
+        "slide_max_absolute_feature_difference": 0.0007182657718658447,
+        "prediction_effect_measured": false
+      }
+    }
+  },
+  "errors": [],
+  "expected_slides": 391,
+  "expected_patients": 120,
+  "expected_patches": 368985,
+  "batch_size": 32,
+  "rerun_reason": "Match original TCGA UNI batch size; batch8 outputs preserved",
+  "predictions_computed": false,
+  "tumor_content_confirmed": false,
+  "original_tcga_weight_identity_confirmed": false,
+  "patient_pooling": "equal mean of float32 slide means; aggregation rule verified against original Stage10A code",
+  "environment": {
+    "torch": "2.13.0+cu130",
+    "torchvision": "0.28.0+cu130",
+    "timm": "1.0.29",
+    "transformers": "4.57.6",
+    "huggingface-hub": "0.36.2",
+    "openslide-python": "1.4.6",
+    "Pillow": "11.3.0",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "gpu": "NVIDIA GeForce RTX 4070 SUPER",
+  "coordinates_sha256": "d282035f0e34b2961b9f6e0f141fc6bddbf1d884e9e7e6d2a4decc6c1e4dc6fe",
+  "elapsed_seconds_this_invocation": 5622.427625000011
+}

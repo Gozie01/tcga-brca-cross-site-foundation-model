@@ -1,0 +1,11 @@
+Source: Stage9B_Multisite_UNI_Pipeline_v1/stage9b_extract_multisite_uni_v1.py
+Full source SHA256: 51e08f4c71eccfcf348f1515edfa371cd9a098296961558ef4a273e49716ab88
+
+def read_patch(slide: openslide.OpenSlide, row: pd.Series) -> Image.Image:
+    size = int(row["read_size_level0"])
+    patch = slide.read_region(
+        (int(row["x_level0"]), int(row["y_level0"])), 0, (size, size)
+    ).convert("RGB")
+    if patch.size != (256, 256):
+        patch = patch.resize((256, 256), Image.Resampling.LANCZOS)
+    return patch

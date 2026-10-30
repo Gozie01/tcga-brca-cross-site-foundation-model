@@ -1,0 +1,8 @@
+{
+  "status": "DOWNLOAD_AND_PREFLIGHT_COMPLETE",
+  "mode": "DownloadAll",
+  "slides": 391,
+  "wsi_root": "D:\\CPTAC_BRCA_WSI",
+  "image_feature_extraction_run": false,
+  "external_predictions_computed": false
+}

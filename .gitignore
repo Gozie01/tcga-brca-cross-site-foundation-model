@@ -22,3 +22,9 @@ slide_checkpoints/
 logs/
 gdc-client*/
 controlled_access/
+
+# October study update: exclude documents, retain reviewed fitted classifiers.
+*.[pP][dD][fF]
+.venv*/
+!experiments/brca_external_frozen_v1/models/*.joblib
+!experiments/brca_matched_external_v1/models/*.joblib

@@ -1,0 +1,94 @@
+{
+  "sha": "3c49d554497dd896cd02ffe382503ef4ce28b1c1",
+  "url": "https://api.github.com/repos/PathologyDataScience/BCSS/git/trees/3c49d554497dd896cd02ffe382503ef4ce28b1c1",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bf576b331e8c0a287b68fedeaa26250b0cd2a9e",
+      "size": 53,
+      "url": "https://api.github.com/repos/PathologyDataScience/BCSS/git/blobs/0bf576b331e8c0a287b68fedeaa26250b0cd2a9e"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9d34d3870a0edcbcac783452878ff5e4944b13e",
+      "size": 1096,
+      "url": "https://api.github.com/repos/PathologyDataScience/BCSS/git/blobs/b9d34d3870a0edcbcac783452878ff5e4944b13e"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9439a23e596c7c5c04b94ebd4d94a526b52d835",
+      "size": 4151,
+      "url": "https://api.github.com/repos/PathologyDataScience/BCSS/git/blobs/c9439a23e596c7c5c04b94ebd4d94a526b52d835"
+    },
+    {
+      "path": "__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "size": 1,
+      "url": "https://api.github.com/repos/PathologyDataScience/BCSS/git/blobs/8b137891791fe96927ad78e64b0aad7bded08bdc"
+    },
+    {
+      "path": "configs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bd37bba1ac66de264b7115e17592a79f3e30771",
+      "size": 816,
+      "url": "https://api.github.com/repos/PathologyDataScience/BCSS/git/blobs/1bd37bba1ac66de264b7115e17592a79f3e30771"
+    },
+    {
+      "path": "download_crowdsource_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abe213d86edfecd9b17a83d6d1f218b91acf1129",
+      "size": 7492,
+      "url": "https://api.github.com/repos/PathologyDataScience/BCSS/git/blobs/abe213d86edfecd9b17a83d6d1f218b91acf1129"
+    },
+    {
+      "path": "meta",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "36495a3731d27470fb8643023e21ed5b4b92ca79",
+      "url": "https://api.github.com/repos/PathologyDataScience/BCSS/git/trees/36495a3731d27470fb8643023e21ed5b4b92ca79"
+    },
+    {
+      "path": "meta/gtruth_codes.tsv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21027de1c314d94acb0c27b6db7579ca85c746ab",
+      "size": 369,
+      "url": "https://api.github.com/repos/PathologyDataScience/BCSS/git/blobs/21027de1c314d94acb0c27b6db7579ca85c746ab"
+    },
+    {
+      "path": "meta/roiBounds.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "726298f97e267ff534844c8b32e0f405470cbc8e",
+      "size": 13615,
+      "url": "https://api.github.com/repos/PathologyDataScience/BCSS/git/blobs/726298f97e267ff534844c8b32e0f405470cbc8e"
+    },
+    {
+      "path": "meta/slide_magnifications.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5cb821a5ab552dc5166ff6a62d91ec3be38a5da",
+      "size": 16332,
+      "url": "https://api.github.com/repos/PathologyDataScience/BCSS/git/blobs/c5cb821a5ab552dc5166ff6a62d91ec3be38a5da"
+    },
+    {
+      "path": "utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f607dbafcc1cb3060352b9125bdd65a60482c25b",
+      "size": 1032,
+      "url": "https://api.github.com/repos/PathologyDataScience/BCSS/git/blobs/f607dbafcc1cb3060352b9125bdd65a60482c25b"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,7 @@
+{
+  "syntax": "passed",
+  "checkpoint_tests": 4,
+  "real_qc_slides_validated": 391,
+  "real_retained_rows_validated": 368985,
+  "cuda_full_run": "not run in this environment"
+}

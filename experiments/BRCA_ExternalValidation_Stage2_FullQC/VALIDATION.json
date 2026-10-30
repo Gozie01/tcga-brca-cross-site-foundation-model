@@ -1,0 +1,10 @@
+{
+  "pilot_coordinate_and_checkpoint_checks": "PASS",
+  "pilot_retained_patches": 4000,
+  "pilot_initial_tested": 4293,
+  "pilot_initial_rejected": 293,
+  "pilot_visual_review": "64 previews inspected; blur and sparse tissue present; no tumor certification",
+  "full_runner_compile": "PASS",
+  "full_real_wsi_execution": "PENDING_ON_USER_COMPUTER",
+  "policy_matches_successful_pilot_sha256": "b3114fcb7df61e49ea8f1b7bd4e3ea6a7bceb235fd19cf39ecd6a5f118a52698"
+}

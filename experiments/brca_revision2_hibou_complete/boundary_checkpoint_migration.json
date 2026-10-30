@@ -1,0 +1,1256 @@
+{
+  "status": "COMPLETE",
+  "old_protocol_sha256": "d9a64389845069c1f054309bac9673ceac3407836e160c92104cb1f1b6b43f3b",
+  "new_protocol_sha256": "b9aaaffdf55ab12614b38b9d14dbf69a681e5e42b3ea130e3f8d52a7b9ae20c3",
+  "reused_slide_count": 178,
+  "compatibility": "All reused frozen patches fully inside slide; pixel path unchanged",
+  "vector_files_unchanged": true,
+  "checkpoints": [
+    {
+      "metadata": "003be5f4c0596a326299.json",
+      "file_name": "TCGA-A2-A25E-01Z-00-DX1.46D1950B-0BAF-4A44-B58F-CD738E74CB27.svs",
+      "mean_sha256": "d0a238de285fff1f94f29c799027adbc32647ee618e2959da23d744da1045b1a",
+      "wsi_sha256": "22e8c2770d293ed1b5c203dacf841ed4efc84804fa6b248d54f3e27632d5af20",
+      "coordinates_sha256": "be8a0cb1dd8f3a8274d6696769fd673df0f09d65d440e44e6c5fcc0feff21a1f"
+    },
+    {
+      "metadata": "009b080d46bcf1c1765e.json",
+      "file_name": "TCGA-BH-A0EB-01Z-00-DX1.70D7BBA0-214D-4D1A-933C-7CFCDA5416A3.svs",
+      "mean_sha256": "719e68eb21212bf6d95f84b0c751c03d56ee882a736b9d478f0e96cc0719c9ee",
+      "wsi_sha256": "5145d473037619b339baebe3442a818c0e8e574f6be99676e725a7346de9f9d1",
+      "coordinates_sha256": "dfe5b43288ad41edf6071ab85d43a39d34c01298098b19f0c2a37bd8ef973591"
+    },
+    {
+      "metadata": "0178597a879f804f312d.json",
+      "file_name": "TCGA-BH-A0HQ-01Z-00-DX1.0921FCEF-20A2-4D4B-A198-91AF9F6C814C.svs",
+      "mean_sha256": "f53446cc6e1988afab96e4470ca148cd5f44e1af600afdc80555b36a47a49ed0",
+      "wsi_sha256": "ef2eff9a9282e9976894254d9225294c2f6809de4bd724662c302284b93d2069",
+      "coordinates_sha256": "0c2b9c2b4215aac9493875a3a6240f77a864a2eed397d6586c04737f2893c9cf"
+    },
+    {
+      "metadata": "0388d288792550f0f9ae.json",
+      "file_name": "TCGA-A2-A0YJ-01Z-00-DX1.8135C74E-DAA8-4C8E-AF14-A4B5B57695BE.svs",
+      "mean_sha256": "d61bec4bf223da23fa5bcd1ca742f13c0d63f549507ac3f387aa8f2dc3b94cc9",
+      "wsi_sha256": "88d0b1c46c4fe25fc332173cf6203968ae2dacbdf1884243eb1a8c996b4d39f9",
+      "coordinates_sha256": "e1f5482db7defe286236cb8dc31b6b6ca75f541231c393b4fbd2efc39ae406b4"
+    },
+    {
+      "metadata": "03c8c8788138f7d1a121.json",
+      "file_name": "TCGA-BH-A0BT-01Z-00-DX1.9087B9E7-C0CD-4179-AF57-AD9255785169.svs",
+      "mean_sha256": "29187bc9ad1721a09bc50b906dfa2b8abce6cf18461a61b3576fe795228e02ce",
+      "wsi_sha256": "b24415369e77af58c1bcce0c0a47775c2b67cfe75d01574c880d5209f6a921a8",
+      "coordinates_sha256": "db6170cfd588a836c6080e391237a3814cdb1fafdfce1442b55c8c98ef3cb535"
+    },
+    {
+      "metadata": "043e2a8efb0ee82b429c.json",
+      "file_name": "TCGA-BH-A0HP-01Z-00-DX1.F1FF6E88-B2D1-40AA-8373-1714D82E666F.svs",
+      "mean_sha256": "d9c936a144a8c71c0f1bab70a527023e127cf5d6f842cc049708b8f9bc1b1846",
+      "wsi_sha256": "74dc2a9b50a8e49fe53aa3b0dfc7f81c864c9018ce9895415150f4a31513f67b",
+      "coordinates_sha256": "9ee9f3d2ddd243053b61e8a5779bef53cc1d738540dfbfa385dbf0f2d303760a"
+    },
+    {
+      "metadata": "045bd7de84c6d311cb3a.json",
+      "file_name": "TCGA-5T-A9QA-01Z-00-DX1.B4212117-E0A7-4EF2-B324-8396042ACEC1.svs",
+      "mean_sha256": "211c8f904dca7d7b6ecdb242efc04cd86d779d278f9231f2f8f50d4a20f23af9",
+      "wsi_sha256": "7c5c0b74bd26d9f70121964cb644982aac35c67d86be97ecd97cec38052ed312",
+      "coordinates_sha256": "e0985f69ced8478ee3d54bf2c659130dc9ce76051bfbfafd1b86ce034e39a6b9"
+    },
+    {
+      "metadata": "06d78924b09cbf7d1982.json",
+      "file_name": "TCGA-A2-A0EX-01Z-00-DX1.F4C293E9-9BB2-48A1-8080-5F3082E219C5.svs",
+      "mean_sha256": "eef9b1369077033f0ef91b38e113ca74f29f0707607a880da54ea33f8f96c058",
+      "wsi_sha256": "4cf471b558b74968dfbe455dc3c47aa7c15026ff0606386f63ea1f8b904d6bc2",
+      "coordinates_sha256": "ff94b3d0f24f31aec4111b19411808c75233ec3464cb1ee089d1cfea852651fd"
+    },
+    {
+      "metadata": "08cb8bfdf29000f67b81.json",
+      "file_name": "TCGA-A2-A4S1-01Z-00-DX1.C69B14F6-5021-4FD8-8F2D-70227A5DA2B1.svs",
+      "mean_sha256": "65dca5ef6bbee10a387f36803035e7d697a6354b1261d7857bd9801ce7f7eda0",
+      "wsi_sha256": "3e7d94573728507fedd31d0ef5168baabf801ae68344c2015c6e85e5f4a6df0f",
+      "coordinates_sha256": "fcbe1b5174fc39d21e5c563b393f0254192f5b4273275ddaeca4f61a07b52e1d"
+    },
+    {
+      "metadata": "09dc33e1ab6c7109d23c.json",
+      "file_name": "TCGA-BH-A0H3-01Z-00-DX1.C6D4DFB9-A4FA-40B2-90EF-75294CBC4523.svs",
+      "mean_sha256": "daa047a6540647605173aa7988f1af6cd9456918999d3b20778015db073f5fcc",
+      "wsi_sha256": "37f2e875eff739e6bfbbaa28327cbaacf7d53aeaba46eaf0b0b95fd2dfbe809d",
+      "coordinates_sha256": "3b67e0fcadb9ae910eaae9123540fd13f4b884e4a7dc5994f71d5afda92d9d7c"
+    },
+    {
+      "metadata": "0af3746c712902c2eb9c.json",
+      "file_name": "TCGA-BH-A0HU-01Z-00-DX1.73B38904-E4F8-4F45-BD75-A27EC833B6DE.svs",
+      "mean_sha256": "6b17fe0fd326eed641dfec8816ebd885d176e320683ad048d6d7f52d5c9389e4",
+      "wsi_sha256": "5c64fa315d6da625b34a25bbabbdc8df35fae84242bff842aaccee8d41d5ba67",
+      "coordinates_sha256": "b9feaa271e1bd3285c01366c83c21ddd02a3856a1579f64ce5f5a796ab9b7b69"
+    },
+    {
+      "metadata": "0b15b264f41fa04cd35b.json",
+      "file_name": "TCGA-A2-A0ES-01Z-00-DX1.5652EE30-48C1-4EC1-AD77-8C72DFCB9A97.svs",
+      "mean_sha256": "813a7c361f16d722c3d5cc3bad66912c6b853679c4789bb8f739e737ac90c555",
+      "wsi_sha256": "2f40ee44557dcb69c4685b23f86824aa4bc445c6367c50da4460c12c7b163eb9",
+      "coordinates_sha256": "b805c045a1236136943f3577a4511693174a54e6d75aaf54f5622be2f72d8ce8"
+    },
+    {
+      "metadata": "0b86a84b834ee8a556d0.json",
+      "file_name": "TCGA-A2-A0CW-01Z-00-DX1.8E313A22-B0E8-44CF-ADEA-8BF29BA23FFE.svs",
+      "mean_sha256": "2680cafdc928316561d081314965ff76130f8d88a848085b0c4038e1cae9dbf6",
+      "wsi_sha256": "c83470a8249015213807c4ea764ce92cfbfc3b79f9aa6fb183c5efec6e924e7b",
+      "coordinates_sha256": "d327e5273ba61ad2cd024c8ad957666bceacaac77c426a82d05b66237745a429"
+    },
+    {
+      "metadata": "0c4959879d405148c20c.json",
+      "file_name": "TCGA-BH-A0E0-01Z-00-DX1.01E88024-83DF-4282-ABAF-F4E35807DA06.svs",
+      "mean_sha256": "87f8a9127e5ba4ab194a967cacd843c8f1309ff7d12b280618d491eeb03bb711",
+      "wsi_sha256": "5f7aa23f9ac9a662f416b64fb1cfa5cac0eb632245995ebb3fd855fdb513c17f",
+      "coordinates_sha256": "cfe36dafa17a353c4ae329de6e321b005510f2e40d558f6437bb62cff396cec6"
+    },
+    {
+      "metadata": "0d451f2ff1ac26bd9e1b.json",
+      "file_name": "TCGA-A2-A04Q-01Z-00-DX1.DF7ED6B6-7701-486D-9007-F26B6F0682C4.svs",
+      "mean_sha256": "4e67ba0ede2b161c0ffb54297e1872ccf3b2e4f16c85470d3e47672d61df1d55",
+      "wsi_sha256": "3d9e49322b9e6a773541bf276708f42d71d69a4493bd9fbef1fb5bd6b78326f6",
+      "coordinates_sha256": "7c9e858cb0128c88e099aed4f41b8efac63dd4f737e5c126ecba4ada6f98e398"
+    },
+    {
+      "metadata": "0e3ba04442d75e1a2bf7.json",
+      "file_name": "TCGA-A2-A0EP-01Z-00-DX1.1180C406-5C18-4373-8621-1B7B70875113.svs",
+      "mean_sha256": "13bb9cd49b2d79cc39ffb516d7f26f7d6918ac01215bc851fcf7cff7e53996da",
+      "wsi_sha256": "b0bb25f48509742df2355da19c2ec6eb1c490a6bff7d8f07c533b98e149fa4ba",
+      "coordinates_sha256": "f5cb5ffb107a588f072b2fafd9f14e0323e82fa8ab986fc70dbdcb88469cf993"
+    },
+    {
+      "metadata": "0e875158f4bf55414759.json",
+      "file_name": "TCGA-A2-A25C-01Z-00-DX1.F8E6044A-435E-42D5-94FF-C0F572F1ED99.svs",
+      "mean_sha256": "f2ff47033c17341bba340a549f180905643ccbf4746e7ed93173a6e0244560d2",
+      "wsi_sha256": "9b37bd4a2057d67f90b42b88921164a050f3f3c4893fca11e2872c3299536bb4",
+      "coordinates_sha256": "5aa9804210aeb44bdcf93682e1063199c0af6eccb3d9af24b2f48d8b8423cab3"
+    },
+    {
+      "metadata": "0f0150292f40e2b59a64.json",
+      "file_name": "TCGA-A2-A0T2-01Z-00-DX1.29A5C4C8-6AE8-44EE-98C2-ACBCBFBE9D60.svs",
+      "mean_sha256": "ba12105b5491c2761b844162c48fd4cf4c67f9c33f34ec26a48645ca5e8b6e80",
+      "wsi_sha256": "d3fff9fc7d069ab3b1088d7545f93127aac769cacf927131f8df8199ced2b908",
+      "coordinates_sha256": "f2844ab63ca46d74263ca3bf1eb7a45c2f98559099fdc16df9ac54aa7af259d3"
+    },
+    {
+      "metadata": "0f9b65c58ae5e061d444.json",
+      "file_name": "TCGA-BH-A0DQ-01Z-00-DX1.5A98747C-52D9-45AD-BC84-934A96F069EB.svs",
+      "mean_sha256": "5711b90a406b622c03443913aa4b6f3a50572cc440f163a84b46387fe734a845",
+      "wsi_sha256": "2d33fc611dbf4fcd6c07ec2f1cdace0e91295d5aacf8648b4c867484e00dcbde",
+      "coordinates_sha256": "21bf4e90ac3d28555cac06c331cbf343c24cc6a094a5406b084d47a5bc60c2f7"
+    },
+    {
+      "metadata": "10d8075f6837da44e0bb.json",
+      "file_name": "TCGA-BH-A0EE-01Z-00-DX1.872EA586-25C8-4835-A138-152DFA1EBF30.svs",
+      "mean_sha256": "428088dfcf31ebc3196da70770fee54be7402d3d983fd73738139f006817a92b",
+      "wsi_sha256": "b08cad95b87647069906214c2dcb1ae9902785eedd67017f5325530a1d0b2259",
+      "coordinates_sha256": "e4123e50d928147a74c9e8f1c63efeebd186a56f7926031054c4cedeef3f50ff"
+    },
+    {
+      "metadata": "132e05b90b1e95826911.json",
+      "file_name": "TCGA-A2-A25D-01Z-00-DX1.41DADDB8-3E3F-4F8F-8BE7-C43F8FBCFD2B.svs",
+      "mean_sha256": "30204b3bc86db3a2450b8fca6934f175e9a19c6391f6185fb48d56fa49cec2fa",
+      "wsi_sha256": "9560760b29a8694fc4ec3af15b82b13a7b9bf455b2122da353154534eeb6d1e0",
+      "coordinates_sha256": "bcc3760a19420cf3e6b054f7fbfff5b7a3db99a2053c1c7179706547d4ecfb37"
+    },
+    {
+      "metadata": "140c45fcb566ba01c2da.json",
+      "file_name": "TCGA-A2-A0SW-01Z-00-DX1.E1EA0407-B831-4D75-826E-80B82B821797.svs",
+      "mean_sha256": "37ef5b1c08edafc9767389005efcecc516e09891eca5868bc2572fbaf7636557",
+      "wsi_sha256": "867a93cf3c6ce09a7fe178d9c219c5aa85346fa047031f398f631b66aea6a47d",
+      "coordinates_sha256": "34a0d793941c1b35ec72a2f9baa3c11af40eec18a54cabc33fbf9feccdc97634"
+    },
+    {
+      "metadata": "158e32b79cfe3a73e26a.json",
+      "file_name": "TCGA-BH-A0RX-01Z-00-DX1.B4ABAFB9-6696-4F22-9468-DA56E1AD32D3.svs",
+      "mean_sha256": "6a3e5792233f624915f48fd9c94b22ff9fa861757bac7aa90fefc487313a3a7e",
+      "wsi_sha256": "f0deea8ee3af6e2bd8b2b17aae152a0fbfde140e4e37e6e47ffa098b677a923f",
+      "coordinates_sha256": "35a797c3bc767e652e775029b6f8d6bb7fa7fa196c4cf8111576743e99b546ff"
+    },
+    {
+      "metadata": "1794d18e89f214df9a68.json",
+      "file_name": "TCGA-A2-A0CL-01Z-00-DX1.5342E971-DCD2-42C4-B4FF-E6942A95829E.svs",
+      "mean_sha256": "30f06de4bd570aff72603035eedb03af85f81ae30920ffde883dcb750dd890fb",
+      "wsi_sha256": "bc1d55431593f9573f9a92f0b36b145979664f998ed485847199d3a730da2fe0",
+      "coordinates_sha256": "cf59e19ccba6836253ce0e06cf8e0431d21a9272e557325bf228f98b837e0f72"
+    },
+    {
+      "metadata": "183c75cab4121b17c938.json",
+      "file_name": "TCGA-A2-A0ST-01Z-00-DX1.AE05A5DB-4861-40DE-B0F5-7955FC903A96.svs",
+      "mean_sha256": "574285ecb8c466b573278c730f4af1df8a777a2b2993869482ee98767c6179d7",
+      "wsi_sha256": "bf9d52ef9c30eb7cec93040b186b0769cd0d9a0bb93f0d05e2897be2b1baef75",
+      "coordinates_sha256": "6e03ecbaea46c5732c7926409f559c00a3ab6edeac5232276f2d670035bf59c3"
+    },
+    {
+      "metadata": "18a52378fec9efcf1af1.json",
+      "file_name": "TCGA-A2-A0ET-01Z-00-DX1.41E86BB9-EA52-4615-94E7-0F09DDB094F4.svs",
+      "mean_sha256": "6125185a04618e8479915c192daee03181d6fcb872abe5772029654d6beb439e",
+      "wsi_sha256": "abe3e4c08e9067cfaad9cd257dcf8fb6616944f549db86170e6b6494c7b84f6b",
+      "coordinates_sha256": "969996325b4ee4468f95e1d38c892e1ed808ceedb1753785f1b0c6bea8cf0f89"
+    },
+    {
+      "metadata": "19e35eb4291bae034091.json",
+      "file_name": "TCGA-BH-A0BR-01Z-00-DX1.F7912887-8AE9-4391-9B83-9AC7B4FF38EF.svs",
+      "mean_sha256": "678c0daf41eb080412683e32a5f9f60507fd0f2fd49d1928407accee430c329b",
+      "wsi_sha256": "a00bfef840494985756352ec3899abb3593ee51b0cfc34a510203897a7feb4f3",
+      "coordinates_sha256": "c08c6cb25c05f8aa90d253098b7ecefdb071e1aebf6281ae2729c0d48a677852"
+    },
+    {
+      "metadata": "1b2262dd395cf2c0a290.json",
+      "file_name": "TCGA-BH-A0BM-01Z-00-DX1.8BD324F2-60F5-4F59-AF2D-533A5FB230BF.svs",
+      "mean_sha256": "99c582c094212a339708d904b81784fad49febecffa4654fb2553c258419916e",
+      "wsi_sha256": "6d716fa7cd02d3bbebe7f1a53913f2cc681d4544161c961867e2aa3fda31d5f8",
+      "coordinates_sha256": "174b678cedbc303dc239beaaf044f0e3a52ead361c9e31f8879ee2cf8f674c2e"
+    },
+    {
+      "metadata": "1ea25ee020e48035c634.json",
+      "file_name": "TCGA-A2-A0EQ-01Z-00-DX1.5FCD8890-4594-4BE2-93B1-B8F698BFD2A0.svs",
+      "mean_sha256": "5edb919e29c24ea33c457f6e227c0f07494503ec1c9fca54d861b80dfe537131",
+      "wsi_sha256": "3412b8a16baa9fcae6cdc500e43f2bd4f641b5277a23716754507ee07a0d8ee1",
+      "coordinates_sha256": "64e12f2bc4d251e9e5c149fdee85ebdb96d519a464609136b190c6801d6b94bc"
+    },
+    {
+      "metadata": "2153427825d041d25ce9.json",
+      "file_name": "TCGA-BH-A0W4-01Z-00-DX1.23E017DC-15CB-4838-AC91-CFB11B932AB0.svs",
+      "mean_sha256": "e03069d6486ca8cd9ac5418e88c5d9fc58ef3f25086da50c727d3a44d4c39493",
+      "wsi_sha256": "af8c1dabbf793ff38a4216c1e4c949b84dd2b71938464345c15355de65c229ac",
+      "coordinates_sha256": "33b123a5b0c44a5d84c3a4e99274423e292d2722e6754ca6c4300d03ba6396ba"
+    },
+    {
+      "metadata": "25e161800095e2feddf3.json",
+      "file_name": "TCGA-BH-A0HK-01Z-00-DX1.019036F5-647A-4EC4-8479-F2C100291AEF.svs",
+      "mean_sha256": "dbd00072da6812f3da9818a8c1917ea20c1e4afdb978b2596620aeb3ce5b75e2",
+      "wsi_sha256": "c246596e764e8d45a0409d5f5a51b9e7981c118fa11764e28cefc63c68da95f9",
+      "coordinates_sha256": "ac36c8d900656a484a1f99c4a6af4415249aeabf9f86d90e020845ca88cae896"
+    },
+    {
+      "metadata": "2651ccb80f286cf5a28c.json",
+      "file_name": "TCGA-A1-A0SE-01Z-00-DX1.04B09232-C6C4-46EF-AA2C-41D078D0A80A.svs",
+      "mean_sha256": "7d0868f39d4dedbf7eb70993d822c6c0c65d6faba2e1d5901718dbd5baad5a7c",
+      "wsi_sha256": "d16aaff96cf0de0341a63ebe20f32b8bf04e5595fbbdb3f5a98ec00af1886a0c",
+      "coordinates_sha256": "799e912cbfbd3d79d1da71a5e149bbcbdd71c6c6d18fb85001f28667147d85e5"
+    },
+    {
+      "metadata": "29680f419baa5c5903b9.json",
+      "file_name": "TCGA-BH-A0BV-01Z-00-DX1.3C9CD4F7-A001-430D-AA8D-80CAD61C344E.svs",
+      "mean_sha256": "c551d09e2561d68beabc1864b442a87d2ccf678f07fed999f73b261c787e566e",
+      "wsi_sha256": "b504d1763316d1dbcca4d363b9dc900b8ab476daf5a8e2fa8e0452bf8d737ba9",
+      "coordinates_sha256": "83d3cdd45b0645a52e43426bb473e75aab51f779faa2a4b16e0d11a95306ccb3"
+    },
+    {
+      "metadata": "29acc8aedb030ee97ec7.json",
+      "file_name": "TCGA-BH-A0B5-01Z-00-DX1.742DB0E8-8EB1-47C8-B698-8E2438FB6299.svs",
+      "mean_sha256": "745edef3fefd0f5d4e1f0c064cd786004732bf79ba5bc2bfbe31485b3103d24f",
+      "wsi_sha256": "0214f556fbfbf976b9763e48041136ce5b947df8bc51a120d130e8e91e5de7da",
+      "coordinates_sha256": "6ede59ae11674cf2fa122812e4fbcdeca711696cb60a4ce71bc9f3dafa3602c6"
+    },
+    {
+      "metadata": "2d7403a3b2f89eaaac72.json",
+      "file_name": "TCGA-A2-A04T-01Z-00-DX1.71444266-BD56-4183-9603-C7AC20C9DA1E.svs",
+      "mean_sha256": "76a54093baca1c62aa708285eed15ff0854dff3ac41b3fae5fd5b90948be2cc1",
+      "wsi_sha256": "f56e7a0a515ba430db811628899e770cfe791571d01a432ffc907124b2ff5e87",
+      "coordinates_sha256": "6a573d81535419def382c94cabf9f6f88f89adb8d8c91cfb354dd5f68ab59726"
+    },
+    {
+      "metadata": "2f7af582d17ce8685565.json",
+      "file_name": "TCGA-BH-A0B7-01Z-00-DX1.6950CDDF-8A81-4B10-BFFF-BE0E33A2C6CC.svs",
+      "mean_sha256": "9fac9e7fd394ab3d7b2f9c5467702bcffad9fc36626ae09b875cede0d78c4e5a",
+      "wsi_sha256": "498927576896ac616e3ae34334e5cf572bf803ffefc059f810f34e3c84b48b17",
+      "coordinates_sha256": "1fb0efeadfb3005d16076b0cb9d91e8ba0c8515353f6bcfab392a7694ce5badc"
+    },
+    {
+      "metadata": "34d67602e7ea1264b123.json",
+      "file_name": "TCGA-BH-A0HB-01Z-00-DX1.F90F7139-B804-4548-9FAF-9B475BF225EB.svs",
+      "mean_sha256": "c8fdb5422bfeb77365927d68a3a4afffde946cac36dadb95d17d198a46910a9d",
+      "wsi_sha256": "73eb6c8f5a41ddd1332ff0d737d308e24078474518043c87c01f77e2d307b9cc",
+      "coordinates_sha256": "39336d18209abe1f64b9bd22dec92c2366f10158efd0f413581c1c8fc903ec80"
+    },
+    {
+      "metadata": "355b1e63fcbda0c88a9d.json",
+      "file_name": "TCGA-BH-A0E7-01Z-00-DX1.7FEE54C4-3795-403C-85B9-FF932BE56788.svs",
+      "mean_sha256": "d6a51bb72b55e0dae750c34a9d211b72a12f16a80898df12df367d672dd16e84",
+      "wsi_sha256": "72477f0516aec22bf9231965dad3f1d481caec101152a4e4a8ad884c357c4ce5",
+      "coordinates_sha256": "7474593c7c33ddf698ff6f03941482cbc5aba79eeb696043057a904a6958ac78"
+    },
+    {
+      "metadata": "35b822269825d0cb1849.json",
+      "file_name": "TCGA-A2-A0T3-01Z-00-DX1.5E96BC87-F4FB-4ABA-8D81-FAB7F4A80661.svs",
+      "mean_sha256": "fbda0d4d443d30ac52184d6a2662f5fa79b97225751aee774cd8e681b03a60f5",
+      "wsi_sha256": "04ba9c82a120791f462d443ff1a7c7aefdd4448796c84e53eb9a97fc426803dc",
+      "coordinates_sha256": "52bbf14662aa2015e7e21bf5c8060763d5672cd71d1d640ee4048bf61a355913"
+    },
+    {
+      "metadata": "366ff4dad31828ff333e.json",
+      "file_name": "TCGA-A2-A0CT-01Z-00-DX1.A8564130-49CF-4F5B-B5AB-F4D1A10479FF.svs",
+      "mean_sha256": "e02222b172595dba4847b7b80543cbbc83c580aeecb96e55748c40239f5cfd8d",
+      "wsi_sha256": "ef8ba9d6ddfdbe04a2b0775c230b550eca1431e8a00bf25121e4b1b723518c78",
+      "coordinates_sha256": "1f538f1e78b6f30d6a29d1b805453b89c0caebaf9c496882ba4351bf9947b58c"
+    },
+    {
+      "metadata": "3adad7a9fc8e42678ebf.json",
+      "file_name": "TCGA-3C-AALJ-01Z-00-DX2.62DFE56B-B84C-40F9-9625-FCB55767B70D.svs",
+      "mean_sha256": "048030bc33087cfc1d987b367f461bce89a7b8176bbe39fc4e45e74ee0783a5c",
+      "wsi_sha256": "2db87098b3c4208bba2cd3c8d039f9bec9a3f7fef899c55317e4f6137a040438",
+      "coordinates_sha256": "7feeb07e6c0e2bfebe7162aea406183b584bbf10bbe99b2e821fc3370c546dec"
+    },
+    {
+      "metadata": "3cb0c4a42656eb0c96f7.json",
+      "file_name": "TCGA-BH-A0AV-01Z-00-DX1.5A686DA4-A29D-4BA7-9BCA-B707F8755E83.svs",
+      "mean_sha256": "c5f2ea2b59edf733a9ce526f3b01905e3ef8d4e674ac20142d5097bb63af30f0",
+      "wsi_sha256": "e96e9983b2313abe08e6428fdded4a4f645886b8d427ff7b40193b45338fe946",
+      "coordinates_sha256": "b8904410989cef7f210213d4887e49cd26dec86c42fee94702f04f7a4ca3ec3e"
+    },
+    {
+      "metadata": "3db484760c2bd41a963e.json",
+      "file_name": "TCGA-BH-A0C7-01Z-00-DX1.C70D358E-C48F-4F69-86CE-3218E9C95837.svs",
+      "mean_sha256": "24dce8d701771cfbec18d51d49e5a6d089cfda03c983b7b9d62d3128601f589e",
+      "wsi_sha256": "4b6c8563795eec2e7e04edf2fc2b8aead59054ade36355cee8f80e0b776d8a14",
+      "coordinates_sha256": "748a4d4ab34857f2f61fe96c03305fe4469010e757bb8bb345fe473facc10ed8"
+    },
+    {
+      "metadata": "3dd84e9795266b691f32.json",
+      "file_name": "TCGA-BH-A0H7-01Z-00-DX1.21502FEA-DB37-4630-BA42-778DDF3A6D17.svs",
+      "mean_sha256": "e6d517af1a1b9a3e18549b3ea6af538c743d704aa9c3e660cb86d696591604ac",
+      "wsi_sha256": "0c969e56eac9810b59021e78a7f4708d6f7caba6a4f56b6a9ef7c765d7a4d619",
+      "coordinates_sha256": "eebd0ac6fca566dd381180909610a6d71015e8ecf120c7b4aa23bfbc8140340e"
+    },
+    {
+      "metadata": "405ac89a469e140f3738.json",
+      "file_name": "TCGA-A2-A0YH-01Z-00-DX1.FBA5E711-8275-45B3-BC20-5A786EE23548.svs",
+      "mean_sha256": "58a6d780388cd8507dde7c7c2f788ea778bf6e8dba05dca38273a4a75c6d1516",
+      "wsi_sha256": "9e35121d5c2ae5e4a39013308b38e96324cbe2c9bbd345affefc172796c49571",
+      "coordinates_sha256": "3bd656d023fc411f778ac78db09169efca56378b7cfd8899bd8115e94937f0ed"
+    },
+    {
+      "metadata": "4105666942c2fe91933b.json",
+      "file_name": "TCGA-A1-A0SQ-01Z-00-DX1.36071264-3407-4224-BCBB-2ED00294569A.svs",
+      "mean_sha256": "59edca2b411db6f05d3e6548a6d451afd60b5d60c91cafc125d905ba30599794",
+      "wsi_sha256": "cbcd00b1e789cf3060118860e88a3302fc6ebfe4f96f86c2143ea5bf28b6ac15",
+      "coordinates_sha256": "a50d8ce10e535ae883ad8b77c60a2e890bb5e39401e9f52acfe2b608e8fa1f6d"
+    },
+    {
+      "metadata": "42a3de05d78d810fd0b7.json",
+      "file_name": "TCGA-A2-A1G4-01Z-00-DX1.0274DF5B-5920-419A-B778-2F04D9C602F2.svs",
+      "mean_sha256": "53b01ec824352b015d45a63fa04485289811e9507e2e4114f6fce8d248160744",
+      "wsi_sha256": "04e29df1ff9623f197609ecb55d8a487598ea9230d4a9cc6de7e235e24adf044",
+      "coordinates_sha256": "a0b0420e687f0906e14544b707d5621cd97b4a315bb4ae0a2144612ae3f671b9"
+    },
+    {
+      "metadata": "452443d383f847593d38.json",
+      "file_name": "TCGA-A2-A0YG-01Z-00-DX1.89A39319-F880-47DE-B311-DA1F6A64B6F3.svs",
+      "mean_sha256": "84456dee343277eb20737a066c01efdc9bd796b5e6ba86884ea7e575240a6fb8",
+      "wsi_sha256": "b13e06699e9eab171e4422999086258043d23f062006a07541cbb6d839293e8f",
+      "coordinates_sha256": "a8ace06d7089333288afde8434e0a67f23cb3471dc04629f4a5835dbba9cfc40"
+    },
+    {
+      "metadata": "48c4c6024fd174c83558.json",
+      "file_name": "TCGA-A2-A0CR-01Z-00-DX1.F7D36CA5-A4C6-443A-AEED-5B23CD924FA3.svs",
+      "mean_sha256": "ba38908817d1b4bec88bd01316f4e8352893ab227304559b5e2122b4e198f437",
+      "wsi_sha256": "f77ac5d5cceeb9c1bae4e4feecade5ea471062de06eb21d257c872cff73857ff",
+      "coordinates_sha256": "fb72174d5d85d3f048d60b450b7635dc0fe09ad31f62441a854ea9a2b3f3e7a1"
+    },
+    {
+      "metadata": "4abe9c064d8351e66359.json",
+      "file_name": "TCGA-A2-A0EM-01Z-00-DX1.305CF011-7451-4880-9A5D-AB4432CF53A5.svs",
+      "mean_sha256": "77c09fa15161bf11c114c50aa7921f559ee7350f728369c8e5f260d3475c24d1",
+      "wsi_sha256": "97550d06b3a24e61a9db4c3fdf0353f2a803200e12967127e712c5d19d03a197",
+      "coordinates_sha256": "cf6135bdd7b0ac76489dbfb21f186df9c70b45b56b9d7a6ffe4e9df438373c09"
+    },
+    {
+      "metadata": "4c725750fef159766614.json",
+      "file_name": "TCGA-A2-A0YD-01Z-00-DX1.B81FF541-F154-4C49-950B-B6CB723369E2.svs",
+      "mean_sha256": "32a1b017b77fba5973ca9d03338b4e2bfef2f8559e2811972ecc2d3ccc326d22",
+      "wsi_sha256": "84aac7c2d1f0d2d8c51578439697435d7caaa57221b1880e55d7e5b870738704",
+      "coordinates_sha256": "4d1c9a7b7bb94b6e0b587a0ac6857f88960d72a3c6edaef2d4a4a78f0a2e0355"
+    },
+    {
+      "metadata": "530ba11ef424b3e10edf.json",
+      "file_name": "TCGA-BH-A0DK-01Z-00-DX1.0CFED53C-BAD9-4E35-B12F-57E64F3FEF1C.svs",
+      "mean_sha256": "e52822afdbb2ef537a08d0d6b9b27ac920f5638058150fa1fe5c472339f6146b",
+      "wsi_sha256": "a6f08ca17c94d36ea0281bd68a7e7fe1420c6872988ebe83b0ad028491e1c5e0",
+      "coordinates_sha256": "16abe836724f243451fede696acc117315b7b1a9253e737ba20c771e29df48b4"
+    },
+    {
+      "metadata": "53fa550f75bd09c90f17.json",
+      "file_name": "TCGA-3C-AALI-01Z-00-DX2.CF4496E0-AB52-4F3E-BDF5-C34833B91B7C.svs",
+      "mean_sha256": "877a4c70fbe34c122ce6d1054ae59b74520c98e5e0c79e306e726553cf4b0b5d",
+      "wsi_sha256": "da00ee1688bb77d0255138e160b94177901dd2b42bb20cfe8d0d9c43658c1c93",
+      "coordinates_sha256": "4fbf26be58c8745391a356ba99290197f05e57647ee70a08dee774240a03f26a"
+    },
+    {
+      "metadata": "559781ce90389e31fc94.json",
+      "file_name": "TCGA-BH-A0HY-01Z-00-DX1.D7A1BF42-F268-4220-B71B-354CE2AF32D8.svs",
+      "mean_sha256": "e9efe1f7f506919641bd8fd15a3b0a45cdcd88fa4c292c4e4a7b898ed0740fea",
+      "wsi_sha256": "7ccb2f4248d6679eb543202a65a0dac568738c474a2978b5a182cbfeba3bc07c",
+      "coordinates_sha256": "2373c76ed9b793a66871b6162da068a1a589d96bb2ad84000531c907d87eb3f9"
+    },
+    {
+      "metadata": "568ab1f89ddf8aeb406f.json",
+      "file_name": "TCGA-BH-A0BL-01Z-00-DX1.D5A413B0-2141-4A6F-A671-6C5EA8641D25.svs",
+      "mean_sha256": "083145b956384250c315cc9b5e59c02af50f35d4b2affa7a8e184ee768bf2bd6",
+      "wsi_sha256": "940c8490496bb5528362808ef34920d38f13089d45f2fb777dc860dc898a2634",
+      "coordinates_sha256": "78af4284c5b0170b77ca2e4d3447c1b15b55758cea41954b9a4a843e6c0f666b"
+    },
+    {
+      "metadata": "56c1b40f6998835cc7ed.json",
+      "file_name": "TCGA-A1-A0SJ-01Z-00-DX1.C196FA66-C376-4016-86BC-3D8E745B3A51.svs",
+      "mean_sha256": "6a4fa3c55eff0d0eaeb474f07cca64f1897c96c4234e6ef61968f5ddf8e2a821",
+      "wsi_sha256": "31753d9ade3408ac75446cd507556a5839436e7dc316cfceca8544e9ff19ade3",
+      "coordinates_sha256": "a8fefd6a0b5192643374a8840c6337ec664f08090a2d94619ef8e85732a83d63"
+    },
+    {
+      "metadata": "5835ac615791c2b3b826.json",
+      "file_name": "TCGA-A1-A0SP-01Z-00-DX1.20D689C6-EFA5-4694-BE76-24475A89ACC0.svs",
+      "mean_sha256": "e5e81260a462ea2c64294278144b3d02059e18599162f5dccf8ad31a5f2cadae",
+      "wsi_sha256": "609647357d4b100b8e131690a6eaa213222b18c7548486a61b3a924a2239dac7",
+      "coordinates_sha256": "749dd22a8f521e800f95b862622bc453413ee1ea561961393960ee5170762bb7"
+    },
+    {
+      "metadata": "5aa71384ae8df231e13b.json",
+      "file_name": "TCGA-A2-A0YC-01Z-00-DX1.F01F2268-17D8-45FD-8917-FD89454D0709.svs",
+      "mean_sha256": "aa5a944197cafadd41b637542bbcf3fe67256bde6f9819527c3808b6963a75e3",
+      "wsi_sha256": "af17919f8ac9a9ca4833d58639db319b3ac7ebb326f1c324be24c377f5b8d89a",
+      "coordinates_sha256": "0b5af1dde3ae1f6f75083fe2928c487b59d76cdc6ef72acbc90460ac3eaddd1e"
+    },
+    {
+      "metadata": "5ab3488fa0fd3aaf53da.json",
+      "file_name": "TCGA-A2-A3XW-01Z-00-DX1.45F5F36F-5503-4A38-AF37-E526915A8DBE.svs",
+      "mean_sha256": "7140ec4d272bad1251198d9c2572835f4c6a0b7deca60f0038d8d63d33187280",
+      "wsi_sha256": "8ca0b802b80a18dd28a14cc8f3bf36f1da35b93d384967fca4a32eaf10355c96",
+      "coordinates_sha256": "4047b90a47128d66549cbedd05f7036cf6c815872c7e49aedeb99a8bd6db3562"
+    },
+    {
+      "metadata": "5b3670eccc4b5b1df17c.json",
+      "file_name": "TCGA-A1-A0SN-01Z-00-DX1.5E9B85AE-AFB7-41DC-8A1B-BD6DA39B6540.svs",
+      "mean_sha256": "bfd0715decdf375fefd75252a864e8c7241ff5f99ced6ba7d238e1fe27ab0a76",
+      "wsi_sha256": "7a384f9431213b82bbd8564fc0282251bcf372c3e6cf636dab5f933865c99f4e",
+      "coordinates_sha256": "859954b4f08f815279e0f953b1284b40700f5ff2d90279563bacb054c3c52414"
+    },
+    {
+      "metadata": "5b5c8b2569dc753880e4.json",
+      "file_name": "TCGA-BH-A0DH-01Z-00-DX1.968AA1FD-068C-4B90-8C95-85BF2EFC3E3F.svs",
+      "mean_sha256": "b4e4b7d91aaddf1aa92d193a270b2f478327734810220e66e007a60e2ed2923c",
+      "wsi_sha256": "32f503e5d6e304fa960158933b90d83299c8857db484a3f76a2ede50668fa159",
+      "coordinates_sha256": "6238b9868dd7c8b902fc9a24315ef4dfa4ecd783aab36db8c53387a8c6963a6f"
+    },
+    {
+      "metadata": "5bf8b7af56fdc197e3be.json",
+      "file_name": "TCGA-A2-A04Y-01Z-00-DX1.4DC97AD6-4806-4A3A-A998-FD36F93590A4.svs",
+      "mean_sha256": "99b2e1a9e8c859518b60cfd4bd5ded7aea3875172a74f74bb88d1e97fe3eee2e",
+      "wsi_sha256": "18f75a32eed0f63cf3ae84b2ec2128625ef802e37863cddb809f2af217cc7cf9",
+      "coordinates_sha256": "36c410db80ba765089434b5fb893bfdc12ad82b6f3aa85b39435059fb3db15a0"
+    },
+    {
+      "metadata": "5cf9884ae876fdf1f51d.json",
+      "file_name": "TCGA-A2-A0YL-01Z-00-DX1.69A438C7-B1E0-4990-B1E6-586C551DC79C.svs",
+      "mean_sha256": "fed43aab62935744147772e25c7405345ada11a016c4ab685511f0c841e0a0a1",
+      "wsi_sha256": "f167a47073603c8a4b459d151496368d532c286e95d1237095fac4a05410f1c9",
+      "coordinates_sha256": "4213595d1ad509416f8b3a899a6e76ffcec989efef974a53a3b177980c8e2648"
+    },
+    {
+      "metadata": "5ecb09e27d9f5dd12977.json",
+      "file_name": "TCGA-3C-AALJ-01Z-00-DX1.777C0957-255A-42F0-9EEB-A3606BCF0C96.svs",
+      "mean_sha256": "ba7b53b10763b9bf58e40989f6271ef9860f7949d5cb110810212f2cb708ec77",
+      "wsi_sha256": "ecf4e9aa3fad6fd9dd62e09ae4a6853a955a7f6a0a20fe79a307faf04bd450ac",
+      "coordinates_sha256": "47339ae4f33169c1c389dea0c1c8358d000be25f639b858d42e67763f2530396"
+    },
+    {
+      "metadata": "5f11d26b280355f7330b.json",
+      "file_name": "TCGA-A2-A0EY-01Z-00-DX1.2F2428B3-0767-48E0-AC22-443C244CBD16.svs",
+      "mean_sha256": "1b496358c224d2183c8c45d55a533a534acffb20813e96f87a53c8a80edf1061",
+      "wsi_sha256": "b46fa54464c86bf6c55700fe6f091262e775523bc2d1025175217cae31ca66ac",
+      "coordinates_sha256": "38b04e8a7185fc059be41aaaa6aa17fe6bc494738af705e9f8ad7aed2661cfaf"
+    },
+    {
+      "metadata": "6069148c886c3c5a458b.json",
+      "file_name": "TCGA-BH-A0B3-01Z-00-DX1.90CB0ED5-FBB7-4ABF-93A0-DD88D60D3D55.svs",
+      "mean_sha256": "bd8af3e19ea32234a4fbc17226a350120fa6595959a53c9a4dda8f678cc5346a",
+      "wsi_sha256": "a60bf212a6e6c06deb5d231f4fc26967939a092467993ceb118c899a88d16958",
+      "coordinates_sha256": "8ac0994b0147e47f6d4d398f175899633e14df4971cec134fbbdcc448ec00323"
+    },
+    {
+      "metadata": "60804ba2d60abe4ec8c7.json",
+      "file_name": "TCGA-A2-A0YK-01Z-00-DX1.FB23FC30-B3B2-452A-A6B0-94129B333207.svs",
+      "mean_sha256": "79a3e6269deb9b7c8775a9dbb41930ad1bb47dd74a432b0bc8610410d0e094fe",
+      "wsi_sha256": "da121edd314e88a3d3b407ff012e6b595f0992c7adbfed36246091b459b0916a",
+      "coordinates_sha256": "83b386199b78471332a5adfa9b7f23b449a9a244bfb4933016c8f841e38f44dd"
+    },
+    {
+      "metadata": "62445e59a129929c7d98.json",
+      "file_name": "TCGA-BH-A0BS-01Z-00-DX1.FEE32127-4D0B-4560-A39C-4EAA5B189B70.svs",
+      "mean_sha256": "a86f20e94fec8831539e4d320747db42f578535d61cd77966ee9a226291a6e52",
+      "wsi_sha256": "a5ce126eb3ecacc57164afbbbec6a353da41d3165bfd8a371d2604f5cfa545b5",
+      "coordinates_sha256": "e686fcce1212542e390eb38eb0ca0d584ad62f93016e45a710e7a4989e3404c5"
+    },
+    {
+      "metadata": "63740fcc550297fafe9c.json",
+      "file_name": "TCGA-BH-A0EA-01Z-00-DX1.85FF2B48-2AF7-4C15-A7E6-FCA68CAB76C7.svs",
+      "mean_sha256": "2c03800530492fe5e21662f5fb5767221e7707c66bc04814b7314c892ba2fd40",
+      "wsi_sha256": "ce40debbed16111df5d525d6d8a4d490084f10c0e12359739b1bbf4e84816ee6",
+      "coordinates_sha256": "67d3fcd577675ac1eedcaf385ef1602a75fa4447c202475989c89a73c955ac1c"
+    },
+    {
+      "metadata": "63e82de6be84406fcb03.json",
+      "file_name": "TCGA-A1-A0SH-01Z-00-DX1.90E71B08-E1D9-4FC2-85AC-062E56DDF17C.svs",
+      "mean_sha256": "8305cb5a62dc0cbe8850ba80e5f7c50f6f3c3328c654320b34b86de4f64f9575",
+      "wsi_sha256": "6de90fe92400e592839ab7f87c15d9924bc539c61ee3b3bc8ef044f98d16031b",
+      "coordinates_sha256": "bb06946dd1a75f8b552b91aceb95f35bb22c5a261810cb1ffd2c71c6991d2565"
+    },
+    {
+      "metadata": "6507d41e156de138d233.json",
+      "file_name": "TCGA-BH-A0E2-01Z-00-DX1.5F6FA19C-D59F-45BE-80CE-F738CAB1EF0B.svs",
+      "mean_sha256": "3ee43d12baa5e2750f804a8c18b473653c18fba56e15650cd142ddd55d644d60",
+      "wsi_sha256": "19a9a1ed98eece14cf9a753a888718afa145ddbb45fe920e439a922969c953b5",
+      "coordinates_sha256": "18568d4cc6e3f5d984cd6716b77e28c2b5dd26b4b8c29ea9f1b71c0b68053be0"
+    },
+    {
+      "metadata": "66d36f24a8f88d2a5d0d.json",
+      "file_name": "TCGA-BH-A0DO-01Z-00-DX1.1684557E-A5D4-4828-B2D5-FA899993A019.svs",
+      "mean_sha256": "b4884427e18ab2d3cf2db102c47deec38f09ab279cbacc46c290a74f12691306",
+      "wsi_sha256": "a70f56c65f12965a33403e3e5199cc3c85bb8af6685d08cbc955a6124a55c900",
+      "coordinates_sha256": "8dd6b8e786b6615f6e48781c822507364d6e1f3b8d8490142f902dbea67df29b"
+    },
+    {
+      "metadata": "6b79549dc928b1180a01.json",
+      "file_name": "TCGA-A1-A0SD-01Z-00-DX1.DB17BFA9-D951-42A8-91D2-F4C2EBC6EB9F.svs",
+      "mean_sha256": "375ec6b6ef287cfbc48c9874919e48e0a77f39a7f3fa1c76f64da98c3d55ddcf",
+      "wsi_sha256": "4fb1286a0c7a4408118db1b329e2090ddc4833ee2bf04fd90b1c9494f61f6d37",
+      "coordinates_sha256": "adb5649638b87b2632125412f2cd75e1c94ec9b3bc3162d6d62b7538ed37a076"
+    },
+    {
+      "metadata": "6b9a4c91b7b33c31eea1.json",
+      "file_name": "TCGA-BH-A0AZ-01Z-00-DX1.E20051E8-DEEF-48E5-B519-40777DDBC96B.svs",
+      "mean_sha256": "110949805b43109dfb664705fc7d91cf754a2b3fb74d9e97f838958dc5c77588",
+      "wsi_sha256": "9dd455fa35663593af7a32a3a7ccc87f4042c01c22300b3799a6d9c08aa800db",
+      "coordinates_sha256": "4c0888fd3e99cc076b74b9574ac676de85c236b04450a3aa83e6c25133535832"
+    },
+    {
+      "metadata": "71d10c209fd2bf37cfcb.json",
+      "file_name": "TCGA-A2-A1FX-01Z-00-DX1.35B93F3A-9959-4D72-A702-08B27563D24F.svs",
+      "mean_sha256": "2bc798fc428bd2fcdda452a194dd46d2ee50468b290d9c95c787a35fbe69f7bd",
+      "wsi_sha256": "4936385cbb452097a8d2f9577dc3956e523891b7cf037c327af0900815e8dca1",
+      "coordinates_sha256": "ad62930e232ef5a67bbe348252c4249478c8e396f55d9e716ec816b4ec45b305"
+    },
+    {
+      "metadata": "71e35ac1b301a1d5aee6.json",
+      "file_name": "TCGA-BH-A0GY-01Z-00-DX1.E1AEAA36-94FA-41ED-851F-7BB11DD3C06D.svs",
+      "mean_sha256": "b1abd5adeed2a731676d42a0739d9a648a67729ff384c27be7766a6880d7fa15",
+      "wsi_sha256": "952f73ccc0ae5c894f6fc4f871b832df5017da85bcf10fde93140853401b4126",
+      "coordinates_sha256": "f1e550c424724ce6f437e6f71967d586381e560fd370f443e5fc1a1d57de03aa"
+    },
+    {
+      "metadata": "72fff21aeae0a678a788.json",
+      "file_name": "TCGA-A2-A0CP-01Z-00-DX1.ECFD263C-BB17-4ADA-8F2C-654C2AA4C45F.svs",
+      "mean_sha256": "7ecd0aced55297b4a21d1373c13b4ecd48df37af21d4a93c84ad1eac67c193fd",
+      "wsi_sha256": "b6d3ee516d345d5d553c6e26bdc6876884795bd992742a88f780a74a2a748b70",
+      "coordinates_sha256": "aee979fed672fb768a6755e826154872051f0c729ec0a7bf470620e83b7903ce"
+    },
+    {
+      "metadata": "744c3b47e883f870831a.json",
+      "file_name": "TCGA-A2-A0CV-01Z-00-DX1.B02D017A-61CD-45FE-BB31-705CD127DDAB.svs",
+      "mean_sha256": "8e1196f8c9f84640a30b8c9b8ae78d09d377c9afa9e376e46ac97a0b4d173977",
+      "wsi_sha256": "4f74afbdbee01e3c88976c6bdc337faeb42ca72743ada65a930217dca1e5901d",
+      "coordinates_sha256": "289b2e6224e54137dce5ed8a2aa2319cb57d124d24688b8d03454f345cf91fd3"
+    },
+    {
+      "metadata": "744ec7b73c36e4e8456f.json",
+      "file_name": "TCGA-A2-A0T6-01Z-00-DX1.207A3883-5B41-40EB-95A1-D64C9610650B.svs",
+      "mean_sha256": "1d9ba934c1798aa46c274659392935cf1904fb30193c234657c462daf113713f",
+      "wsi_sha256": "f192b8c3a8dae0313df53803acb40f20144be50f20113fce43c56bda5c872cce",
+      "coordinates_sha256": "765061dd0512332a17a17c8b95f4653f46c9bbcd211332e0537ab3af1f5d5e40"
+    },
+    {
+      "metadata": "74b7acb4f50ef3c3e960.json",
+      "file_name": "TCGA-A2-A0T5-01Z-00-DX1.128C288B-B357-439B-A8D4-8E7DEBF73E4E.svs",
+      "mean_sha256": "df07ae18f3dd8649a8f0d74f1429df5370dd211d0e1681e88bb711502bde5b61",
+      "wsi_sha256": "f505d268fa30195fb0aa39c6e21ac8afd71608714bf73e7ebb93c9cd4f8564a3",
+      "coordinates_sha256": "6be8c7d39ac59d005eb83d2523eea8a4d1c135c62681734512ae0e644efe9c19"
+    },
+    {
+      "metadata": "76f9386da44d2bdb531f.json",
+      "file_name": "TCGA-BH-A0DL-01Z-00-DX1.553F0021-1FC2-4675-810D-BBD9785D065E.svs",
+      "mean_sha256": "bd0e9aa328bb5597ab4a480cb7055602f0c490e39ef2d45227d415ea9ba41144",
+      "wsi_sha256": "29114bd9e44f33201b330131d8a9ffb8a2e587349dc2a802c46de19d9c441f63",
+      "coordinates_sha256": "83913c8eb82d932c295ad53909b158313df7a1a6773c231b30af8ff695873636"
+    },
+    {
+      "metadata": "77acb105e6bed9041a69.json",
+      "file_name": "TCGA-BH-A0HW-01Z-00-DX1.44DCCE00-133F-4469-A4DA-5057C011B4AC.svs",
+      "mean_sha256": "7929711f4da757184c1565eed9157a8ddaa59040e2885d44f76d50696185e14e",
+      "wsi_sha256": "fa262d0b943bd28195613eeec2065124b458b91c2bdfdc6b3a8f992e91d70070",
+      "coordinates_sha256": "9b785c48e4631c95878f6da3f2e6e0a404ab3279c7d920b59ea937fa07d17bc7"
+    },
+    {
+      "metadata": "7a34bc5ab1f8d009df1e.json",
+      "file_name": "TCGA-A2-A04R-01Z-00-DX1.BE3661A3-A2A0-4248-B7D5-D8986E529B6C.svs",
+      "mean_sha256": "4240b6052322bb29f642e4f245977ca0997fff9b59b0cebb4923ae315d48fb1d",
+      "wsi_sha256": "93d0c5bfbd12446b12a675810ea0db5d85a37b066a37cb57ac5838da956c498d",
+      "coordinates_sha256": "83e45459395c06553791030f00af621fc59e8f28f03c87e38e50f99381bcca92"
+    },
+    {
+      "metadata": "7c7eed0f42334b1f5478.json",
+      "file_name": "TCGA-BH-A0BF-01Z-00-DX1.934DF984-9054-4B20-B85B-9CF94B8DC3D4.svs",
+      "mean_sha256": "2b95b0f6645ff5efece0e4a04c9d0cf875544d3ed89b7cbc1d1d43b8638d92ac",
+      "wsi_sha256": "770ad1e5cd993d69a38fd53c487f43bb0606c03ecc14b10265682296b7f4d197",
+      "coordinates_sha256": "ffcf48901d30a84814f312f8701a8c0497bf97c8a2b7100150586b5208533a36"
+    },
+    {
+      "metadata": "7db43ff473994bcad1fa.json",
+      "file_name": "TCGA-A2-A0CU-01Z-00-DX1.5B77D21C-A497-478B-9752-3730322AD9ED.svs",
+      "mean_sha256": "15a0171702301fb715a73fa19bb8bceeb8d6c84c1af9e116184d353bd9df05d2",
+      "wsi_sha256": "a7b36aed92956c770a3918cee2c23a4200c5a2d4f9ab92bf8c6d6b0d26c6dabb",
+      "coordinates_sha256": "8af6062b591ae7126ee2f93fd956e34751a513bbd1f6c9bcbd545f3c2db372a7"
+    },
+    {
+      "metadata": "7fb0f3ea7857efde53e4.json",
+      "file_name": "TCGA-3C-AALK-01Z-00-DX1.4E6EB156-BB19-410F-878F-FC0EA7BD0B53.svs",
+      "mean_sha256": "08a44c0b07122222a87e74e97f3a264267185bf4376a60e9a74f2e2dfc36054d",
+      "wsi_sha256": "f43597a87463d8d15007918dd5174ff966aa28dcb0de71cdc5752576cd7c2b5b",
+      "coordinates_sha256": "f18d40d80b8dbb4ea689f52e6eb3dd57e832d8a5e576acb086713b3e8c9dcd66"
+    },
+    {
+      "metadata": "8113aca67ea4aac33106.json",
+      "file_name": "TCGA-A2-A0CS-01Z-00-DX1.3986B545-63E8-4727-BCC1-701DE947D1FB.svs",
+      "mean_sha256": "feb57fc42990e4d7137a9c1bde9ce47523c0e3ba09aaa6551b4c8c0323d61d78",
+      "wsi_sha256": "9f29ab3d825cc5c48dc79bb4bf4a01998918842563cc75fe60714c18cdfead2e",
+      "coordinates_sha256": "a9ac3cdd36adac8af952218bd00fac05c8702325740c03e8ea2e3082e76fb8c4"
+    },
+    {
+      "metadata": "82086ff94cc93733a6ac.json",
+      "file_name": "TCGA-A2-A0T4-01Z-00-DX1.AC61ED08-2E42-4D4A-BB81-746D3FEBB653.svs",
+      "mean_sha256": "5d17203933ecdcda895cf49e37711a38302cdd20b1ff58f0038a9e68ab30919b",
+      "wsi_sha256": "7aecd6f605bc6651208e9496f4727f3b2c132211581011378ffb6fd9a4314235",
+      "coordinates_sha256": "b4f83f1332f329c6dd15d7366c986cfd399c6d673438b57a1d2527a995b61c58"
+    },
+    {
+      "metadata": "82322461aa037356136f.json",
+      "file_name": "TCGA-A2-A0YI-01Z-00-DX1.1CF2EC2D-C722-467F-8832-409B823E8D8F.svs",
+      "mean_sha256": "9fb930d33db2fd9f01b118fc58f38d803099ad8d4d39b65062745e9914ff99a0",
+      "wsi_sha256": "535c4f2e01d420f16a7ad63bc047764e82064d1bdf602936dc400a2e43d021fe",
+      "coordinates_sha256": "8fd71d04e052008e55874fa41e31e9fea50154cca114bc7b8ce93105e2f98a61"
+    },
+    {
+      "metadata": "87136ccebc1fae31df43.json",
+      "file_name": "TCGA-BH-A0BD-01Z-00-DX1.CD4A6FC2-BA8C-4E30-972A-E6CD1BEAD8AD.svs",
+      "mean_sha256": "dbf26edb2e4026b6cb1e1ed3401e26193cc92ac22dc0822505fb8ed6ad66441d",
+      "wsi_sha256": "87a88b7ea215667ebef1f7c475af8c14e28f37cea13aec766a3351f325c99e61",
+      "coordinates_sha256": "d904ea0a05688214398b87c4c1e998852a3bbe5cb820b9ad710f18b4d4d3ac40"
+    },
+    {
+      "metadata": "88f41b56042de6139c31.json",
+      "file_name": "TCGA-BH-A0BC-01Z-00-DX1.7A91831D-9625-49FC-B783-C633F80F898C.svs",
+      "mean_sha256": "03d88d537dae35bbfd8a01b8a451a0f7a5a4173b9879836e5ba5c516bb6bd23b",
+      "wsi_sha256": "67aa880ea9952b7079df37530834b33c6f8032735f7396537faf98355d6e488a",
+      "coordinates_sha256": "40af98148a74c550ed0a55705225d1fa936d3a5374ccd1b3f1b681e4d544f3cc"
+    },
+    {
+      "metadata": "8c985c336d14bfc3161e.json",
+      "file_name": "TCGA-A1-A0SK-01Z-00-DX1.A44D70FA-4D96-43F4-9DD7-A61535786297.svs",
+      "mean_sha256": "f24075a18a6f115bebcce4a34ad2c87e3c0f2d163205293861150d5fc1094724",
+      "wsi_sha256": "e410b87740360f9480cbf4f244df03c07af1557a1613f406a639461138dd7191",
+      "coordinates_sha256": "0f0d822e0bd908dee36922f4899872159632c998e54d3f468969b82f0ad72398"
+    },
+    {
+      "metadata": "8d8d84737c922278d6d1.json",
+      "file_name": "TCGA-A2-A0EW-01Z-00-DX1.F24495CB-63D8-483F-9834-F761E3F16BF0.svs",
+      "mean_sha256": "fd83291f5155a1c816880b920469e62e9c467ea41721082ddc6ea3a25eafe16c",
+      "wsi_sha256": "c647164688777c66d3ff41536ab968271bfcd6e6720b90b24cba4254de33e54e",
+      "coordinates_sha256": "4a16ec4463fe2739a52e1795b1926db3e11bfb68b95062a96c638dff40cd7b22"
+    },
+    {
+      "metadata": "8ecb8584829d430f2a71.json",
+      "file_name": "TCGA-3C-AALI-01Z-00-DX1.F6E9A5DF-D8FB-45CF-B4BD-C6B76294C291.svs",
+      "mean_sha256": "ea8829349e93bd2c1e7309d59fbb104e80534cf4505a8ffc38c3f02282d07b54",
+      "wsi_sha256": "c7d3b780db575d1fe9f060034902221d8a1803f6babb9628dfb3b993654033ca",
+      "coordinates_sha256": "4ab86608078615636e5ed2c17bedb7164caef906fd2a7d910329ff5a939866ac"
+    },
+    {
+      "metadata": "9131e2eae63c2359d6a0.json",
+      "file_name": "TCGA-A2-A04W-01Z-00-DX1.F7E7B945-2ADC-4741-8FCE-ACEA657DB9C7.svs",
+      "mean_sha256": "fa5d374142ec8756a2b9bcd65d121b0d71944a64f85b3678b057b9a2a13c24cb",
+      "wsi_sha256": "35ad606656547c6a258e0c93de1137aa5ceeac5cb3eb58b09b61773b67936fca",
+      "coordinates_sha256": "bf192f0d777adf472d4c6d54227d77fb7ae4cfc6f3542a8c42d42fab5e46dbbf"
+    },
+    {
+      "metadata": "914e1c6c3989424e92c7.json",
+      "file_name": "TCGA-A2-A25F-01Z-00-DX1.87499CD4-E41C-46B1-AAF3-5CE881F2B8BC.svs",
+      "mean_sha256": "547d8176eda57ef2174d4374052f2d5a03dee5e7ae9dd5367189afa67bf608ef",
+      "wsi_sha256": "533c083dfb587296e8000b5db3d241153db8a4e04c20d88c0c42f1cf5815b513",
+      "coordinates_sha256": "8a4e84e58f11a8958a5094db0da895fd76e2589d06a4d9d1c49109f470c8320f"
+    },
+    {
+      "metadata": "9180d2ee83e4bfa18f6c.json",
+      "file_name": "TCGA-A2-A04U-01Z-00-DX1.06D17357-46A8-4DC3-A22B-2F4EB6EE3F79.svs",
+      "mean_sha256": "ca76fea078082848e93667e4b484f7ac53d1027168218bb19056fab1c8978c69",
+      "wsi_sha256": "874908447704535c1885d776b0b437f5e437db6444d9dfcaa44fd775a052db7e",
+      "coordinates_sha256": "b811690fa75a71a10c1a3f5f00e90b88fb01a4e50d7b9803dd0b0c7bc77d9637"
+    },
+    {
+      "metadata": "93e60d759970175d6878.json",
+      "file_name": "TCGA-BH-A0H9-01Z-00-DX1.8AE869C6-5C78-4D52-AC8B-5B6FD5FD91AA.svs",
+      "mean_sha256": "b4b0e58a7aca122c56f102a931ddd2a85aecd7dc9c99f3ded4a83d4906267859",
+      "wsi_sha256": "ee7b82ce73339422b60c929e63b433c9ffe41c5c5680c5fad586ee68d3fee603",
+      "coordinates_sha256": "0489e523ca14afe345673fe69ff422b417307846965e1f77e9b483240b27b195"
+    },
+    {
+      "metadata": "959921e799be719b4390.json",
+      "file_name": "TCGA-A2-A0T1-01Z-00-DX1.CD1E9C46-18A3-466B-AA0B-24F3055FA851.svs",
+      "mean_sha256": "50576abc13fceeb0e6cd42e70bf1e14e20bcba0eac53b6a57bb10e04ac88c643",
+      "wsi_sha256": "74c59095f113cb4ba35d58d0c02a017bfb0724ffe5a800f1c7bf1d6a43e5f131",
+      "coordinates_sha256": "a35cd1a692e9ecd18289067062abbd29a8abc0ba69685e1a847f67491ee4d248"
+    },
+    {
+      "metadata": "960aa60cf4c81de85bd7.json",
+      "file_name": "TCGA-A2-A3XU-01Z-00-DX1.174A92D4-50B2-4A59-AD31-D5EC5BBF2F65.svs",
+      "mean_sha256": "604a851b655b13cfe0b337f235b2ca549e1b4324ce03b4092ec18d4833e9f87e",
+      "wsi_sha256": "289dc72dcf9317c7f3cb4a1494baf13916bdb4ec1f7ce9032e4ce6be1c80d545",
+      "coordinates_sha256": "bcc8d4579f4ee5a49982581a6f20fe2c8ac26fb365e853c89d6596f1e10e5c09"
+    },
+    {
+      "metadata": "96c9b92cd341d02f1a0b.json",
+      "file_name": "TCGA-BH-A0C3-01Z-00-DX1.14D3210D-0CBE-4DCA-A986-A26AE5382502.svs",
+      "mean_sha256": "33fba43583b5e53f3effd1b77a3cf87004fa8fdf7c0838848d02b6e1b73f7393",
+      "wsi_sha256": "a15276ecde517e9c6c8fba481243af3024536489fd25ded962a5af797ddaaa62",
+      "coordinates_sha256": "46c42da584b6ca7d9efbb27aa4a68cdfd2f035986ab5e033faa0527bb985d436"
+    },
+    {
+      "metadata": "9a0afb564946faec9733.json",
+      "file_name": "TCGA-BH-A0DI-01Z-00-DX1.6A42D535-8842-4C36-8299-A40E9E56759D.svs",
+      "mean_sha256": "947f58bd4d3e4ce27d8ee3500c44096e325df5ef7f4eb584ac21078e1fbb6c82",
+      "wsi_sha256": "03932f4374f69fc02de557d334380be99a681131cb4faf0203aa2a5609bee929",
+      "coordinates_sha256": "baa6473368294515c7410ce84a4d5a700581db32a89d8866e65e6673d0bddfbe"
+    },
+    {
+      "metadata": "9a742b602c56e785f7ed.json",
+      "file_name": "TCGA-A2-A0SX-01Z-00-DX1.219A994C-8974-4458-98FA-FB1F14868E04.svs",
+      "mean_sha256": "8b0ec049a8351734ce346e5ed233dc7be22b0f2eb6d5915c19bf05cb7318d5ce",
+      "wsi_sha256": "da632019745e80be822f217810ce0f4988cbc6c721510ce824760a69df7b9827",
+      "coordinates_sha256": "97dcce3d0600791a5fa760cc3aa72ad259ff8d5ea06c30fb31564a057f18cfcd"
+    },
+    {
+      "metadata": "9aae18583eabce1aa2a9.json",
+      "file_name": "TCGA-BH-A0E1-01Z-00-DX1.257EB36A-1008-4890-927B-204EF05DBE90.svs",
+      "mean_sha256": "12bbc0764878f82e2c94dc2bc21eb83fe5ba45358e7c1505170ac8d2b484df3d",
+      "wsi_sha256": "d8f30e6849fd45932450c186cafa76da176b7fd9dfc361de0228749f14503872",
+      "coordinates_sha256": "4f00714ebe543f9a7ed2fdca61e3dc157e01844d86ff8d6eb71f3da152a5c9d1"
+    },
+    {
+      "metadata": "9ae912c4096a103d304e.json",
+      "file_name": "TCGA-A2-A0CX-01Z-00-DX1.F07C75AB-E568-45CB-B497-37C712490393.svs",
+      "mean_sha256": "e0bcdb4d4e43cac20b5ad801461d5ec95905300f818bb743762e91d4b3a7f585",
+      "wsi_sha256": "1af1c69cc14e4278e2768e9243c95eebb9af938d0cc998c92aea0d75e5c98c51",
+      "coordinates_sha256": "a9d7cd4ff7fbec95e52769d5b24edfdd173f3fbf29241f1e14f7c9c6ee533bdc"
+    },
+    {
+      "metadata": "9bbd63cb5f1c06abbf59.json",
+      "file_name": "TCGA-BH-A0HI-01Z-00-DX1.89DB9F79-0DCC-4C65-831E-96AE026C2C4E.svs",
+      "mean_sha256": "a05df01bea420d903f5e58b0d780beaca8487197ef476c0f9341117b74752608",
+      "wsi_sha256": "7fd0938633bb5c8011e8eb9b6545c985570637349975b571d2e6282198ad18f3",
+      "coordinates_sha256": "1d785759820f1907a385e29416e82de9ace198126e12234193fcc783809a8684"
+    },
+    {
+      "metadata": "9c59e2fe36cb19dcc4f1.json",
+      "file_name": "TCGA-BH-A0BJ-01Z-00-DX1.77BE9A20-3D23-4650-843A-0483BF9DD07B.svs",
+      "mean_sha256": "1a76dddf67b85c0d9dc205abe3a6d2105a0aa1ca5687ee216a79ebe701162a16",
+      "wsi_sha256": "b012b98aff54fbba4ddd703951b96f567bcd90a7d485a488dd82a60675973174",
+      "coordinates_sha256": "379009f625ece14d7670abf02bfdb766c7baa789f902dbfaf30bb98a96435d1a"
+    },
+    {
+      "metadata": "9db829333b07fd4ba75f.json",
+      "file_name": "TCGA-A2-A0YE-01Z-00-DX1.8A2E3094-5755-42BC-969D-7F0A2ECA0F39.svs",
+      "mean_sha256": "233937b08e683afdf206a9059362a81af3316a9578d39c12cccccf309b0240c7",
+      "wsi_sha256": "ba3b26aad2a734bac7a098fa3ee32b76ce97001774466683aa914c468d64a552",
+      "coordinates_sha256": "7528957a967e516385a50e0582d1e03b00c895f2134869cc0a35c51f083346e5"
+    },
+    {
+      "metadata": "9e1e5202e7aa00b40d13.json",
+      "file_name": "TCGA-A2-A4S3-01Z-00-DX1.50699E65-E536-4C9B-93A7-4C9894624A29.svs",
+      "mean_sha256": "f3b0459b3de52a22d03e04bf69aa475180f3019bb2ffd7b83c138fa5e4d5710d",
+      "wsi_sha256": "81cfd7bf9a4b7f7b29fbf819ad77e02d71be09b46d233c6032732207f5f4f6f0",
+      "coordinates_sha256": "f1273bff333e9accd92dd60450b84363527ccbb13de42a2d9a79ff5511ae384f"
+    },
+    {
+      "metadata": "a4dfe088f502f07aa916.json",
+      "file_name": "TCGA-BH-A0BZ-01Z-00-DX1.45EB3E93-A871-49C6-9EAE-90D98AE01913.svs",
+      "mean_sha256": "6fc28b03b304d5a59ba533dc4d605e651247aeae098bb4cab23bada2e2abfc8b",
+      "wsi_sha256": "fbe398bae72fc7c69a5434abd21a4ce14e2e2f9e3023a6161166a566e4c62d20",
+      "coordinates_sha256": "225e7d581a1da8ded2a7722d8bf4e5ea1a767d9db94fee30c246f387842e5bcc"
+    },
+    {
+      "metadata": "a60004b0da71207bdf52.json",
+      "file_name": "TCGA-A2-A25A-01Z-00-DX1.6D311E39-9F96-4775-B9DA-8D034D1AD1DC.svs",
+      "mean_sha256": "906ef18dd5633de13778ec1489be528f41eb397d5db2b415fc7a3d8723261be7",
+      "wsi_sha256": "16492cdded2cc717efb942d0686fb7fe2cadfbb0e11f4642b04961b8f0043dc9",
+      "coordinates_sha256": "3949179f3edcebac398cd7baf519190a017ff74e4ae34c4fc0c4d35302c37fca"
+    },
+    {
+      "metadata": "a6619a9ddcca2fb88418.json",
+      "file_name": "TCGA-A2-A0YM-01Z-00-DX1.A48B4C96-2CC5-464C-98B7-F0F92AE56533.svs",
+      "mean_sha256": "9faf0e0cd47412e7033c926c3a8ab0c0121125dfac2dd2a512228972cf129313",
+      "wsi_sha256": "4b622a25fa3dc7bd5d7a42278fcd0e15f61dc3f342b66de0ccdf5185a569b729",
+      "coordinates_sha256": "778b64ca4c1296310b754f6d85a84f4d9ce59355e593aca970c68ba0ee0d6108"
+    },
+    {
+      "metadata": "a6f8f226a54c29ea25dd.json",
+      "file_name": "TCGA-A2-A1FZ-01Z-00-DX1.0BAAEF41-DCA4-4677-9A27-09E990033FA6.svs",
+      "mean_sha256": "108c2fcc3865f8cd3d0a109940eb07af1be07c4c207943715acdd3ba14397eb2",
+      "wsi_sha256": "d34bb81d10aad798f027c9b854228ca9facf0f0cb07bc765827ef78907588a1c",
+      "coordinates_sha256": "5a42e27ef0982dd673d94947d768cb284c588615bce90fe26871a0faadc1f83f"
+    },
+    {
+      "metadata": "a7144e00c478a347da23.json",
+      "file_name": "TCGA-A2-A0D0-01Z-00-DX1.4FF6B8E5-703B-400F-920A-104F56E0F874.svs",
+      "mean_sha256": "0e7da66240bcdcc23ad1838cee87d8b6fe90d2163d38033991e696bb21c9a11f",
+      "wsi_sha256": "2973d8050efef71df6ec4f743710c150608a592a01d86a63b98b6e00b7efc69c",
+      "coordinates_sha256": "1e12b51bbefa8ad0d049a8e8ea188dce2614ed865f987f96df1c002374b902bc"
+    },
+    {
+      "metadata": "a9b52b5702ccb89f5e9d.json",
+      "file_name": "TCGA-A2-A25B-01Z-00-DX1.58D7BEDE-5558-4A9E-A95E-DDF24C9267EF.svs",
+      "mean_sha256": "f693251ce4d21ad76fc12dbb84bc43d957f3d9b1473aac574f91c688cdfe69b5",
+      "wsi_sha256": "05b4841bcd70154f2c0700c938cfc12d604fe11d44a1f308f3783da263c74200",
+      "coordinates_sha256": "5edc2fd81dc2573088be18b75befbbb26967ac302bb2691733ef8a73353dd0b2"
+    },
+    {
+      "metadata": "abbec5768c2eb9f03d21.json",
+      "file_name": "TCGA-BH-A0GZ-01Z-00-DX1.9AD4F493-A0A9-499D-B667-B33333FC1A51.svs",
+      "mean_sha256": "d1859c20e2361d0688a809d5d80baeb0f627cfafc49415e392a8528c938594b9",
+      "wsi_sha256": "12e9c2bd14217ea5b8fbbda74b82c6f383c6f205df82301bafd1fd37843764a7",
+      "coordinates_sha256": "6da73fc6c55a590e6a9a04e7ae2c5ae901ab7599d2e3a12e27af11753b0f1aa2"
+    },
+    {
+      "metadata": "abd7d0d9410ac9372e57.json",
+      "file_name": "TCGA-A2-A0T7-01Z-00-DX1.EA4DF9B5-8D04-4BCC-9ECB-CB8CB8ACBE1C.svs",
+      "mean_sha256": "9153a5938e5dce69adb11f1399bc16c9440ffdf0eed7ff5cf7b9c34c14f68622",
+      "wsi_sha256": "5ae16055e4092e22c12ab2dc52ae5514b725d03e3a254311fee740d2233fdbd2",
+      "coordinates_sha256": "2604707ef077323bc8ec383c2370597870c3cbe6575649935c9a195a1a19a655"
+    },
+    {
+      "metadata": "ad219f9872cffc77a1af.json",
+      "file_name": "TCGA-A1-A0SF-01Z-00-DX1.7F252D89-EA78-419F-A969-1B7313D77499.svs",
+      "mean_sha256": "51c0fba701537f06c8d0ddeb75ede309c8527a74287380c025ebfac725c6c80b",
+      "wsi_sha256": "847b98318060a347b93e61ab3a5b64a1b80d11989363d49e634f3018755c395d",
+      "coordinates_sha256": "6a0781f406f1bf4fb514883c3837a75d60e9d95023628def15a4443061503fec"
+    },
+    {
+      "metadata": "ad810b540bf45b6a9a64.json",
+      "file_name": "TCGA-BH-A0BQ-01Z-00-DX1.F5C6386B-BB2C-49DF-B3B8-6C4B80D060D4.svs",
+      "mean_sha256": "4b564558456b2505274af61670e2868f41f3591076171ae8bfec727da9f007d5",
+      "wsi_sha256": "7c88b27baf1b258d441ce8f335496424b5cc27e3c1f8d6e2f129858d25eb3fda",
+      "coordinates_sha256": "a779ad51ab776177549a51a53d3dda2ecfcec7e955fa9af59d91767664848d32"
+    },
+    {
+      "metadata": "b356540aa90220743e01.json",
+      "file_name": "TCGA-BH-A0BA-01Z-00-DX1.579E11C9-437C-4D49-8811-DD94D8454712.svs",
+      "mean_sha256": "7e4026f041a9d753d0938314b6a1afcff9ada0a9cc517cbb3af5174fa305a2ef",
+      "wsi_sha256": "abf7006b3e9939c99c8aaffbe14968c26cd57967f9c0a09dc5358d22d6058a5f",
+      "coordinates_sha256": "84fba2ff5422d340e5451dd58e83c4afbae5be269d921ed3ab328751257a8322"
+    },
+    {
+      "metadata": "b3d927f233499c3b9026.json",
+      "file_name": "TCGA-BH-A0DT-01Z-00-DX1.73AFCEBB-06B1-4870-ADA2-881511B1BE2D.svs",
+      "mean_sha256": "821f6bfb89a5995e1cacb293e596619d0c7cd61576db8d9c9e718600c8b37d65",
+      "wsi_sha256": "ed295706218998db069d12169d35cc0fdb5ab65b2642db1d6427f9b94ddf4dcb",
+      "coordinates_sha256": "d2d6beec3dfd9592e3aff24df48f3f5adcccb1f7712fccfd01299d7db7970fbd"
+    },
+    {
+      "metadata": "b59a674d440e90635b22.json",
+      "file_name": "TCGA-BH-A0E9-01Z-00-DX1.5FC4A5E1-3984-4869-9FFB-C0C7F9EAF5FE.svs",
+      "mean_sha256": "55e013c7718f5c1578f096ce73779c41c8e8443379ddbff7d35ad5caea084986",
+      "wsi_sha256": "c96c67176fc30462c484fa2172a132cc2e590954bdde56cc6a95f0a68fa0d4d9",
+      "coordinates_sha256": "525dd8337ae57043e3148c288c1e0a76c4e07fbc70aa0d4bbaeda6ea70ac5122"
+    },
+    {
+      "metadata": "b659b7fa6fd11b0b4586.json",
+      "file_name": "TCGA-A2-A1G6-01Z-00-DX1.BCC3EC46-CEBF-4B37-BCF0-266D18170B54.svs",
+      "mean_sha256": "72146ac984201a32fda21e5ab03b07a769fe978da31fab1c82ed0d700a719133",
+      "wsi_sha256": "7e562b46ee1d97b6f7b6e64b6483ccdf537e9ffac2150d8b46be09c23b6aa89a",
+      "coordinates_sha256": "00fd5be037d5b185d248eb415e0e537f4e32e701310e53824c7ef915810604ed"
+    },
+    {
+      "metadata": "b89cd67f5a353b72ff0d.json",
+      "file_name": "TCGA-BH-A0EI-01Z-00-DX1.929E126A-C9F8-4240-BF00-B6C4A57B7FF6.svs",
+      "mean_sha256": "84e6b9d608f052ddd34f13e5fdeefe396644f294e0ee6ebc6c616bc4a0e302b1",
+      "wsi_sha256": "a1d12766eedb0062645d33b0abdfba6e9810e41cea60a855d9aa023d4339cd17",
+      "coordinates_sha256": "8129cdcbb55cb85068164e85b5136b99d80d9964dcbb8d9081c33236a5d557d0"
+    },
+    {
+      "metadata": "b8df8fb03ad285743dc6.json",
+      "file_name": "TCGA-A2-A0T0-01Z-00-DX1.51F904DA-A4B5-4451-8AEF-58E7EF7651DB.svs",
+      "mean_sha256": "2e732ef3e90d87cdbe1033e6a5b079f2bd793f992ad209fafc2cb877e6c9e323",
+      "wsi_sha256": "db5f327d2ddcd35b04babfe90d03a81dd4754bfbf10f80deaa8be8a635036c3e",
+      "coordinates_sha256": "9b45a2091486a48e3ee9cf4a82183ea4958e4e60fb2e1b1e0dcc17b6528f8451"
+    },
+    {
+      "metadata": "ba04ad2bdad9ea92d29f.json",
+      "file_name": "TCGA-A2-A0EV-01Z-00-DX1.EA8C5594-BA4F-47A8-949B-D536E00E62C9.svs",
+      "mean_sha256": "fdd5c9aefae1ea14ab7df116968e882d202c15930654672ade7520f9534c49a4",
+      "wsi_sha256": "e79a0445a294bfba7f90e6456f99fe0c61621dd805221c88f5d32255c8ad1ea3",
+      "coordinates_sha256": "54828e484c2a6bc119ae7ccdc926d257ee320fe1df096715dcd0a39d43b231f4"
+    },
+    {
+      "metadata": "baaee039444f3e7d8b80.json",
+      "file_name": "TCGA-BH-A0B9-01Z-00-DX1.C23ADB4C-52D4-4DFD-B8E3-156E43F0E645.svs",
+      "mean_sha256": "564d2c37aed1e678f6214d56512b138b97bd9e011619713a0edfa653980e8b30",
+      "wsi_sha256": "b8a350469f2c59f48503f9ad97c8dfb5f0f6418135c48901addbb7f881c3699e",
+      "coordinates_sha256": "ccfc717aa5a49b98624e6ad3042b7b4b2fc2985980c73ac9adf95d3c2c4908fe"
+    },
+    {
+      "metadata": "bc9a17b9acc807751b62.json",
+      "file_name": "TCGA-BH-A0DZ-01Z-00-DX1.138BAEC2-589E-4960-B94E-DF48DDAA5490.svs",
+      "mean_sha256": "18262252ce645b232547988cc861d55d1f017de7019390d4e5dd9dc27c9f2683",
+      "wsi_sha256": "911c779524a797e04a61bfad5e312dd1103b0e3459522f3ea867271ec5eca526",
+      "coordinates_sha256": "f1cc4d49d316d5fb911bfa04dacaf07829cd906b4f080b334d181257e1f1bd3e"
+    },
+    {
+      "metadata": "beba6f6c95ff0beacce8.json",
+      "file_name": "TCGA-A2-A0EU-01Z-00-DX1.13335BEB-63D4-469B-A389-8A079A096129.svs",
+      "mean_sha256": "a0f5bfcecffd19bb224f2d54959ee99b3e3e0e768e89688f56846183a20de052",
+      "wsi_sha256": "8ad1fdf343bd9212f99e8469ed7bcdc138ca9052e31fc5b7f8f44c48287a0fed",
+      "coordinates_sha256": "d42ed3efec9ecbe70e7dd5310fd194743b4a5b01481530475c8556a78c1b1927"
+    },
+    {
+      "metadata": "bf149395a0a663f013e2.json",
+      "file_name": "TCGA-A2-A259-01Z-00-DX1.7289CD72-CB74-41D4-B4AC-4EA5FDFEC666.svs",
+      "mean_sha256": "9fc2d30e92782c0a2fad209be8fbadde42f0be23e419c5f723775c3dda82e9ac",
+      "wsi_sha256": "ceeae6747683b53ad58c3d43924e111b48db6e4547a0b13d1fed39c45a8f9573",
+      "coordinates_sha256": "d17bb6e96158347ceb5d5b48ca6046c606b00e84bc1d4beb7efefd2956f4d90d"
+    },
+    {
+      "metadata": "c1034cb9458c36cbdaa7.json",
+      "file_name": "TCGA-BH-A0H0-01Z-00-DX1.B3B394DD-1F4E-42CA-BB51-C002E423B3D0.svs",
+      "mean_sha256": "4f3e4451d3e2c466135eb60d4cd0e09fe065720f7aa950d930060b7fe9698e13",
+      "wsi_sha256": "218140577d10df4b9bd3137990a9994f141571816428b382d63241b78dd65492",
+      "coordinates_sha256": "3b7d121ad2d851d768fdf8d6b2689e8403be8defdc78b90becd3a3a6d923ef75"
+    },
+    {
+      "metadata": "c17d67057c6dd49ea386.json",
+      "file_name": "TCGA-A2-A1FW-01Z-00-DX1.DC2BC5D7-E57B-444E-833F-9A1B6E11DE6D.svs",
+      "mean_sha256": "e55957bfa15a392e4739da5206dc6a6bd56762ddd262222813154c9a1936f3f9",
+      "wsi_sha256": "92b1b843b69d288ec179778cc2d7ec5ebbef2fa8880379caa493ec0b0ac4bae6",
+      "coordinates_sha256": "0cd3c9e990c0fb550b8ed3005d0815b1c5fcf2012aac1dd1cdcc3b4dca1db545"
+    },
+    {
+      "metadata": "c26014382a88bc3de154.json",
+      "file_name": "TCGA-A2-A0CM-01Z-00-DX1.AC4901DE-4B6D-4185-BB9F-156033839828.svs",
+      "mean_sha256": "fde9a5ba519d0fc8300de50e253b84e090a26e46e016f28549212a340097d153",
+      "wsi_sha256": "99115649ad553eb3c89e35ac5cac384a3d8c13c23c9e8bbdcbbfdb87cff36980",
+      "coordinates_sha256": "1af1f6bb7e92b53d47702c1cb730d356c4b3dd032ca54aa0d66de6c840854a47"
+    },
+    {
+      "metadata": "c5f42641d7f9440af39b.json",
+      "file_name": "TCGA-A2-A04N-01Z-00-DX1.9E9B7DB0-1CF1-4631-8292-A9DBCA0BD37C.svs",
+      "mean_sha256": "760c6bb6911053eb979cbb2eb4b609cc51dbb18abccdaf73632c164a61cb060a",
+      "wsi_sha256": "e0453a009aa186f71f9833fa0c6fd13f6fc05082fecc5cd6acc393b6778acae8",
+      "coordinates_sha256": "2e5618546aa2b5df799bd1aaefee5112db7184970866dc25ceb5e643aa0c3fed"
+    },
+    {
+      "metadata": "c7a663306c83f2e0f512.json",
+      "file_name": "TCGA-A2-A3Y0-01Z-00-DX1.A1EDDF82-FFAA-44A4-A749-7FB6F8133CC0.svs",
+      "mean_sha256": "3bb537fb987f98875e598de45cf3527c4f4bd50c258175d822c4084200f653a1",
+      "wsi_sha256": "0f70134f67d9ce73e1943f5647ea561475c6637c625022c88bcc36bef03939f7",
+      "coordinates_sha256": "5638ca228c051aa632c084d90f7c9055bfb3349f673d75f0d5e491de9f621870"
+    },
+    {
+      "metadata": "c89a056d6a888444e849.json",
+      "file_name": "TCGA-A2-A04V-01Z-00-DX1.EB430DDB-8FE9-4302-8829-53DBAD09E79F.svs",
+      "mean_sha256": "51515066f506673de6ff07a490493ac2581287b5a4e396bcde5e16a318b47005",
+      "wsi_sha256": "c8854346029208c12904e6571a320645d5e8d82e50854455a081befaf1af553c",
+      "coordinates_sha256": "aadfd62359717d1b8ebe97e22456db0db54baf0c2952d1296f6f767b5d75a755"
+    },
+    {
+      "metadata": "ccf64764c1593c440f73.json",
+      "file_name": "TCGA-BH-A0H6-01Z-00-DX1.0CF7253A-B42C-4778-B1C6-17EC78A039ED.svs",
+      "mean_sha256": "5031447a89e89a2dd67c695df67fd686b3588d133a84d4e4cfd383159f803a24",
+      "wsi_sha256": "a044bdae252c9f0e050d480ad1944d455ac54c2b0f2217f0109f1f544fab7199",
+      "coordinates_sha256": "8e1c18c1a846c110f14e8b63c183178f92559a06550c86fc4b7a1bfd7c852de5"
+    },
+    {
+      "metadata": "cda682f6cc319bb9412b.json",
+      "file_name": "TCGA-A2-A0ER-01Z-00-DX1.18123C1B-A0CC-4957-9373-5FFAB985C2E8.svs",
+      "mean_sha256": "bf563ec8e878a83e244d0c9988017232acaaa2b95cfd7125d99f006d42becdd1",
+      "wsi_sha256": "0870697121d2130fd69eed17aaade824e79b0b3f331798b98b599e141dfb662f",
+      "coordinates_sha256": "f8609acb3078d06b6dc47fce21bfe93783a3c3f203b40ecd3b3a0a3de98ecb0e"
+    },
+    {
+      "metadata": "ced2be8669c64b2d526a.json",
+      "file_name": "TCGA-BH-A0HX-01Z-00-DX1.44EBA39E-383D-4820-915E-4E5FDA1D43DA.svs",
+      "mean_sha256": "97b27c4dabd44f516e10198c4d49ecbf62e81555279de4e05fdd99bd9e80e9a0",
+      "wsi_sha256": "c7cc07080c8f3f4b0bbe6c3a42f8a50251b1053f97e339839d81a4ce16d151a4",
+      "coordinates_sha256": "2e5d84473183ee99445ca835594870822556eab62bd772f829366d3a5c39ee74"
+    },
+    {
+      "metadata": "cf13735176ab35e49d22.json",
+      "file_name": "TCGA-A2-A1G1-01Z-00-DX1.E52A474F-DE13-41CF-94D4-D00BAC46ECF4.svs",
+      "mean_sha256": "84bbf98787c30d7f5aaaa329bd4ba890c096314a363cb6b9f25045bb2ddda299",
+      "wsi_sha256": "981de1c333e5a6426ad4b98484900260ed754d9c4ac29a1b92a1a93bb173bbce",
+      "coordinates_sha256": "9cad9027aae6566ee6e47ac01bd2af264fc92eb306569fdf6c67e364562ae3f2"
+    },
+    {
+      "metadata": "d0fe182384005c7ada83.json",
+      "file_name": "TCGA-BH-A0DV-01Z-00-DX1.2F0B5FB3-40F0-4D27-BFAC-390FB9A42B39.svs",
+      "mean_sha256": "cc6806a25966fb0194522bfd38994d01f9796362f9e2562e449ace308ea790eb",
+      "wsi_sha256": "a015edcd2cba481e3f1f5237a7a9374b21c658da833f166f8f483341c2ab3932",
+      "coordinates_sha256": "3dc1342b81a541955fbfdcf018cf41a1da7706048428a990979f61b54a04d30f"
+    },
+    {
+      "metadata": "d248f7722ba5339acf3d.json",
+      "file_name": "TCGA-BH-A0AY-01Z-00-DX1.A1153465-D9B3-4D83-BE85-F2524B071EE5.svs",
+      "mean_sha256": "b7d287ef32f70a18f0ff5862070fd2644151e793ac434b8b0cca5be8aa20c8b1",
+      "wsi_sha256": "502e89ae5090834cbf82cd1c2d678f3e535d65ee11427e003c71d9104a231836",
+      "coordinates_sha256": "1f26beef23853268bada957b2dfe49c1ced4799ab6236e8e30e2cabc4b18b39b"
+    },
+    {
+      "metadata": "d32027d195260391602c.json",
+      "file_name": "TCGA-BH-A0BO-01Z-00-DX1.1A704471-FEB3-40F9-9838-3E347A18285F.svs",
+      "mean_sha256": "ea2b5cb94c0a6624548f6d6dab132eee93eafa159ea8021041608d95ab89b448",
+      "wsi_sha256": "7a45837991daa995c12833d5d80d9a29e501a8a5a6beb35b6cbe7a2019931b66",
+      "coordinates_sha256": "2a43e547c3a11961143bc24d4be4d1af65a8ea28f9dc0dea5dc14830c0e123ec"
+    },
+    {
+      "metadata": "d379995c8e63188daba8.json",
+      "file_name": "TCGA-A1-A0SI-01Z-00-DX1.AB717348-F964-4F29-BBE2-972B7C640432.svs",
+      "mean_sha256": "ad04ee73296d76051dc96260ab82eded7d02433f122a00401ff7bf2848058629",
+      "wsi_sha256": "931d870ab10d96ccceee00dfcfbb9c45fbd52208e831f99ae374f3160394ae10",
+      "coordinates_sha256": "6027f1ce4797abca03c3e9da96f5aeb47d634844794c3734afcb8a4b64b01c50"
+    },
+    {
+      "metadata": "d654e61de47ca0fbd071.json",
+      "file_name": "TCGA-BH-A0DE-01Z-00-DX1.64A0340A-8146-48E8-AAF7-4035988B9152.svs",
+      "mean_sha256": "9038c7a6481a40ea9d1935a8865b402ebbc3746f4c5be232fea4bd87000e4434",
+      "wsi_sha256": "9e96dc5cd6a28fe6fef7613a47b1495599bb1b0b1fa9971b2bc0e8b32bb7c175",
+      "coordinates_sha256": "e7896032cddd2297a6ed9ba25f6a7d2595de33fffde3fbef568707c24d82dd72"
+    },
+    {
+      "metadata": "dec61ae5f81d240e6866.json",
+      "file_name": "TCGA-A2-A0YF-01Z-00-DX1.6166E995-0669-43D6-B9C7-FE39BCE529CF.svs",
+      "mean_sha256": "a890395a7d26b54526fb6969a16e483e789ed60f6f2c7b7705515936f3f8e35b",
+      "wsi_sha256": "1a0efeda60f91b611479cd745efe87995d45d06549160ecb7d8ff97fe1790d59",
+      "coordinates_sha256": "f6a1b9e56af113d003ee1c2ac95f0370083fa0dbb962d85f6786e0208995f3f6"
+    },
+    {
+      "metadata": "df5a3acfb76403621d00.json",
+      "file_name": "TCGA-BH-A0BW-01Z-00-DX1.39B0C363-46A2-4FFB-B1C5-C054A86F4A25.svs",
+      "mean_sha256": "187492d2c14319f61475fe9de93bd3f19240adb5b0425d7d2781d16d1752cc49",
+      "wsi_sha256": "457dff1a9caa0c035b855aa5fb0cf8fa090f354ad74f95925afabc9f56811e18",
+      "coordinates_sha256": "9701989290fc62ff37e6e4968ba071d4305f228fa0111aeaac8ad8dec04cbcfe"
+    },
+    {
+      "metadata": "dfdabf9d4b7af93cd061.json",
+      "file_name": "TCGA-BH-A0C1-01Z-00-DX1.21FE357E-B182-4397-BFEF-7E96E994236A.svs",
+      "mean_sha256": "8a58d0dde79fbe5895f687db826362d3cb175e2bb37016ccc426d92e3271a331",
+      "wsi_sha256": "18a216c9e6cf9d2746954e2252b003b6fe5e707132d2e47b769523be82f31f64",
+      "coordinates_sha256": "1fcf015bd1c6538101704771e611f13b3559bb3b018f3155093b72b04318ace7"
+    },
+    {
+      "metadata": "e12af5f9ee3ab678964a.json",
+      "file_name": "TCGA-A2-A04X-01Z-00-DX1.E01A4522-67B3-4FEF-BD6B-99DFED9E7C85.svs",
+      "mean_sha256": "f28d4b7f9c9cfaf16c813dd4291a50dd26a9227bba2b2d6c5fce9d0716772976",
+      "wsi_sha256": "53ff58216dd7fcd49880dc64ddc7a63b2992c42097ce6e79af69759a5e93f090",
+      "coordinates_sha256": "b1a5c0671ffe71a5af6cda5f2a4e20df04717f1dd7dc3af3555c82ef09511e93"
+    },
+    {
+      "metadata": "e1f728b3db95a7fb08a2.json",
+      "file_name": "TCGA-A2-A0D4-01Z-00-DX1.35E43827-DABC-4685-A62A-333672923349.svs",
+      "mean_sha256": "bb83ca29f30fd9f99eeaeff0e5df1b51013520be72867d3a418a45cb11bc9249",
+      "wsi_sha256": "2ed3c482a1d261b46f9932e999893020c9138bd3482c022a1f74fd2d2712ec72",
+      "coordinates_sha256": "ca2ff25add999ec9f24715385ebe037a72775d1486561712d95aa9be1d54355a"
+    },
+    {
+      "metadata": "e2031dbe5bc0c26cde65.json",
+      "file_name": "TCGA-A2-A1G0-01Z-00-DX1.9ECB0B8A-EF4E-45A9-82AC-EF36375DEF65.svs",
+      "mean_sha256": "1ebab39ac633fb30e54e4580dafd6386949179da1b62086d61821698ed9e1314",
+      "wsi_sha256": "1f879a02e8a9c5895d1d013483c3a3149326ae8abd50bed62ca3c3c9bdcff21d",
+      "coordinates_sha256": "b8a737ecd80bf8a21e2d3ba6c7e0c59c390277f590c09776d2c45a52926e3b04"
+    },
+    {
+      "metadata": "e20ff76757f3c4c6aa18.json",
+      "file_name": "TCGA-A2-A0D3-01Z-00-DX1.D18CE1C0-291D-41C1-8F71-2A0551F8C661.svs",
+      "mean_sha256": "2c2ce7691ef3a5488344f4738d73ff9e7fdc4c9a627a2d6dcafc4d76115be944",
+      "wsi_sha256": "0cdbad6e488636b4b30fb623ba3456cf2a68e7578d14205189e905528d9e0a58",
+      "coordinates_sha256": "47e6c42050a4fe478f61e2df97a1f8e1d9bc95dbf18441950bd8bf50d67ab4ff"
+    },
+    {
+      "metadata": "e27ab60346ddecf265e8.json",
+      "file_name": "TCGA-4H-AAAK-01Z-00-DX1.ABF1B042-1970-4E28-8671-43AAD393D2F9.svs",
+      "mean_sha256": "07d96aaace36334baf743711a828c80cc30323347d282fa09c3517600ad9842c",
+      "wsi_sha256": "6d97b3d98d20b0730c5f4f33ec5c95899910114de46bc2340603bafce9e9a66f",
+      "coordinates_sha256": "7cf594cf6f057abe3aabdc52cc47e00f68139b699fb8040537af6002014a17fd"
+    },
+    {
+      "metadata": "e30ced6f1e6f69c48afc.json",
+      "file_name": "TCGA-5L-AAT0-01Z-00-DX1.5E171263-30BF-4C6B-88A1-E8EA0522A861.svs",
+      "mean_sha256": "92152705ca3d43b4687c5f67258f868520449d105a95bb25f00ef0596ab02f3e",
+      "wsi_sha256": "95367f274e5a0d8523eb580c3966d0232cb07e450efc752214e6fe1219e20d4e",
+      "coordinates_sha256": "39bb621cfeb0d59206687e0aa04becf033a49c694b8c7b3f56e41ed55ebcc6fb"
+    },
+    {
+      "metadata": "e3d4759cf7853eb0de76.json",
+      "file_name": "TCGA-BH-A0DX-01Z-00-DX1.45C27E71-9A0A-400E-93A9-5CE7780F3C5E.svs",
+      "mean_sha256": "55eb698c9aafaaf683d1c029a498f27b39b70fe09363b308a2cc9c6f88c6e947",
+      "wsi_sha256": "bc3efe30dd6ebdaf0e45b5220ae748109424d1d4cd888bfb5bc3aa911122b4fa",
+      "coordinates_sha256": "fe6ad482abf539a795c7e91be2875e994dc2e600eb88f90cfddd07809c4654ad"
+    },
+    {
+      "metadata": "e551b7a667072bcd5c30.json",
+      "file_name": "TCGA-BH-A0B0-01Z-00-DX1.316D35DB-7F13-4AE5-82A7-5716D2519669.svs",
+      "mean_sha256": "b4bea7c31c95e75f2b6d483b6a217ab41493bdf7f3043e97de1330ccec402eea",
+      "wsi_sha256": "48abba543a9ead7db889a52f465a0f096490860e6a03bc4f40185cc629d45324",
+      "coordinates_sha256": "2ef8645227086a6e9822fdfe255661fe7737e32fbc3def41a14ca3d69b8281d9"
+    },
+    {
+      "metadata": "e82f97dd68ae47eae228.json",
+      "file_name": "TCGA-A2-A0SY-01Z-00-DX1.279A5479-E183-4F79-AF40-50BF1834BA4A.svs",
+      "mean_sha256": "8cb395fdf0ddd79d7472d266be1c60201ecc31b6695d9e091747e840db66e760",
+      "wsi_sha256": "899b39cefd29576a9954382ff5c47f8d31ad20c9f0f6620fbcca49ac454a331d",
+      "coordinates_sha256": "d54690f1d1ae2443f041e390bcce5b5d908da047b2cb285744a7061133c88d69"
+    },
+    {
+      "metadata": "e865c4ee73ae7d054c6d.json",
+      "file_name": "TCGA-BH-A0W3-01Z-00-DX1.38DCA2B7-1A54-4FFA-BABA-29F80974BB17.svs",
+      "mean_sha256": "ca20b2a2f4c55e13693de2d0b2c819eebf8469904f48b8fb5f8860cf356a941f",
+      "wsi_sha256": "74b146536ae96bbb15a0fe5f2c0e030d8353a203d3a08705dc0c6e8387a8fcec",
+      "coordinates_sha256": "650af12fa9515b9d5dfd47b15e3f692b4f636baa44c8c864b9380f78e375f84b"
+    },
+    {
+      "metadata": "e938f92ab7029f7af2ee.json",
+      "file_name": "TCGA-A2-A3KD-01Z-00-DX1.E400D529-A0D1-4C78-AD5C-33EB0508B128.svs",
+      "mean_sha256": "7ea9d5807ea2b5e785c02f1866f3c6459b8876dffedd0b7a1a2be6e9ddfb6deb",
+      "wsi_sha256": "fb69963a8c8c0dc41b8cdbe4077f82b5a8263dff2ee9b22f82add1b91133ffc7",
+      "coordinates_sha256": "7933026b8e208d176207218a25a9213a5edde283f8d6af2d3e71fc0fc72b0b74"
+    },
+    {
+      "metadata": "e9687f553a421ad4aecc.json",
+      "file_name": "TCGA-A2-A0CQ-01Z-00-DX1.4E5FB4E5-A08C-4C87-A3BE-0640A95AE649.svs",
+      "mean_sha256": "c023d9f31b897060b8e0d16b2aa3acfd019604a892299b98c8d202f08213e860",
+      "wsi_sha256": "742f656c8dd10dfc7faf8b959abe54df673eabab9c0a596ba54787ae9e52f297",
+      "coordinates_sha256": "b7b2bd934823f59cff0ef632339262a08be43bc092de01dc40c83d4c1dc4a2f9"
+    },
+    {
+      "metadata": "e9861038edf49d027a3e.json",
+      "file_name": "TCGA-A2-A0SV-01Z-00-DX1.F5645E47-3540-4753-AF5D-F5709BD8DFC1.svs",
+      "mean_sha256": "5f0d812f3897986c42e3da070e0587a1db1cb8e2e8d5cdc42e1d5b002f8b14d0",
+      "wsi_sha256": "4e50dc67c5e14abf8e8a65b8681d1e3f293307cfcff727c4870bd281ba75db7f",
+      "coordinates_sha256": "e44276042f403da34d738f459046ec596f8a9c1ef68143957ad7a5a8e305b7f0"
+    },
+    {
+      "metadata": "e998d2ecd3a6a608bdb6.json",
+      "file_name": "TCGA-A2-A0YT-01Z-00-DX1.63CA3E36-B3E4-4D3F-9F80-2703970DBE5B.svs",
+      "mean_sha256": "30b509803f3c02975bfb7002e7e51b93bc213685381d147e37de21b8663f72fd",
+      "wsi_sha256": "fba9e8db94ff88f3d75f60f033fbc834a7aecf05a6567a7e9113272bc9500a19",
+      "coordinates_sha256": "d14fb40b0c51b7319155973eeceab2d285e6d56e3baa3a12059bacbe74354139"
+    },
+    {
+      "metadata": "e9ad980787f3ba148910.json",
+      "file_name": "TCGA-A2-A1FV-01Z-00-DX1.F70ACD9A-7819-4296-BD28-4D24BBA8AFF4.svs",
+      "mean_sha256": "81f5df0d1513548ead61cc41046d0f9e11cc75cdc91fdeb177a75b0c36ab18a9",
+      "wsi_sha256": "85a0b56220efdf67d63811484b424151e2aa0c35215fd8dff708bce976cd5821",
+      "coordinates_sha256": "12fd1ca7d1c8c1a1e5a21d17820f31d9dab2b5922e7e8ec917f94fbf589d5b6e"
+    },
+    {
+      "metadata": "ecf1e196c44baa217560.json",
+      "file_name": "TCGA-BH-A0DS-01Z-00-DX1.38E82A1F-21B9-4B97-A304-15B886EA68A0.svs",
+      "mean_sha256": "00cdca17a6be37094d549fbb1c34cad34da0487ad836e40f8e625dbdef22df64",
+      "wsi_sha256": "6978e047c52b2a587872db12de3f82e38b45e033aeeea94dbb7cbccfb69fcbdb",
+      "coordinates_sha256": "c8132c2bd3613e47eaa031671dc42b424b007dbb00326c056ffe8b21611ef2f8"
+    },
+    {
+      "metadata": "ed863c6aa795fffdb9ac.json",
+      "file_name": "TCGA-BH-A0DG-01Z-00-DX1.D3C4F57F-608F-46AA-A978-B558117C9DFB.svs",
+      "mean_sha256": "2d9920a002129f4e9ce9549c3b6294c59847c4fbc8285589ef83b09446b5a6da",
+      "wsi_sha256": "688b51737090e16c029af41cd07df01c1bff2c5eb093ef4eb6f2ec597590cd06",
+      "coordinates_sha256": "40e1cb26a4f295774e3bdf40a01bae88c234e3f7bae9a8f31fcd363e78820683"
+    },
+    {
+      "metadata": "ed91b40bcc4f4074f75e.json",
+      "file_name": "TCGA-BH-A0HO-01Z-00-DX1.D3D66547-F5D4-40F5-B737-2FECEEB35ACB.svs",
+      "mean_sha256": "42c010d9575337fc3495336503eeb701f4c883a449b36db45fea0dd190b55c6b",
+      "wsi_sha256": "d153b1c547c6391a81429989bdb56ced43c85cc5ef673e7c3f802372c8053d15",
+      "coordinates_sha256": "5a020296b09d2fd8eefb974f13eaf780636dbac1330005dd27385f98b41f8d28"
+    },
+    {
+      "metadata": "efe3a07c27222a53916a.json",
+      "file_name": "TCGA-A1-A0SB-01Z-00-DX1.B34C267B-CAAA-4AB6-AD5C-276C26F997A1.svs",
+      "mean_sha256": "96b34980d539666e303297f0bf81853eee62fa52cd11b3baa191b833669a1fd6",
+      "wsi_sha256": "a589f270a5e539e2ab64fa9fdbac1f5112a49fe82782f16a0a0cd236d11dbca8",
+      "coordinates_sha256": "c004c5371856d02fe1de4c82b0e03dcf8331f69b85acc96d5e09928aaadf8bf0"
+    },
+    {
+      "metadata": "f1d4ea87ddafe2c261dd.json",
+      "file_name": "TCGA-BH-A0HA-01Z-00-DX1.5A2F5C86-E1E7-445D-A4E3-29980FA37708.svs",
+      "mean_sha256": "08d7434c5f19422f0d5b365e86fff180736e6f9c5450c31404c7b095770530e1",
+      "wsi_sha256": "afb9d5a16b80eac25a713a991310632442c49409248fd7deb1119db562844cfa",
+      "coordinates_sha256": "73caff4a4dc9dd44630d986758ef2ceb850d78e62cb6213d2d5f1b20e3d4848c"
+    },
+    {
+      "metadata": "f28d21230a7956696ca9.json",
+      "file_name": "TCGA-BH-A0DP-01Z-00-DX1.5550557D-4E5B-4B57-8C1E-9290A7AA32A9.svs",
+      "mean_sha256": "c8fd334b406ae3078282e81aae444859cc7ef6621b3146a004c6d3b755702ebb",
+      "wsi_sha256": "e25229b369838a5f401ff8a0f18346a27608d36b05bfac126e506966bb5ee980",
+      "coordinates_sha256": "f1c558dcb09f5e328f2415954d26fc6889aac261c89e05d81e2cc6c82645735e"
+    },
+    {
+      "metadata": "f5e8502982392ce39ec5.json",
+      "file_name": "TCGA-BH-A0AW-01Z-00-DX1.9D50A0D2-B103-411C-831E-8520C3D50173.svs",
+      "mean_sha256": "9da1259c550160d492f9c7192d041fbc96dc69c866ffdc8683f5baa530894ff6",
+      "wsi_sha256": "2e7f1a8a19757800920758ba732fd8d5088dbc728df10e3c0b74f892994b9926",
+      "coordinates_sha256": "18bf6b6d71ec270619b2d74ac6fef50bb023399e3fcbc3f4e036464233de6396"
+    },
+    {
+      "metadata": "f8590ea9bbace17db6bb.json",
+      "file_name": "TCGA-A2-A4S2-01Z-00-DX1.D779B63B-8817-43F1-A8F4-236C82DB78F8.svs",
+      "mean_sha256": "dc93b545c767dbdd1165c4bd22e913d89800a88af6fc0d99d6ffa09cdb81b090",
+      "wsi_sha256": "7d975d35dfee619b5f4a68363a54d7fd1b3abaceb2e9bcd35427109ed9169edf",
+      "coordinates_sha256": "8dd1ed931256f6a526a33f43c0fd3819096bfd1b365cb86405e2717d1707f305"
+    },
+    {
+      "metadata": "f9783df1592d2beb1f9d.json",
+      "file_name": "TCGA-BH-A0AU-01Z-00-DX1.E852F218-B15C-4CF8-8FD0-F284043834C4.svs",
+      "mean_sha256": "96d6906ee1992ee0157964e51d35fbbd68b440d58f5775df91cea9166a1798d2",
+      "wsi_sha256": "6f33b3d47b560008166df2b97d0c60fc9f1fb39f14767de314bdc732f4b43619",
+      "coordinates_sha256": "bbf6cff2a345195dc0759efa8a673fa77c98726944554403ce65af2f0d630a5d"
+    },
+    {
+      "metadata": "f9f7a34082c491150273.json",
+      "file_name": "TCGA-BH-A0C0-01Z-00-DX1.2D32D35A-EB7E-4D0E-BE5F-E56F7B930463.svs",
+      "mean_sha256": "78817af72f016beac87e3a5ce157de2bf1acb3e9ca62e5dddf805cba9e3bfd2a",
+      "wsi_sha256": "ab7aca8ef3cd3a5a1c2476e74de17a4b34ec4dfd1caa31a60e8075a009a8f5bb",
+      "coordinates_sha256": "270007e5a0f9b93dbd53a612ed252c52aafb5be145943558bb5cb935debdb3a9"
+    },
+    {
+      "metadata": "fadbc459708baa641d19.json",
+      "file_name": "TCGA-A2-A0SU-01Z-00-DX1.22420EE2-4FEB-42F3-9547-4739F0F73D50.svs",
+      "mean_sha256": "97e5b910a8bc5c12b810337e9afe8f38b51b64ccc68c2ac505144a96811bc502",
+      "wsi_sha256": "2fb92fa1c9f0d4e698e5fc48b15ddcada55379d9baa9c40ddb66a471f45c7449",
+      "coordinates_sha256": "1637eae9f95ff9c7ff42247c0eb547beeb05931bee00453967b93f910e834a6f"
+    },
+    {
+      "metadata": "fc68663e6c6f9efac64e.json",
+      "file_name": "TCGA-A2-A0EN-01Z-00-DX1.F43A5D17-9267-4963-993A-93AC91BDC031.svs",
+      "mean_sha256": "6f1e989703e0d5c0e8b1b59ceca99f99549b29d7c74c5a162317041b7fd60668",
+      "wsi_sha256": "8f59067dafb4bb97c343db5111719d8b134e469a8a31f8681acb16815d37da57",
+      "coordinates_sha256": "461ef22dce698c05a7b3551642be156cbe12bc9d3be3d215ffb7ea1d9e1aae02"
+    },
+    {
+      "metadata": "fcaac96b27c162890fbd.json",
+      "file_name": "TCGA-BH-A0BP-01Z-00-DX1.63A87C1D-87FA-494D-9836-74290B5DC30D.svs",
+      "mean_sha256": "57ffc92b5b55ec44077bc2405b66d00fef1f9a9e24d38e48da07b7724279cf04",
+      "wsi_sha256": "0f7d203dedb2adc83902daab5fce0ab0f89be3dc2356a696c80ce87547bbce89",
+      "coordinates_sha256": "96fb3cc8999629817fe1a5ce20003b9444ebf6276e7500a95df2341b53c60764"
+    },
+    {
+      "metadata": "fdfdbdd53a046a97dac7.json",
+      "file_name": "TCGA-A2-A0EO-01Z-00-DX1.D7A09E23-2CAB-4B3B-814C-BF0BA75B7589.svs",
+      "mean_sha256": "80a5d8c640f2877d17af29b1b21d9ffbb8a1ce8459fe87b41cde45b87e82b6ef",
+      "wsi_sha256": "aaa25be7d0eee1958bbdcbfa517313b523e1b54b3c0b8bbe7bb0421f1f58fc93",
+      "coordinates_sha256": "2e9f2bf97247e3b044c1cef2f8231f6b26c33eef46011578928e0511183993d7"
+    },
+    {
+      "metadata": "fe868a24946f4da8f528.json",
+      "file_name": "TCGA-A2-A04P-01Z-00-DX1.5B481E02-D269-4732-8FDD-6494E6EE2B71.svs",
+      "mean_sha256": "041eca51474f5bc70e44320eda3909345156804caa9a04c5268c82e6216fcf36",
+      "wsi_sha256": "523ee9aa2df5559e44c57309a2de84539879ecfb2afb4cad3e1584919f8dc080",
+      "coordinates_sha256": "ba0a50c8362609f5325b610653cc07da8df8dd22847616f78937aab86bda2c4b"
+    }
+  ]
+}

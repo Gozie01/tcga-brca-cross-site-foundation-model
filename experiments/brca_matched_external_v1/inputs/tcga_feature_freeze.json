@@ -1,0 +1,18 @@
+{
+  "status": "LOCKED_COMPLETE",
+  "model": "histai/hibou-b",
+  "patients": 345,
+  "slides": 347,
+  "patches": 345937,
+  "dimension": 768,
+  "features_sha256": "006cf7ecdb6fcf3d3670504a31fe99efeead8d546e567acbda64c50bf00db590",
+  "index_sha256": "5dbc53c6cad835022205029a5783c5c8d75f33e5e89aa69e99c0c86447a1b4c1",
+  "protocol_sha256": "b9aaaffdf55ab12614b38b9d14dbf69a681e5e42b3ea130e3f8d52a7b9ae20c3",
+  "coordinate_sha256": "eb5591a68242ff6c8a97759cdf51e9bc70df050eda7c1cd0115f31be044c5e66",
+  "extraction_protocol_sha256": "fb3b1c3f485be702d42567c537a3708e4e939c092abd4539c9ca0a40960f2a6b",
+  "edge_crossing_patches": 2,
+  "edge_crossing_slides": 2,
+  "edge_audit_sha256": "b6b3653b6bb83f4d3af0ae09c7d816964b7144e36ce64c5205c9a5cb6f4f1b13",
+  "edge_coordinates_sha256": "26bda7e7aa9449b76bbc938b0e63bf3a9dcf788cddd101eaf5bb9327c2476a2e",
+  "migration_sha256": "510306cac02e7bf2968d200ab312bfacf410fbedf92e44275bfe53ae81eb4c80"
+}

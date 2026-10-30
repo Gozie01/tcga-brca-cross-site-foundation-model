@@ -1,0 +1,11 @@
+{
+  "case": "TCGA-5L-AAT0",
+  "reason": "Slide stain identity unresolved in available local records",
+  "analysis": "Post hoc evaluation-row removal from existing pooled OOF predictions",
+  "source": "C:\\Users\\Gozie\\Desktop\\BioMedical\\BRCA_Revision2_Pipeline\\data\\stage10b_internal_oof_predictions_v1.csv",
+  "source_sha256": "ee17df1ea82cdb793f1cde98a7c5d76ad2548a8a41bf79e5e7c16670389dfe2a",
+  "retraining": false,
+  "primary_predictions_modified": false,
+  "uncertainty_intervals": "Not calculated for this descriptive comparison",
+  "limitation": "The patient remains in original training/calibration partitions for other folds. This does not evaluate a pipeline developed without the case."
+}

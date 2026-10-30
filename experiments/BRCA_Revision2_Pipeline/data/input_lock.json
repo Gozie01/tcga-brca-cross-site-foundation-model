@@ -1,0 +1,33 @@
+{
+  "status": "LOCKED_COORDINATES",
+  "patients": 345,
+  "slides": 347,
+  "patches": 345937,
+  "source_indices": [
+    {
+      "name": "uni_batch01_full_embeddings_v1\\batch01_uni_embeddings_index_v1.csv",
+      "sha256": "b8b037f98b19bd97e6ed3897b29569378a9101c4c6e5d9d47f90076143589393",
+      "source": "batch01",
+      "rows": 92773
+    },
+    {
+      "name": "uni_multisite_embeddings_v1\\multisite_frozen_v1\\multisite_uni_embeddings_index_v1.csv",
+      "sha256": "216a164f1216e03b59856b152cd35ed75cfbf9a236c543b715816755092d44d2",
+      "source": "multisite",
+      "rows": 253164
+    }
+  ],
+  "files": {
+    "stage10c_site_holdout_predictions_v1.csv": "752574f93aa6762033ca2b393196967a477b6d0dab34cf69851960ce3d3b8651",
+    "patch_coordinates.csv.gz": "eb5591a68242ff6c8a97759cdf51e9bc70df050eda7c1cd0115f31be044c5e66",
+    "stage10a_uni_patient_features_index_v1.csv": "ff5b6352f9b7ddecf129a2bd6345ce2066cf9adc8e436394d2b6d272efdbcf43",
+    "stage10a_patient_endpoint_master_v1.csv": "141a22c2d7dcd6daedfba5577ebdc6be84d0dd18b569afe9509812c2537c5397",
+    "stage10a_internal_5fold_manifest_v1.csv": "3e4e2a23d8bbd1dc2989d466a77ce8e79c75ea24dc7a0a9f57df1a26395222b1",
+    "slide_manifest.csv": "fd8ffbf6730f8ac2547621719547dcc3fb79238311053c0ae62215572eee1d7e",
+    "stage10b_internal_oof_predictions_v1.csv": "ee17df1ea82cdb793f1cde98a7c5d76ad2548a8a41bf79e5e7c16670389dfe2a",
+    "stage10a_uni_patient_features_v1.npy": "555460c3e05a5e71ac36548e35ed0f9c4e145e8fdb7c1e903d6cecccf78037b1",
+    "uni_control_predictions.csv": "49534ba2567f426a611710bd860b01a66ea6db30405a4930e5b5e061f1ee9f4a",
+    "stage10a_site_holdout_manifest_v1.csv": "1ec113b4db1bd49f1e7921c0f53d626d5fd33ef1c08f4d5def9d85afdc90f11c",
+    "completed_control_contrasts.csv": "c1f1f51310b373c3aba4a3806b1324fded8a1584f7a6bbb2f90f6b50e4f2af0e"
+  }
+}

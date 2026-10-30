@@ -1,0 +1,62 @@
+{
+  "status": "FROZEN_EXTERNAL_PREDICTIONS_AND_METRICS_COMPLETE_TISSUE_REVIEW_PENDING",
+  "patients": 120,
+  "model_count": 20,
+  "bootstrap_reps": 1000,
+  "bootstrap": "ordinary patient percentile bootstrap; absent-class draws retried",
+  "training_performed": false,
+  "external_calibration_fitted": false,
+  "ensemble_created": false,
+  "model_selection_performed": false,
+  "tumor_region_confirmation": false,
+  "same_assayed_block_proven": false,
+  "pretraining_independence_established": false,
+  "interpretation": "All four pre-existing site-holdout models reported separately; no single final all-TCGA model assumed. These overlapping models are not independent replications. Tissue-QC cohort, not tumor-region-confirmed cohort.",
+  "multiclass_Brier": "unnormalised sum across classes",
+  "multiclass_ECE": "top-label confidence ECE; binary ECE uses positive probability",
+  "label_classes": {
+    "binary": {
+      "0": "negative / no qualifying reported mutation",
+      "1": "positive / qualifying mutation"
+    },
+    "PAM50": {
+      "0": "LumA",
+      "1": "LumB",
+      "2": "Basal",
+      "3": "Her2"
+    }
+  },
+  "inputs_sha256": {
+    "inputs/endpoint_reference_freeze.csv": "d03cdc49c79f9e7f0a746db906d77ed52f6a2190d2c023f9126e3dd36854c57e",
+    "inputs/patient_features.npy": "6dcc66943b32011774245e3609f656481cb9c588aaeae0a60f406ec835cb8296",
+    "inputs/patient_index.csv": "bfe287b7d14b498cffb34b24c9d6c84d3052b7f58182218e395fca423e873fcb",
+    "models/ER_binary_A2_model.joblib": "3d47ad8601b2eca2967e974cc42837a18cf510e0ee3f6f96fcbc2d1fdbc66d04",
+    "models/ER_binary_BH_model.joblib": "5b49959297df60253f57a190f99281b3b30bdc043a6b20b9d8984f6a87284021",
+    "models/ER_binary_C8_model.joblib": "446252bbb383a72cfa6507c1c10adbbb0b403017827f7b9d0209687a5285fe23",
+    "models/ER_binary_E2_model.joblib": "75c1c346da04f9728726b0a8f6866995174fb2641fc60bd665f15f582534e096",
+    "models/HER2_binary_A2_model.joblib": "a9c9a041f7ade714181aafd12b139d56868b6895d74945b6b5ceecfed88de4cc",
+    "models/HER2_binary_BH_model.joblib": "a5a8b25a0e17549a2ec0217dddc4b9854a318b58faec89f8409447a455365ff9",
+    "models/HER2_binary_C8_model.joblib": "f1c29d80fbffecd7913820fdb637216b2887e4cce3c1695e77fff8035130a6f2",
+    "models/HER2_binary_E2_model.joblib": "7f58704fcf65454dfb95dd6d73444dabf7c10f02689535717f0c5e2b9862e348",
+    "models/PAM50_primary_4class_A2_model.joblib": "4bbed266841554a55c04c86c2858a766b6b0d9c8d86a20981e19bb92e594a0c0",
+    "models/PAM50_primary_4class_BH_model.joblib": "f60c70d211f76acd6c0244052b234babb75c16c1cde679a954f35a29a512cfe0",
+    "models/PAM50_primary_4class_C8_model.joblib": "0fd2a94fa32216d1d4ea3969139c1db1014ddc1dedd08c70ae14bd8d73563b0e",
+    "models/PAM50_primary_4class_E2_model.joblib": "7370d3ae98559347f9d7ab20e2cc724e46dd60f35671c865743d444e29a75a81",
+    "models/PIK3CA_binary_A2_model.joblib": "cc1d864e647c0425e489202f38694633261a4cb8e2f34f905bd0cf792c49177b",
+    "models/PIK3CA_binary_BH_model.joblib": "124f4142b17672316ee36b4c1388b3a27dd9525c075dbc1e680dfe663149c162",
+    "models/PIK3CA_binary_C8_model.joblib": "fa884037875d17a2649f4962850814135dc02d5258d22b480a53fd106d8b59a6",
+    "models/PIK3CA_binary_E2_model.joblib": "d4e95426113db856df38b12eab94f1264eb38370bd82b01cc8e37c026cada61c",
+    "models/PR_binary_A2_model.joblib": "af85d0b5908c1f3ce65d72d93c87702cb655f75f8ec0332ab38d67816dd73eab",
+    "models/PR_binary_BH_model.joblib": "5da8da045e4527458a0ccdcb0c3365dadb7795dede53ce39adc8b444dffb8888",
+    "models/PR_binary_C8_model.joblib": "d8cf862746e851a64008e9f0f09d1b34dbe1fe39ac7e54083918275f2bc4949d",
+    "models/PR_binary_E2_model.joblib": "0419c00b83d2a086050b8a6ae4cdd4fc1cb78e024d3158440892e03046affe7b"
+  },
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "joblib": "1.5.3"
+  }
+}

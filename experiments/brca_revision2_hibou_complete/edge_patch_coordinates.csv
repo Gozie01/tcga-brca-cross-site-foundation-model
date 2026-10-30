@@ -1,0 +1,3 @@
+patient_id,file_name,patch_id,x_level0,y_level0,read_size_level0,slide_width,slide_height,right_overflow_pixels,bottom_overflow_pixels
+TCGA-BH-A0W5,TCGA-BH-A0W5-01Z-00-DX1.84EA3913-667B-4694-A0F0-E629CAC615C8.svs,400,124942,31747,515,125444,79759,13,0
+TCGA-E2-A1LK,TCGA-E2-A1LK-01Z-00-DX1.5EBAA1F4-F1B4-4938-A51F-0246621BB0ED.svs,830,134679,53257,516,135183,73105,12,0

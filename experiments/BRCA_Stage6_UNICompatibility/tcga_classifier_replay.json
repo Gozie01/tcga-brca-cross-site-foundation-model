@@ -1,0 +1,145 @@
+{
+  "status": "20_SITE_HOLDOUT_MODELS_REPRODUCED",
+  "results": [
+    {
+      "checkpoint": "ER_binary_A2",
+      "patients": 85,
+      "raw_max_abs": 1.6653345369377348e-16,
+      "calibrated_max_abs": 2.7755575615628914e-16,
+      "passed": true
+    },
+    {
+      "checkpoint": "ER_binary_BH",
+      "patients": 122,
+      "raw_max_abs": 1.3877787807814457e-16,
+      "calibrated_max_abs": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "checkpoint": "ER_binary_C8",
+      "patients": 42,
+      "raw_max_abs": 2.220446049250313e-16,
+      "calibrated_max_abs": 3.885780586188048e-16,
+      "passed": true
+    },
+    {
+      "checkpoint": "ER_binary_E2",
+      "patients": 71,
+      "raw_max_abs": 1.6653345369377348e-16,
+      "calibrated_max_abs": 2.7755575615628914e-16,
+      "passed": true
+    },
+    {
+      "checkpoint": "HER2_binary_A2",
+      "patients": 84,
+      "raw_max_abs": 1.1102230246251565e-16,
+      "calibrated_max_abs": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "checkpoint": "HER2_binary_BH",
+      "patients": 113,
+      "raw_max_abs": 1.1102230246251565e-16,
+      "calibrated_max_abs": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "checkpoint": "HER2_binary_C8",
+      "patients": 32,
+      "raw_max_abs": 1.1102230246251565e-16,
+      "calibrated_max_abs": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "checkpoint": "HER2_binary_E2",
+      "patients": 70,
+      "raw_max_abs": 3.3306690738754696e-16,
+      "calibrated_max_abs": 3.885780586188048e-16,
+      "passed": true
+    },
+    {
+      "checkpoint": "PAM50_primary_4class_A2",
+      "patients": 80,
+      "raw_max_abs": 1.6653345369377348e-16,
+      "calibrated_max_abs": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "checkpoint": "PAM50_primary_4class_BH",
+      "patients": 123,
+      "raw_max_abs": 1.1102230246251565e-16,
+      "calibrated_max_abs": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "checkpoint": "PAM50_primary_4class_C8",
+      "patients": 45,
+      "raw_max_abs": 1.1102230246251565e-16,
+      "calibrated_max_abs": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "checkpoint": "PAM50_primary_4class_E2",
+      "patients": 71,
+      "raw_max_abs": 1.1102230246251565e-16,
+      "calibrated_max_abs": 9.71445146547012e-17,
+      "passed": true
+    },
+    {
+      "checkpoint": "PIK3CA_binary_A2",
+      "patients": 85,
+      "raw_max_abs": 1.1102230246251565e-16,
+      "calibrated_max_abs": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "checkpoint": "PIK3CA_binary_BH",
+      "patients": 126,
+      "raw_max_abs": 1.6653345369377348e-16,
+      "calibrated_max_abs": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "checkpoint": "PIK3CA_binary_C8",
+      "patients": 46,
+      "raw_max_abs": 1.1102230246251565e-16,
+      "calibrated_max_abs": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "checkpoint": "PIK3CA_binary_E2",
+      "patients": 71,
+      "raw_max_abs": 1.1102230246251565e-16,
+      "calibrated_max_abs": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "checkpoint": "PR_binary_A2",
+      "patients": 85,
+      "raw_max_abs": 2.220446049250313e-16,
+      "calibrated_max_abs": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "checkpoint": "PR_binary_BH",
+      "patients": 122,
+      "raw_max_abs": 1.1102230246251565e-16,
+      "calibrated_max_abs": 2.7755575615628914e-16,
+      "passed": true
+    },
+    {
+      "checkpoint": "PR_binary_C8",
+      "patients": 42,
+      "raw_max_abs": 1.1102230246251565e-16,
+      "calibrated_max_abs": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "checkpoint": "PR_binary_E2",
+      "patients": 71,
+      "raw_max_abs": 1.1102230246251565e-16,
+      "calibrated_max_abs": 1.1102230246251565e-16,
+      "passed": true
+    }
+  ]
+}

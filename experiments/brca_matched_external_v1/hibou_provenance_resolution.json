@@ -1,0 +1,20 @@
+{
+  "status": "RECORDED_CHECKPOINT_PROVENANCE_MATCH_CONFIRMED",
+  "revision": "7fdc8cce365ebfd9e7e60ee6ee9a8d4d59388f3c",
+  "snapshot_files": {
+    "config.json": "d0b02042054800cdfafd6413747ae3cdd3de1ba62ed0784fba1fad4565024207",
+    "configuration_dinov2.py": "3047b88921b3eb70cc1281d4c52f42c3f55c7d55948678ca7ae4db4ea9290915",
+    "model.safetensors": "2121db3cac83bc9abf13a458a37b0740e2ce725609ff8d4b8e6b6c56c30c3ab6",
+    "modeling_dinov2.py": "f173346569b9da0ac0098ba7ad802f0dd3a80a18c865460ddd5d34f504df8061",
+    "preprocessor_config.json": "4837d3be9c91d2ee13e8c5e05dcd27c0d5758f87b3b5fc1ee8b028a333b1334c"
+  },
+  "snapshot_file_hashes_match": true,
+  "processor_matches": true,
+  "precision_matches": true,
+  "tcga_protocol_hash_matches_feature_freeze": true,
+  "external_full_extraction_pilot_max_abs": 0.0,
+  "tcga_batch_size": 32,
+  "external_pilot_batch_size": 8,
+  "separate_tcga_hibou_numerical_replay_performed": false,
+  "limits": "Documented identity and preprocessing agreement do not establish identical numerical outputs across batch sizes, encoder pretraining independence, tumor content, or assayed-block correspondence."
+}

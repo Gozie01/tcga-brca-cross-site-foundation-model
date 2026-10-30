@@ -1,0 +1,22 @@
+{
+  "ER_binary_A2_hibou.joblib": "9ea27c25f0ac6d5cce3c063f1ad881c5c2931e23a81b382316a00b91b04537a9",
+  "ER_binary_BH_hibou.joblib": "c8c9b5fb587406141727a33e762aab9e6f571249d2c050e83c923910e7a77f73",
+  "ER_binary_C8_hibou.joblib": "db84e0f786364fca41198205db55fc0523fdfacb950220aa51276adc0c4ffa82",
+  "ER_binary_E2_hibou.joblib": "bef453cfe129c95807cbe76719adf54fefc4ceacddc9e873617d65e7c552d88f",
+  "HER2_binary_A2_hibou.joblib": "a7b4d68ae4a6ae10455de36168e693085c4a09890906d25f96201a712eb747e1",
+  "HER2_binary_BH_hibou.joblib": "5bb0555a14baf4fba3e15ef88b81de6648c3178dbd89f3e5e49e176f9170f01d",
+  "HER2_binary_C8_hibou.joblib": "4a6756e4324cbf60214c2e2d13078fd3d3a9a1e28237069e43e5545ce662099f",
+  "HER2_binary_E2_hibou.joblib": "5bc05a403dd3f89118aa17ff23abe18654d6bab22fb3e0fa4f56dd78b92da02c",
+  "PAM50_primary_4class_A2_hibou.joblib": "e6d3841b011fcacfd4cba4f7a45c571e47e5f2eb2cbb19db64b173b2a070b298",
+  "PAM50_primary_4class_BH_hibou.joblib": "88d89bec3ea3bcaddae6a5a6a2d62df458080e674de4da8ef2479502224b3b60",
+  "PAM50_primary_4class_C8_hibou.joblib": "5f54ed10ace28f28392e9f76a817970caff37fe5900e573cd24c266f6ff4cec3",
+  "PAM50_primary_4class_E2_hibou.joblib": "ec7cac633e2e7dff35b2c35c0719686cd605858b2e486d381701b2ac74811aa2",
+  "PIK3CA_binary_A2_hibou.joblib": "6abf975cbcd622fa05197822ef01a76248fa1a2e8fbce20344ca1fd96feb6dc8",
+  "PIK3CA_binary_BH_hibou.joblib": "330c99047be02149d44660820a90fac91dc10ffe576ee997aa2dd4e9a3e16200",
+  "PIK3CA_binary_C8_hibou.joblib": "72781ccf8edffe7c0b388a3a1085fdc3abd93857e7f5c6fb32d9ed548c05b838",
+  "PIK3CA_binary_E2_hibou.joblib": "545e81eb8bb0340112d567cc83d813b70910b400e7c812f27e3ba732510c50db",
+  "PR_binary_A2_hibou.joblib": "6b756aa95d7f8f8dbfa77c27d999faf637e1afb2cde1fa05a89dfebfa05a14aa",
+  "PR_binary_BH_hibou.joblib": "914c81056be7a0daac89f6c1047e86c4b93c96af582d4f501e809646e44839ea",
+  "PR_binary_C8_hibou.joblib": "d2ce505da49d76ba0650544a0d4237db053893490e1a6212f81c356a45dd66f6",
+  "PR_binary_E2_hibou.joblib": "c72bb86d8d89077e6e939a966e802a29ab6144c6e9db960b30de4802a1872584"
+}

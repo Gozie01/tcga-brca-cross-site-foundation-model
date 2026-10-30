@@ -1,0 +1,12 @@
+{
+  "status": "COORDINATE_TRACE_COMPLETE_SOURCE_REREAD_PENDING",
+  "flagged_slides": 52,
+  "mapped_sampled_patches": 832,
+  "default_priority_slides": 9,
+  "default_priority_patches": 144,
+  "sampling": "16 evenly spaced rows from each retained slide coordinate table, displaying original patch_id; matches checked source contact-sheet labels",
+  "qc_zip_sha256": "141cc163945cfc6ef1eabd680491b69a04d7c81a2b298644301ff38108f82423",
+  "retained_coordinate_sha256": "d282035f0e34b2961b9f6e0f141fc6bddbf1d884e9e7e6d2a4decc6c1e4dc6fe",
+  "no_exclusion_rule_created": true,
+  "source_WSI_available_here": false
+}

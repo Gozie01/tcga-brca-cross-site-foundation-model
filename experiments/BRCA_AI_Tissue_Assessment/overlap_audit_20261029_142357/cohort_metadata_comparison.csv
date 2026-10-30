@@ -1,0 +1,346 @@
+patient_id,found_in_retrieved_bcss_metadata,interpretation
+TCGA-3C-AALI,False,No match in retrieved metadata; independence NOT established
+TCGA-3C-AALJ,False,No match in retrieved metadata; independence NOT established
+TCGA-3C-AALK,False,No match in retrieved metadata; independence NOT established
+TCGA-4H-AAAK,False,No match in retrieved metadata; independence NOT established
+TCGA-5L-AAT0,False,No match in retrieved metadata; independence NOT established
+TCGA-5T-A9QA,False,No match in retrieved metadata; independence NOT established
+TCGA-A1-A0SB,False,No match in retrieved metadata; independence NOT established
+TCGA-A1-A0SD,False,No match in retrieved metadata; independence NOT established
+TCGA-A1-A0SE,False,No match in retrieved metadata; independence NOT established
+TCGA-A1-A0SF,False,No match in retrieved metadata; independence NOT established
+TCGA-A1-A0SH,False,No match in retrieved metadata; independence NOT established
+TCGA-A1-A0SI,False,No match in retrieved metadata; independence NOT established
+TCGA-A1-A0SJ,False,No match in retrieved metadata; independence NOT established
+TCGA-A1-A0SK,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-A1-A0SN,False,No match in retrieved metadata; independence NOT established
+TCGA-A1-A0SP,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-A1-A0SQ,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A04N,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A04P,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-A2-A04Q,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-A2-A04R,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A04T,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-A2-A04U,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A04V,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A04W,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A04X,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A04Y,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0CL,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0CM,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-A2-A0CP,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0CQ,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0CR,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0CS,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0CT,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0CU,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0CV,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0CW,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0CX,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0D0,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-A2-A0D3,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0D4,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0EM,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0EN,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0EO,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0EP,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0EQ,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0ER,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0ES,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0ET,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0EU,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0EV,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0EW,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0EX,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0EY,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0ST,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-A2-A0SU,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0SV,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0SW,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0SX,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-A2-A0SY,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0T0,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-A2-A0T1,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0T2,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-A2-A0T3,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0T4,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0T5,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0T6,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0T7,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0YC,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0YD,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0YE,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-A2-A0YF,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0YG,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0YH,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0YI,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0YJ,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0YK,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0YL,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A0YM,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-A2-A0YT,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A1FV,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A1FW,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A1FX,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A1FZ,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A1G0,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A1G1,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A1G4,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A1G6,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-A2-A259,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A25A,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A25B,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A25C,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A25D,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A25E,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A25F,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A3KD,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A3XU,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-A2-A3XW,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A3Y0,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A4S1,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A4S2,False,No match in retrieved metadata; independence NOT established
+TCGA-A2-A4S3,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0AU,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0AV,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-BH-A0AW,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0AY,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0AZ,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0B0,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0B3,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-BH-A0B5,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0B7,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0B9,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-BH-A0BA,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0BC,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0BD,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0BF,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0BJ,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0BL,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-BH-A0BM,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0BO,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0BP,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0BQ,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0BR,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0BS,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0BT,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0BV,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0BW,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-BH-A0BZ,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0C0,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0C1,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0C3,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0C7,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0DE,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0DG,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0DH,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0DI,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0DK,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0DL,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0DO,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0DP,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0DQ,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0DS,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0DT,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0DV,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0DX,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0DZ,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0E0,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-BH-A0E1,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0E2,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0E7,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0E9,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0EA,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0EB,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0EE,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0EI,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0GY,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0GZ,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0H0,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0H3,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0H6,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0H7,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0H9,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0HA,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0HB,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0HI,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0HK,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0HO,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0HP,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0HQ,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0HU,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0HW,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0HX,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0HY,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0RX,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-BH-A0W3,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0W4,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0W5,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0W7,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A0WA,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-BH-A18F,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A18G,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-BH-A18H,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A18I,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A18J,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A18L,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A18M,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A18N,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A18P,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A18Q,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A18R,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A18S,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A18T,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A18U,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A18V,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-BH-A1EN,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A1EO,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A1ET,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A1EU,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A1EV,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A1EW,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-BH-A1EX,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A1EY,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A1F0,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A1F2,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A1F6,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-BH-A1F8,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A1FC,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-BH-A1FE,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A1FG,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A1FH,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A1FJ,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A1FL,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A1FM,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A1FN,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A1FR,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A1FU,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A201,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A202,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A203,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A204,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A208,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A209,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A28Q,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A2L8,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A42U,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-BH-A42V,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A5IZ,False,No match in retrieved metadata; independence NOT established
+TCGA-BH-A5J0,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A12K,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A12L,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A12M,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A12N,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A12O,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A12P,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A12Q,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A12T,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A12U,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A12V,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-C8-A12W,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A12X,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A12Y,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A12Z,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A130,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A131,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-C8-A132,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A133,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A134,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A135,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A137,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A138,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A1HE,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A1HF,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A1HG,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A1HI,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A1HJ,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-C8-A1HK,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A1HL,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A1HM,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A1HN,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A1HO,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A26V,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A26W,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A26X,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-C8-A26Y,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-C8-A26Z,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A273,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A274,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A275,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A278,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A27A,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A27B,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-C8-A8HP,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A8HQ,False,No match in retrieved metadata; independence NOT established
+TCGA-C8-A8HR,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A10A,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A10C,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A14N,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-E2-A14O,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A14P,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A14Q,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A14R,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-E2-A14T,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A14V,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A14X,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-E2-A14Y,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A14Z,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A150,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-E2-A152,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A153,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A154,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A155,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A156,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A158,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-E2-A159,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-E2-A15A,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A15C,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A15D,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A15E,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A15G,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A15H,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A15I,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A15J,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A15K,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A15L,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A15M,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A15O,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A15P,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A15R,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A15S,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A15T,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A1AZ,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-E2-A1B0,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A1B1,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A1B4,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A1B5,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A1B6,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-E2-A1BC,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A1BD,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A1IE,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A1IF,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A1IG,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A1IH,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A1II,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A1IJ,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A1IK,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A1IL,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A1IN,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A1IO,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A1IU,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A1L6,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A1L7,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-E2-A1L8,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A1L9,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A1LA,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A1LB,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A1LG,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A1LH,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-E2-A1LK,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-E2-A1LL,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-E2-A56Z,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A570,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A573,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-E2-A574,True,BCSS metadata match; checkpoint training membership unresolved
+TCGA-E2-A576,False,No match in retrieved metadata; independence NOT established
+TCGA-E2-A9RU,False,No match in retrieved metadata; independence NOT established

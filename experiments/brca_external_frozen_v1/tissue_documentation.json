@@ -1,0 +1,10 @@
+{
+  "technical_QC": "complete",
+  "slides": 391,
+  "coordinate_hash_matches": 391,
+  "visual_tumor_qc_counts": {
+    "PENDING_HUMAN_REVIEW": 391
+  },
+  "same_assayed_block_proven": false,
+  "action_required": "Human histology review of existing contact sheets/WSIs, blinded to labels and predictions; record reviewer and slide decision. Technical tissue QC does not confirm tumor content."
+}

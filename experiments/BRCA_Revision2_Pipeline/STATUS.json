@@ -1,0 +1,23 @@
+{
+  "completed_revision1_controls": "COMPLETE_AND_VERIFIED",
+  "original_coordinate_recovery": {
+    "status": "COMPLETE",
+    "patients": 345,
+    "slides": 347,
+    "patches": 345937
+  },
+  "offline_asset_auditor": "IMPLEMENTED_AND_TESTED",
+  "hibou_live_pilot": "WAITING_FOR_LOCAL_WSI_AND_MODEL_ACCESS",
+  "hibou_complete_extraction": "NOT_RUN",
+  "matched_encoder_benchmark": "IMPLEMENTED; IDENTITY_RECIPE_TESTS_PASSED; REAL_HIBOU_RESULTS_NOT_RUN",
+  "external_cohort": "CPTAC_CANDIDATE; PATIENT_MAPPING_AND_ENDPOINT_ELIGIBILITY_NOT_VERIFIED",
+  "external_metadata_probe_here": "TIMED_OUT; NO_EXTERNAL_DATA_OR_METRICS_ACQUIRED",
+  "manuscript": "SUPPORTED_CONTROL_EDITS_AND_PATCHER_PREPARED; CURRENT_LATEX_SOURCE_REQUIRED_FOR_INTEGRATION",
+  "model_adapter_test_limit": "No Torch, Transformers, OpenSlide, model weights or WSI images were available here; live extraction is not validated by synthetic adapter tests.",
+  "test_counts": {
+    "offline_asset_tests": 3,
+    "core_pipeline_tests": 5,
+    "manuscript_patch_tests": 2
+  },
+  "powershell_test_limit": "PowerShell was unavailable here; wrapper reviewed but not executed on Windows."
+}

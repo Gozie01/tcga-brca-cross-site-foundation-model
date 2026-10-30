@@ -1,0 +1,80 @@
+{
+  "status": "DECODE_CHECKS_PASSED",
+  "slides": 3,
+  "failures": 0,
+  "records": [
+    {
+      "patient_id": "01BR001",
+      "file_name": "01BR001-0684a407-f446-486d-9160-b483cb.svs",
+      "status": "READABLE",
+      "width": 117120,
+      "height": 61082,
+      "mpp_x": 0.2501,
+      "mpp_y": 0.2501,
+      "vendor": "aperio",
+      "level_count": 4,
+      "decoded_tile_hashes": [
+        "914555616fe46dcdecd57490f80cd153726d8a94c905e875031b516d72a112f5",
+        "5e733fe53c7476cfd442cb06fccb419e350e56913ae281c1e01b1e59163c6fc9",
+        "537c2a6cccfefc133c9061d903d16547cc279c87b182b772d29fba5956f27e51"
+      ],
+      "thumbnail_RGB_stddev": [
+        32.65317582069902,
+        43.61676603704233,
+        31.220831999737413
+      ],
+      "thumbnail": "qc_thumbnails\\211767.jpg",
+      "visual_tumor_QC": "PENDING_HUMAN_REVIEW",
+      "feature_extraction_run": false
+    },
+    {
+      "patient_id": "01BR008",
+      "file_name": "01BR008-32269c0c-3ca2-4de1-b314-e9b07c.svs",
+      "status": "READABLE",
+      "width": 144960,
+      "height": 44455,
+      "mpp_x": 0.2501,
+      "mpp_y": 0.2501,
+      "vendor": "aperio",
+      "level_count": 4,
+      "decoded_tile_hashes": [
+        "218d5ca1101827c9abfd9f8b8046317ab02e20e337e5fffae379ac7659d75af9",
+        "667bf62e6c16c2b01009a42a4718e02b582ce7abdfaa970e84f1b37a9478bc94",
+        "219b78ce9fc965b2df72d6f2ed09bb14d0f4cf0804dfa396fc6f2bbd4884caee"
+      ],
+      "thumbnail_RGB_stddev": [
+        15.111167658510269,
+        27.503036183274038,
+        19.873302891778323
+      ],
+      "thumbnail": "qc_thumbnails\\211799.jpg",
+      "visual_tumor_QC": "PENDING_HUMAN_REVIEW",
+      "feature_extraction_run": false
+    },
+    {
+      "patient_id": "01BR009",
+      "file_name": "01BR009-0ecabbfa-8095-4875-acdb-051582.svs",
+      "status": "READABLE",
+      "width": 61440,
+      "height": 24140,
+      "mpp_x": 0.2501,
+      "mpp_y": 0.2501,
+      "vendor": "aperio",
+      "level_count": 3,
+      "decoded_tile_hashes": [
+        "19ffee33e208b2fda957f0f325e529db54d56f88ca4c0c8444ca429f64a4d39c",
+        "5ac23ed838e51d55805b2f90638da30dbe39b7f3b1671422c382510aee503f83",
+        "1cc07cf3c463313d6aeb017ccb66c04617c0bbce614eb7a7344b042032de6fdd"
+      ],
+      "thumbnail_RGB_stddev": [
+        32.91959102161257,
+        51.39510475717498,
+        36.946308982818294
+      ],
+      "thumbnail": "qc_thumbnails\\211804.jpg",
+      "visual_tumor_QC": "PENDING_HUMAN_REVIEW",
+      "feature_extraction_run": false
+    }
+  ],
+  "external_predictions_computed": false
+}

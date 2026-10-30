@@ -1,0 +1,55 @@
+{
+  "version": "brca_revision2_hibou_v2_edgefix",
+  "code_sha256": "4604add2c2c7ed917f967cc05b599272a6fdbbbc0be78f79a4176192769f2140",
+  "coordinate_sha256": "eb5591a68242ff6c8a97759cdf51e9bc70df050eda7c1cd0115f31be044c5e66",
+  "model": {
+    "model": "histai/hibou-b",
+    "dimension": 768,
+    "revision": "7fdc8cce365ebfd9e7e60ee6ee9a8d4d59388f3c",
+    "snapshot_file_hashes": {
+      "config.json": "d0b02042054800cdfafd6413747ae3cdd3de1ba62ed0784fba1fad4565024207",
+      "configuration_dinov2.py": "3047b88921b3eb70cc1281d4c52f42c3f55c7d55948678ca7ae4db4ea9290915",
+      "model.safetensors": "2121db3cac83bc9abf13a458a37b0740e2ce725609ff8d4b8e6b6c56c30c3ab6",
+      "modeling_dinov2.py": "f173346569b9da0ac0098ba7ad802f0dd3a80a18c865460ddd5d34f504df8061",
+      "preprocessor_config.json": "4837d3be9c91d2ee13e8c5e05dcd27c0d5758f87b3b5fc1ee8b028a333b1334c"
+    },
+    "processor": {
+      "_processor_class": null,
+      "image_processor_type": "BitImageProcessor",
+      "do_resize": true,
+      "size": {
+        "shortest_edge": 224
+      },
+      "resample": 3,
+      "do_center_crop": true,
+      "crop_size": {
+        "height": 224,
+        "width": 224
+      },
+      "do_rescale": true,
+      "rescale_factor": 0.00392156862745098,
+      "do_normalize": true,
+      "image_mean": [
+        0.7068,
+        0.5755,
+        0.722
+      ],
+      "image_std": [
+        0.195,
+        0.2316,
+        0.1816
+      ],
+      "do_convert_rgb": true
+    },
+    "device": "cuda",
+    "precision": "float32_no_autocast",
+    "batch_size": 32,
+    "torch": "2.13.0+cu130",
+    "gpu": "NVIDIA GeForce RTX 4070 SUPER"
+  },
+  "edge_handling": "Original Stage9B read_region full frozen request -> RGB -> 256 Lanczos; no clipping, shifting or patch exclusion",
+  "boundary_fix_code_sha256": "8dab48a9c168b9e6f0a05f0decf5375996b2d718c05e9c5345d2adeaa42c84cb",
+  "pooling": "float32 patch -> float64 sum -> float32 slide mean -> equal slide mean per patient",
+  "pilot_only": false,
+  "pilot_patches": 0
+}

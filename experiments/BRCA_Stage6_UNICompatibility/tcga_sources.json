@@ -1,0 +1,334 @@
+{
+  "Batch01": {
+    "pipeline_version": "uni_batch01_full_embeddings_v1",
+    "status": "LOCKED_COMPLETE",
+    "model": "MahmoodLab/UNI",
+    "model_identifier": "hf-hub:MahmoodLab/uni",
+    "parameter_count": 303350784,
+    "embedding_dimension": 1024,
+    "embedding_dtype": "float32",
+    "batch_size": 32,
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 4070 SUPER",
+    "torch_version": "2.13.0+cu130",
+    "timm_version": "1.0.29",
+    "frozen_manifest": "C:\\Users\\Gozie\\Desktop\\BioMedical\\TCGA_BRCA_Mutation_Audit\\batch01_final_patch_manifest_v1\\batch01_final_patch_coordinate_manifest_v1.csv",
+    "frozen_manifest_sha256": "69b6bcd27ca42b0be151a65188a74d5b162a3513921538fdcf54a2a15094bf60",
+    "total_embeddings": 92773,
+    "unique_wsi_count": 93,
+    "unique_patient_count": 91,
+    "embedding_matrix_shape": [
+      92773,
+      1024
+    ],
+    "preprocessing": {
+      "input_size": [
+        3,
+        224,
+        224
+      ],
+      "interpolation": "bilinear",
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ],
+      "crop_pct": 1,
+      "crop_mode": "center"
+    },
+    "patch_extraction": {
+      "source": "SVS whole-slide image",
+      "coordinate_space": "level-0",
+      "patch_coordinates": "frozen Batch-01 coordinate manifest",
+      "intermediate_output_size_px": 256,
+      "target_mpp": 0.5,
+      "permanent_patch_jpeg_corpus": false
+    },
+    "embeddings_file": "C:\\Users\\Gozie\\Desktop\\BioMedical\\TCGA_BRCA_Mutation_Audit\\uni_batch01_full_embeddings_v1\\batch01_uni_embeddings_v1.npy",
+    "embeddings_sha256": "513c2aff758e932fb61753e5972f48aaf3e1664f44b0d42abf164f4d2b53834b",
+    "index_file": "C:\\Users\\Gozie\\Desktop\\BioMedical\\TCGA_BRCA_Mutation_Audit\\uni_batch01_full_embeddings_v1\\batch01_uni_embeddings_index_v1.csv",
+    "index_sha256": "b8b037f98b19bd97e6ed3897b29569378a9101c4c6e5d9d47f90076143589393",
+    "wsi_summary_file": "C:\\Users\\Gozie\\Desktop\\BioMedical\\TCGA_BRCA_Mutation_Audit\\uni_batch01_full_embeddings_v1\\batch01_uni_embeddings_wsi_summary_v1.csv",
+    "wsi_summary_sha256": "5aa28c5a309bda57d59f7f815f69af614dd751532818a4e391998a1fd0cb3f0a",
+    "total_elapsed_seconds": 2950.516869599931,
+    "overall_end_to_end_patches_per_second": 31.442965453229,
+    "validation": {
+      "finite_values": true,
+      "nan_count": 0,
+      "inf_count": 0,
+      "duplicate_coordinate_count": 0,
+      "duplicate_embedding_index_count": 0,
+      "contiguous_embedding_indices": true,
+      "zero_norm_embedding_count": 0
+    }
+  },
+  "A2": {
+    "pipeline_version": "stage9b_multisite_uni_v1",
+    "status": "LOCKED_COMPLETE",
+    "site": "A2",
+    "model": "MahmoodLab/UNI",
+    "model_identifier": "hf-hub:MahmoodLab/uni",
+    "parameter_count": 303350784,
+    "embedding_dimension": 1024,
+    "embedding_dtype": "float32",
+    "inference_dtype": "float16_autocast",
+    "batch_size": 32,
+    "gpu": "NVIDIA GeForce RTX 4070 SUPER",
+    "torch_version": "2.13.0+cu130",
+    "timm_version": "1.0.29",
+    "frozen_manifest": "C:\\Users\\Gozie\\Desktop\\BioMedical\\TCGA_BRCA_Mutation_Audit\\multisite_patch_coordinates_v1\\A2\\A2_final_retained_patch_manifest_v1.csv",
+    "frozen_manifest_sha256": "2671352f61b6d9166fd25035de51d0570e4a465e4b838b2bdaffacf19ad8bcd9",
+    "stage9a_freeze_metadata_sha256": "b46510cb85316a632912bb66198a32eb8a3280d09864f0929cfaa433631c7559",
+    "total_embeddings": 10987,
+    "unique_wsi_count": 11,
+    "unique_patient_count": 11,
+    "embedding_matrix_shape": [
+      10987,
+      1024
+    ],
+    "preprocessing": {
+      "input_size": [
+        3,
+        224,
+        224
+      ],
+      "interpolation": "bilinear",
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ],
+      "crop_pct": 1,
+      "crop_mode": "center"
+    },
+    "patch_extraction": {
+      "source": "SVS whole-slide image",
+      "coordinate_space": "level-0",
+      "intermediate_output_size_px": 256,
+      "target_mpp": 0.5,
+      "permanent_patch_jpeg_corpus": false
+    },
+    "embeddings_file": "C:\\Users\\Gozie\\Desktop\\BioMedical\\TCGA_BRCA_Mutation_Audit\\uni_multisite_embeddings_v1\\A2\\A2_uni_embeddings_v1.npy",
+    "embeddings_sha256": "02e83ed81952f7d07d363c69a8d634c584991f55936c278d7f2075db55322da5",
+    "index_file": "C:\\Users\\Gozie\\Desktop\\BioMedical\\TCGA_BRCA_Mutation_Audit\\uni_multisite_embeddings_v1\\A2\\A2_uni_embeddings_index_v1.csv",
+    "index_sha256": "ef101ab067d0ec4afbfce10bfdb2d015156dd5849f8873e72177b83e2d585f98",
+    "wsi_summary_file": "C:\\Users\\Gozie\\Desktop\\BioMedical\\TCGA_BRCA_Mutation_Audit\\uni_multisite_embeddings_v1\\A2\\A2_uni_embeddings_wsi_summary_v1.csv",
+    "wsi_summary_sha256": "ba3aa49eef465c2677ec41737e12fc2d0e36b6b2054edea384ca9ac7a2547d04",
+    "run_elapsed_seconds": 377.80084460019134,
+    "validation": {
+      "all_slide_checkpoints_verified": true,
+      "finite_values": true,
+      "duplicate_coordinate_count": 0,
+      "duplicate_embedding_index_count": 0,
+      "contiguous_embedding_indices": true
+    }
+  },
+  "C8": {
+    "pipeline_version": "stage9b_multisite_uni_v1",
+    "status": "LOCKED_COMPLETE",
+    "site": "C8",
+    "model": "MahmoodLab/UNI",
+    "model_identifier": "hf-hub:MahmoodLab/uni",
+    "parameter_count": 303350784,
+    "embedding_dimension": 1024,
+    "embedding_dtype": "float32",
+    "inference_dtype": "float16_autocast",
+    "batch_size": 32,
+    "gpu": "NVIDIA GeForce RTX 4070 SUPER",
+    "torch_version": "2.13.0+cu130",
+    "timm_version": "1.0.29",
+    "frozen_manifest": "C:\\Users\\Gozie\\Desktop\\BioMedical\\TCGA_BRCA_Mutation_Audit\\multisite_patch_coordinates_v1\\C8\\C8_final_retained_patch_manifest_v1.csv",
+    "frozen_manifest_sha256": "7806f9d0b0924bef170527523088ef7fdc992ae87c927fa8abb647b4cfecfd24",
+    "stage9a_freeze_metadata_sha256": "80f8edccca0724a7341db23792b4b81191b32f052d149f5a5d1e1b50e3134a1a",
+    "total_embeddings": 45999,
+    "unique_wsi_count": 46,
+    "unique_patient_count": 46,
+    "embedding_matrix_shape": [
+      45999,
+      1024
+    ],
+    "preprocessing": {
+      "input_size": [
+        3,
+        224,
+        224
+      ],
+      "interpolation": "bilinear",
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ],
+      "crop_pct": 1,
+      "crop_mode": "center"
+    },
+    "patch_extraction": {
+      "source": "SVS whole-slide image",
+      "coordinate_space": "level-0",
+      "intermediate_output_size_px": 256,
+      "target_mpp": 0.5,
+      "permanent_patch_jpeg_corpus": false
+    },
+    "embeddings_file": "C:\\Users\\Gozie\\Desktop\\BioMedical\\TCGA_BRCA_Mutation_Audit\\uni_multisite_embeddings_v1\\C8\\C8_uni_embeddings_v1.npy",
+    "embeddings_sha256": "b08f0a8f974b16a2e40b955392aca4dddd1a04691e9f9f4a3a8f0eae6aa54167",
+    "index_file": "C:\\Users\\Gozie\\Desktop\\BioMedical\\TCGA_BRCA_Mutation_Audit\\uni_multisite_embeddings_v1\\C8\\C8_uni_embeddings_index_v1.csv",
+    "index_sha256": "8bdd00e5789e8cfd062ba596186b5f5327952b2f9f34eef1ae923dc63b2c0577",
+    "wsi_summary_file": "C:\\Users\\Gozie\\Desktop\\BioMedical\\TCGA_BRCA_Mutation_Audit\\uni_multisite_embeddings_v1\\C8\\C8_uni_embeddings_wsi_summary_v1.csv",
+    "wsi_summary_sha256": "5db959b3ec37f628bdfbf43d52fd9ee83a810545d6cd6a9e13906c6ef85adca8",
+    "run_elapsed_seconds": 1514.7809496999253,
+    "validation": {
+      "all_slide_checkpoints_verified": true,
+      "finite_values": true,
+      "duplicate_coordinate_count": 0,
+      "duplicate_embedding_index_count": 0,
+      "contiguous_embedding_indices": true
+    }
+  },
+  "E2": {
+    "pipeline_version": "stage9b_multisite_uni_v1",
+    "status": "LOCKED_COMPLETE",
+    "site": "E2",
+    "model": "MahmoodLab/UNI",
+    "model_identifier": "hf-hub:MahmoodLab/uni",
+    "parameter_count": 303350784,
+    "embedding_dimension": 1024,
+    "embedding_dtype": "float32",
+    "inference_dtype": "float16_autocast",
+    "batch_size": 32,
+    "gpu": "NVIDIA GeForce RTX 4070 SUPER",
+    "torch_version": "2.13.0+cu130",
+    "timm_version": "1.0.29",
+    "frozen_manifest": "C:\\Users\\Gozie\\Desktop\\BioMedical\\TCGA_BRCA_Mutation_Audit\\multisite_patch_coordinates_v1\\E2\\E2_final_retained_patch_manifest_v1.csv",
+    "frozen_manifest_sha256": "db5d664d5789cadbb7e930c8622e220a5710c8ebde4a86c8b8500d49ba17c10a",
+    "stage9a_freeze_metadata_sha256": "c3114ebe5e3486a611c6de3f3b9979662f0d9ae5c10ec3bddb105020989b8f19",
+    "total_embeddings": 70998,
+    "unique_wsi_count": 71,
+    "unique_patient_count": 71,
+    "embedding_matrix_shape": [
+      70998,
+      1024
+    ],
+    "preprocessing": {
+      "input_size": [
+        3,
+        224,
+        224
+      ],
+      "interpolation": "bilinear",
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ],
+      "crop_pct": 1,
+      "crop_mode": "center"
+    },
+    "patch_extraction": {
+      "source": "SVS whole-slide image",
+      "coordinate_space": "level-0",
+      "intermediate_output_size_px": 256,
+      "target_mpp": 0.5,
+      "permanent_patch_jpeg_corpus": false
+    },
+    "embeddings_file": "C:\\Users\\Gozie\\Desktop\\BioMedical\\TCGA_BRCA_Mutation_Audit\\uni_multisite_embeddings_v1\\E2\\E2_uni_embeddings_v1.npy",
+    "embeddings_sha256": "d60865a9507046ae8e4a02684a70f9828bf487e9f0e1df126a7842c22364ac6e",
+    "index_file": "C:\\Users\\Gozie\\Desktop\\BioMedical\\TCGA_BRCA_Mutation_Audit\\uni_multisite_embeddings_v1\\E2\\E2_uni_embeddings_index_v1.csv",
+    "index_sha256": "d024e4f67520684983d452bb345c4fd0679d6f1cc0888baef539e6c2e15a7bc4",
+    "wsi_summary_file": "C:\\Users\\Gozie\\Desktop\\BioMedical\\TCGA_BRCA_Mutation_Audit\\uni_multisite_embeddings_v1\\E2\\E2_uni_embeddings_wsi_summary_v1.csv",
+    "wsi_summary_sha256": "fb8a57d0cbedd49222357696345f1c5ba74244c49a37c51ba76f0476660a0151",
+    "run_elapsed_seconds": 2278.7107861000113,
+    "validation": {
+      "all_slide_checkpoints_verified": true,
+      "finite_values": true,
+      "duplicate_coordinate_count": 0,
+      "duplicate_embedding_index_count": 0,
+      "contiguous_embedding_indices": true
+    }
+  },
+  "BH": {
+    "pipeline_version": "stage9b_multisite_uni_v1",
+    "status": "LOCKED_COMPLETE",
+    "site": "BH",
+    "model": "MahmoodLab/UNI",
+    "model_identifier": "hf-hub:MahmoodLab/uni",
+    "parameter_count": 303350784,
+    "embedding_dimension": 1024,
+    "embedding_dtype": "float32",
+    "inference_dtype": "float16_autocast",
+    "batch_size": 32,
+    "gpu": "NVIDIA GeForce RTX 4070 SUPER",
+    "torch_version": "2.13.0+cu130",
+    "timm_version": "1.0.29",
+    "frozen_manifest": "C:\\Users\\Gozie\\Desktop\\BioMedical\\TCGA_BRCA_Mutation_Audit\\multisite_patch_coordinates_v1\\BH\\BH_final_retained_patch_manifest_v1.csv",
+    "frozen_manifest_sha256": "18baf3538645bd298b4885274366d06ca2f0a9afb12fb167080e46501b744f61",
+    "stage9a_freeze_metadata_sha256": "e565b690b3d8313cc4e317045ee9b65f3b68e092a982e11ee3de00508699c10f",
+    "total_embeddings": 125180,
+    "unique_wsi_count": 126,
+    "unique_patient_count": 126,
+    "embedding_matrix_shape": [
+      125180,
+      1024
+    ],
+    "preprocessing": {
+      "input_size": [
+        3,
+        224,
+        224
+      ],
+      "interpolation": "bilinear",
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ],
+      "crop_pct": 1,
+      "crop_mode": "center"
+    },
+    "patch_extraction": {
+      "source": "SVS whole-slide image",
+      "coordinate_space": "level-0",
+      "intermediate_output_size_px": 256,
+      "target_mpp": 0.5,
+      "permanent_patch_jpeg_corpus": false
+    },
+    "embeddings_file": "C:\\Users\\Gozie\\Desktop\\BioMedical\\TCGA_BRCA_Mutation_Audit\\uni_multisite_embeddings_v1\\BH\\BH_uni_embeddings_v1.npy",
+    "embeddings_sha256": "52fb872aef83f3dee42bb6b78978029bd56bece539f14c336add0ca67006009e",
+    "index_file": "C:\\Users\\Gozie\\Desktop\\BioMedical\\TCGA_BRCA_Mutation_Audit\\uni_multisite_embeddings_v1\\BH\\BH_uni_embeddings_index_v1.csv",
+    "index_sha256": "f8b83ded55d19656ebae91e3dcb9538c7dff7be9cc83aeb4ecbee22762f27f3f",
+    "wsi_summary_file": "C:\\Users\\Gozie\\Desktop\\BioMedical\\TCGA_BRCA_Mutation_Audit\\uni_multisite_embeddings_v1\\BH\\BH_uni_embeddings_wsi_summary_v1.csv",
+    "wsi_summary_sha256": "95b2dea375788216311ca8b836a323375cee18a2a4bd6f1e82b02f3bd97ebd1e",
+    "run_elapsed_seconds": 4252.895136400126,
+    "validation": {
+      "all_slide_checkpoints_verified": true,
+      "finite_values": true,
+      "duplicate_coordinate_count": 0,
+      "duplicate_embedding_index_count": 0,
+      "contiguous_embedding_indices": true
+    }
+  }
+}
