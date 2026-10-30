@@ -1,0 +1,23 @@
+{
+  "version": "brca_cptac_external_acquisition_v1",
+  "status": "ACQUISITION_LOCKED_IMAGE_QC_PENDING",
+  "patients_with_linked_tumor_images": 120,
+  "linked_slides": 391,
+  "pilot_slides": 3,
+  "primary_unit": "patient",
+  "pooling_plan": "Same hierarchical pooling as TCGA, after frozen image/patch QC",
+  "image_selection": "Documented tumor tissue with unique patient/specimen link; all eligible slides; no model-outcome selection",
+  "abbreviated_links_separately_identified": true,
+  "strict_link_sensitivity_required": true,
+  "physical_preparation_FFPE_or_frozen": "Not resolved in archived ESAC metadata; remains a cohort-domain limitation",
+  "TCGA_model_serialization_status": "PENDING_BEFORE_EXTERNAL_SCORING",
+  "external_recalibration_allowed": false,
+  "external_outcome_model_selection_allowed": false,
+  "locks": {
+    "data/download_manifest.csv": "4feb0293be3238dba6aa5c747bd0e6afcd1507e33eb5b9a4b4c3ad4cf7f7d8c8",
+    "data/pilot_manifest.csv": "d7ba55e79b3fdad565fd8928512efec56d6c0e2cb81123d4b3caaf75f88cd711",
+    "data/patient_crosswalk.csv": "a12a90904969bb6c9bf3a2f515f42488ff7b7ee3e4061c2eb6c9ecb8bafc2315",
+    "data/endpoint_reference_freeze.csv": "d03cdc49c79f9e7f0a746db906d77ed52f6a2190d2c023f9126e3dd36854c57e",
+    "endpoint_protocol.json": "1bb39a59f365dd2ada9a573629c96d685bcce3bff1cfd4d0af3d146f5fdf531f"
+  }
+}

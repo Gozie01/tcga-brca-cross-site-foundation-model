@@ -1,0 +1,50 @@
+[
+  {
+    "file_name": "01BR001-0684a407-f446-486d-9160-b483cb.svs",
+    "patient_id": "01BR001",
+    "bytes": 253687139,
+    "sha256": "14897a8963d03ca8cd18e555fe2c03b62eb8ddde8c2d518ff1b97a498bccb69c",
+    "remote_identity": {
+      "url": "https://pathdb.cancerimagingarchive.net/system/files/wsi/ross/CPTAC/BRCA/01BR001-0684a407-f446-486d-9160-b483cb.svs",
+      "bytes": "253687139",
+      "prefix_sha256": "43cef716b9a9af8eab0c0a4ec8b280e4273ca2d6bf84982c3b14f3dfe86627c6",
+      "last_modified": "Mon, 14 Sep 2020 17:57:47 GMT",
+      "etag": ""
+    },
+    "completed_utc": "2026-10-20T02:42:21.898103+00:00",
+    "source_full_file_checksum_available": false,
+    "integrity_basis": "Locked remote size/modification/prefix; correct HTTP ranges; local full-file SHA-256 receipt"
+  },
+  {
+    "file_name": "01BR008-32269c0c-3ca2-4de1-b314-e9b07c.svs",
+    "patient_id": "01BR008",
+    "bytes": 90883355,
+    "sha256": "6d3d5475d299772874f1f1630763f06caa6ae580f2001b6676afec03c39ae192",
+    "remote_identity": {
+      "url": "https://pathdb.cancerimagingarchive.net/system/files/wsi/ross/CPTAC/BRCA/01BR008-32269c0c-3ca2-4de1-b314-e9b07c.svs",
+      "bytes": "90883355",
+      "prefix_sha256": "e43d480b965ec9a21a2e334d303f2e244e6d618fe1dbe81f3dc5127180c2a0d5",
+      "last_modified": "Mon, 14 Sep 2020 17:58:52 GMT",
+      "etag": ""
+    },
+    "completed_utc": "2026-10-20T02:43:14.702889+00:00",
+    "source_full_file_checksum_available": false,
+    "integrity_basis": "Locked remote size/modification/prefix; correct HTTP ranges; local full-file SHA-256 receipt"
+  },
+  {
+    "file_name": "01BR009-0ecabbfa-8095-4875-acdb-051582.svs",
+    "patient_id": "01BR009",
+    "bytes": 169968845,
+    "sha256": "86666dee4329517af4148e1a0ac4dca68c87dcb59f974e487fa601ede3be7477",
+    "remote_identity": {
+      "url": "https://pathdb.cancerimagingarchive.net/system/files/wsi/ross/CPTAC/BRCA/01BR009-0ecabbfa-8095-4875-acdb-051582.svs",
+      "bytes": "169968845",
+      "prefix_sha256": "e2da440c6b378c51fb04eb1d87a323a47ac5782820767a94e1122843ba94d93b",
+      "last_modified": "Wed, 26 Aug 2020 19:15:29 GMT",
+      "etag": ""
+    },
+    "completed_utc": "2026-10-20T02:44:37.698960+00:00",
+    "source_full_file_checksum_available": false,
+    "integrity_basis": "Locked remote size/modification/prefix; correct HTTP ranges; local full-file SHA-256 receipt"
+  }
+]

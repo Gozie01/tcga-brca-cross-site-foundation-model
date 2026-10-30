@@ -1,0 +1,486 @@
+{
+  "status": "COMPLETE",
+  "slides_requested": 52,
+  "patches_requested": 832,
+  "patches_reread": 832,
+  "errors": [],
+  "source_files": {
+    "R005": {
+      "dimensions": [
+        91631,
+        42848
+      ],
+      "source_bytes": 422843501,
+      "mtime_ns": 1792491450464159200,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR040\\11BR040-5256498d-4ab0-4b62-a205-0d0e3e.svs"
+    },
+    "R008": {
+      "dimensions": [
+        27887,
+        32071
+      ],
+      "source_bytes": 94579547,
+      "mtime_ns": 1792477906042442800,
+      "path": "D:\\CPTAC_BRCA_WSI\\05BR043\\05BR043-51237920-ce43-4667-888e-ab5f70.svs"
+    },
+    "R016": {
+      "dimensions": [
+        45815,
+        44369
+      ],
+      "source_bytes": 434526507,
+      "mtime_ns": 1792493874506121500,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR058\\11BR058-1c4af263-17b3-4244-9a54-68ef91.svs"
+    },
+    "R034": {
+      "dimensions": [
+        41280,
+        32105
+      ],
+      "source_bytes": 39218575,
+      "mtime_ns": 1792497604163942700,
+      "path": "D:\\CPTAC_BRCA_WSI\\20BR001\\20BR001-bee098dc-797a-4e05-8565-05311f.svs"
+    },
+    "R046": {
+      "dimensions": [
+        71040,
+        58294
+      ],
+      "source_bytes": 97510169,
+      "mtime_ns": 1792492815150261200,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR050\\11BR050-d47473db-7a43-4cfc-9cf6-e3c6eb.svs"
+    },
+    "R065": {
+      "dimensions": [
+        70080,
+        59309
+      ],
+      "source_bytes": 126798173,
+      "mtime_ns": 1792497181839225800,
+      "path": "D:\\CPTAC_BRCA_WSI\\18BR007\\18BR007-1ae5772a-ba49-4c00-b890-7513d0.svs"
+    },
+    "R071": {
+      "dimensions": [
+        81671,
+        40592
+      ],
+      "source_bytes": 328772081,
+      "mtime_ns": 1792490160409886100,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR030\\11BR030-52f3cbfb-f1ac-4a5a-bdbf-496c3c.svs"
+    },
+    "R077": {
+      "dimensions": [
+        72960,
+        61069
+      ],
+      "source_bytes": 108080795,
+      "mtime_ns": 1792493917462079000,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR058\\11BR058-80a970f7-7b36-4450-aff8-0b55dc.svs"
+    },
+    "R078": {
+      "dimensions": [
+        52800,
+        74859
+      ],
+      "source_bytes": 82490249,
+      "mtime_ns": 1792470548881899300,
+      "path": "D:\\CPTAC_BRCA_WSI\\01BR031\\01BR031-96c52a27-3d9a-49e7-8ae8-a71e7c.svs"
+    },
+    "R079": {
+      "dimensions": [
+        39360,
+        17420
+      ],
+      "source_bytes": 97668703,
+      "mtime_ns": 1792473210187049500,
+      "path": "D:\\CPTAC_BRCA_WSI\\03BR002\\03BR002-837e179b-3840-4aed-a62f-e3073a.svs"
+    },
+    "R080": {
+      "dimensions": [
+        43823,
+        40492
+      ],
+      "source_bytes": 168366553,
+      "mtime_ns": 1792468640042275100,
+      "path": "D:\\CPTAC_BRCA_WSI\\01BR026\\01BR026-0f9b1f0c-742d-453d-9232-c7cc0c.svs"
+    },
+    "R090": {
+      "dimensions": [
+        61440,
+        55304
+      ],
+      "source_bytes": 60476263,
+      "mtime_ns": 1792493150032452600,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR054\\11BR054-b10c7b72-1d44-4668-a637-a536b2.svs"
+    },
+    "R100": {
+      "dimensions": [
+        55775,
+        38025
+      ],
+      "source_bytes": 221159365,
+      "mtime_ns": 1792488002078435200,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR023\\11BR023-0a80d3c4-0758-447a-958c-ea868c.svs"
+    },
+    "R104": {
+      "dimensions": [
+        89639,
+        40386
+      ],
+      "source_bytes": 214448527,
+      "mtime_ns": 1792489804048571000,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR028\\11BR028-6698bd88-fe4f-4ffa-ac78-7e13a9.svs"
+    },
+    "R140": {
+      "dimensions": [
+        162240,
+        75782
+      ],
+      "source_bytes": 336218731,
+      "mtime_ns": 1792493339806427400,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR055\\11BR055-f77e42b0-39c0-43a5-b138-9a0c8c.svs"
+    },
+    "R142": {
+      "dimensions": [
+        98880,
+        56617
+      ],
+      "source_bytes": 137981081,
+      "mtime_ns": 1792492728283674900,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR049\\11BR049-2e700669-85b0-43fa-a9c7-3eaf5a.svs"
+    },
+    "R145": {
+      "dimensions": [
+        67727,
+        42746
+      ],
+      "source_bytes": 256378121,
+      "mtime_ns": 1792487494459825100,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR020\\11BR020-6b3094ee-73cb-48a2-8444-1fc52d.svs"
+    },
+    "R150": {
+      "dimensions": [
+        75695,
+        49738
+      ],
+      "source_bytes": 256428969,
+      "mtime_ns": 1792489948555911700,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR028\\11BR028-885fe794-a98e-4f81-a284-ac4bb8.svs"
+    },
+    "R156": {
+      "dimensions": [
+        61751,
+        24170
+      ],
+      "source_bytes": 242998269,
+      "mtime_ns": 1792467771434870600,
+      "path": "D:\\CPTAC_BRCA_WSI\\01BR023\\01BR023-7aa930f5-4933-4cea-9f24-a132f7.svs"
+    },
+    "R160": {
+      "dimensions": [
+        84480,
+        62018
+      ],
+      "source_bytes": 145277165,
+      "mtime_ns": 1792494162247312400,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR060\\11BR060-cc162acb-2fbc-4356-a664-b6c104.svs"
+    },
+    "R166": {
+      "dimensions": [
+        33600,
+        34171
+      ],
+      "source_bytes": 28402137,
+      "mtime_ns": 1792475588841225300,
+      "path": "D:\\CPTAC_BRCA_WSI\\05BR003\\05BR003-3b10c68f-43af-4570-9eb7-651fe8.svs"
+    },
+    "R178": {
+      "dimensions": [
+        61440,
+        24140
+      ],
+      "source_bytes": 169968845,
+      "mtime_ns": 1792464277585145100,
+      "path": "D:\\CPTAC_BRCA_WSI\\01BR009\\01BR009-0ecabbfa-8095-4875-acdb-051582.svs"
+    },
+    "R179": {
+      "dimensions": [
+        35520,
+        75211
+      ],
+      "source_bytes": 25001709,
+      "mtime_ns": 1792465530154792400,
+      "path": "D:\\CPTAC_BRCA_WSI\\01BR009\\01BR009-91dc9191-3581-483a-819d-090a8b.svs"
+    },
+    "R187": {
+      "dimensions": [
+        61751,
+        47253
+      ],
+      "source_bytes": 546644997,
+      "mtime_ns": 1792483391946237200,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR006\\11BR006-d13b451c-a4c0-4987-b1e9-31538f.svs"
+    },
+    "R191": {
+      "dimensions": [
+        67727,
+        36797
+      ],
+      "source_bytes": 152053153,
+      "mtime_ns": 1792469376593078400,
+      "path": "D:\\CPTAC_BRCA_WSI\\01BR027\\01BR027-64ee175f-f3ce-446e-bbf4-9b6fa8.svs"
+    },
+    "R192": {
+      "dimensions": [
+        31680,
+        60283
+      ],
+      "source_bytes": 60946937,
+      "mtime_ns": 1792497631421670500,
+      "path": "D:\\CPTAC_BRCA_WSI\\20BR002\\20BR002-9462caa5-13e8-4997-a4f7-294f16.svs"
+    },
+    "R218": {
+      "dimensions": [
+        31871,
+        19229
+      ],
+      "source_bytes": 53550865,
+      "mtime_ns": 1792498449137335600,
+      "path": "D:\\CPTAC_BRCA_WSI\\20BR008\\20BR008-acf022b3-7f01-43b3-ac14-86f97d.svs"
+    },
+    "R222": {
+      "dimensions": [
+        27887,
+        36785
+      ],
+      "source_bytes": 144355367,
+      "mtime_ns": 1792468715252800100,
+      "path": "D:\\CPTAC_BRCA_WSI\\01BR026\\01BR026-58a48d14-52ae-42b3-9d12-6bc844.svs"
+    },
+    "R259": {
+      "dimensions": [
+        37440,
+        53917
+      ],
+      "source_bytes": 26363349,
+      "mtime_ns": 1792497555748644100,
+      "path": "D:\\CPTAC_BRCA_WSI\\20BR001\\20BR001-358296ad-e2a7-40cd-849e-8590fd.svs"
+    },
+    "R261": {
+      "dimensions": [
+        97920,
+        89310
+      ],
+      "source_bytes": 155480507,
+      "mtime_ns": 1792494108705158800,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR060\\11BR060-97cc4d46-cf80-41f1-b99c-bc4829.svs"
+    },
+    "R264": {
+      "dimensions": [
+        91631,
+        40373
+      ],
+      "source_bytes": 316567921,
+      "mtime_ns": 1792491594831174500,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR040\\11BR040-7709b3d7-26ca-4408-ad9a-43119b.svs"
+    },
+    "R265": {
+      "dimensions": [
+        71711,
+        44375
+      ],
+      "source_bytes": 176745477,
+      "mtime_ns": 1792471813075570400,
+      "path": "D:\\CPTAC_BRCA_WSI\\01BR040\\01BR040-75caa191-2bf6-4cd7-9eff-03ad98.svs"
+    },
+    "R270": {
+      "dimensions": [
+        45815,
+        33121
+      ],
+      "source_bytes": 136702497,
+      "mtime_ns": 1792493634339966000,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR058\\11BR058-0dbdef5f-15d0-43b2-819f-c145ab.svs"
+    },
+    "R275": {
+      "dimensions": [
+        61440,
+        79120
+      ],
+      "source_bytes": 100507711,
+      "mtime_ns": 1792496917594923900,
+      "path": "D:\\CPTAC_BRCA_WSI\\18BR002\\18BR002-fe591474-99d7-44d3-be73-c3b8ed.svs"
+    },
+    "R290": {
+      "dimensions": [
+        71711,
+        24283
+      ],
+      "source_bytes": 239735117,
+      "mtime_ns": 1792477456441477600,
+      "path": "D:\\CPTAC_BRCA_WSI\\05BR042\\05BR042-9dae1c88-5ae9-45b3-9464-c9c6a9.svs"
+    },
+    "R291": {
+      "dimensions": [
+        68160,
+        36772
+      ],
+      "source_bytes": 65981259,
+      "mtime_ns": 1792465738612894300,
+      "path": "D:\\CPTAC_BRCA_WSI\\01BR010\\01BR010-26ecef2d-fcf3-4b85-9647-5e5d29.svs"
+    },
+    "R295": {
+      "dimensions": [
+        21911,
+        18295
+      ],
+      "source_bytes": 76149811,
+      "mtime_ns": 1792498910770197800,
+      "path": "D:\\CPTAC_BRCA_WSI\\21BR002\\21BR002-6261ab21-32e3-4967-a3aa-1e4aff.svs"
+    },
+    "R308": {
+      "dimensions": [
+        91631,
+        47235
+      ],
+      "source_bytes": 435196545,
+      "mtime_ns": 1792482882791672300,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR006\\11BR006-3208e021-1dae-42fd-bd36-0f3c3d.svs"
+    },
+    "R313": {
+      "dimensions": [
+        86400,
+        68090
+      ],
+      "source_bytes": 148377791,
+      "mtime_ns": 1792492847413869100,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR050\\11BR050-d8a5467b-549b-48ed-9ae5-c9c39d.svs"
+    },
+    "R321": {
+      "dimensions": [
+        59759,
+        38827
+      ],
+      "source_bytes": 154270195,
+      "mtime_ns": 1792469308913948100,
+      "path": "D:\\CPTAC_BRCA_WSI\\01BR027\\01BR027-1ee8127a-ff87-49fe-a2f4-398d08.svs"
+    },
+    "R331": {
+      "dimensions": [
+        82560,
+        85339
+      ],
+      "source_bytes": 145919401,
+      "mtime_ns": 1792492779498444400,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR049\\11BR049-e8cbdd4d-1d89-4e1f-b8aa-ef4ff8.svs"
+    },
+    "R332": {
+      "dimensions": [
+        105600,
+        89270
+      ],
+      "source_bytes": 186015579,
+      "mtime_ns": 1792483921094141800,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR009\\11BR009-b5e2b61c-e6bb-4f4e-aa7f-e5ce4c.svs"
+    },
+    "R338": {
+      "dimensions": [
+        85655,
+        30569
+      ],
+      "source_bytes": 276503409,
+      "mtime_ns": 1792486586301614900,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR017\\11BR017-628e6c0e-f7cc-4acc-9d1d-f78b6b.svs"
+    },
+    "R344": {
+      "dimensions": [
+        36480,
+        44293
+      ],
+      "source_bytes": 49943315,
+      "mtime_ns": 1792497582457256500,
+      "path": "D:\\CPTAC_BRCA_WSI\\20BR001\\20BR001-5e9bfd9b-5151-4f85-8b7d-795df0.svs"
+    },
+    "R352": {
+      "dimensions": [
+        21911,
+        28549
+      ],
+      "source_bytes": 89759305,
+      "mtime_ns": 1792471507333436300,
+      "path": "D:\\CPTAC_BRCA_WSI\\01BR040\\01BR040-4a25e3da-2226-4e23-a595-c11709.svs"
+    },
+    "R355": {
+      "dimensions": [
+        77687,
+        40872
+      ],
+      "source_bytes": 420153629,
+      "mtime_ns": 1792490082312975600,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR030\\11BR030-4749ba99-d3b8-4ae3-b6f6-458bc7.svs"
+    },
+    "R361": {
+      "dimensions": [
+        75695,
+        31288
+      ],
+      "source_bytes": 215895033,
+      "mtime_ns": 1792494976759128200,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR074\\11BR074-3367406e-d39c-4641-a3e7-44e1f3.svs"
+    },
+    "R364": {
+      "dimensions": [
+        29879,
+        24859
+      ],
+      "source_bytes": 70873621,
+      "mtime_ns": 1792495007718645800,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR074\\11BR074-91104847-e243-4297-9ce9-d9cbaf.svs"
+    },
+    "R372": {
+      "dimensions": [
+        66240,
+        68958
+      ],
+      "source_bytes": 82701241,
+      "mtime_ns": 1792497237162172700,
+      "path": "D:\\CPTAC_BRCA_WSI\\18BR010\\18BR010-0bb9d596-774e-452b-9c89-a6643c.svs"
+    },
+    "R380": {
+      "dimensions": [
+        81600,
+        61528
+      ],
+      "source_bytes": 104715279,
+      "mtime_ns": 1792493202569636100,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR055\\11BR055-4533a2d6-e850-43f3-9c44-621c07.svs"
+    },
+    "R388": {
+      "dimensions": [
+        53783,
+        27694
+      ],
+      "source_bytes": 123143153,
+      "mtime_ns": 1792477001970907200,
+      "path": "D:\\CPTAC_BRCA_WSI\\05BR038\\05BR038-4a5ceb1e-4c30-4386-86ff-8f49a8.svs"
+    },
+    "R389": {
+      "dimensions": [
+        81671,
+        37539
+      ],
+      "source_bytes": 311134819,
+      "mtime_ns": 1792494557761279900,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR073\\11BR073-2169ae85-751c-4578-8e98-3e2637.svs"
+    }
+  },
+  "qc_zip_sha256": "141cc163945cfc6ef1eabd680491b69a04d7c81a2b298644301ff38108f82423",
+  "python": "3.11.9",
+  "openslide_python": "1.4.6",
+  "numpy": "2.4.4",
+  "script_sha256": "191ad73caac23ea96c6cc091aded9b1b7771734b9f8dea82b8cdb39a2b0cde6e",
+  "source_WSI_hash_recomputed": false,
+  "features_or_models_changed": false,
+  "diagnosis_or_eligibility_assigned": false,
+  "interpretation": "Preview/WSI pixel differences include contact-sheet JPEG compression. Inspect paired images; descriptive metrics are not validated exclusion rules. This task does not establish tumor content."
+}

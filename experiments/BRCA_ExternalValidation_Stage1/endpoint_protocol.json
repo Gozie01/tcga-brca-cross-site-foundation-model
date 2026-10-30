@@ -1,0 +1,79 @@
+{
+  "status": "REFERENCE_DEFINITIONS_FROZEN_BEFORE_EXTERNAL_PREDICTION",
+  "summary": {
+    "ER_binary": {
+      "eligible_before_visual_QC": 118,
+      "class_counts": {
+        "0": 37,
+        "1": 81
+      }
+    },
+    "PR_binary": {
+      "eligible_before_visual_QC": 112,
+      "class_counts": {
+        "0": 45,
+        "1": 67
+      }
+    },
+    "HER2_binary": {
+      "eligible_before_visual_QC": 95,
+      "class_counts": {
+        "0": 82,
+        "1": 13
+      }
+    },
+    "PAM50_primary_4class": {
+      "eligible_before_visual_QC": 114,
+      "class_counts": {
+        "2": 27,
+        "3": 14,
+        "0": 56,
+        "1": 17
+      }
+    },
+    "PIK3CA_binary": {
+      "eligible_before_visual_QC": 120,
+      "class_counts": {
+        "0": 81,
+        "1": 39
+      }
+    }
+  },
+  "binary_class_order": {
+    "0": "Negative or no qualifying reported PIK3CA mutation",
+    "1": "Positive or qualifying reported PIK3CA mutation"
+  },
+  "PAM50_class_order": {
+    "LumA": 0,
+    "LumB": 1,
+    "Basal": 2,
+    "Her2": 3
+  },
+  "PIK3CA_qualifying_classes": [
+    "Frame_Shift_Del",
+    "Frame_Shift_Ins",
+    "In_Frame_Del",
+    "In_Frame_Ins",
+    "Missense_Mutation",
+    "Nonsense_Mutation",
+    "Nonstop_Mutation",
+    "Splice_Site",
+    "Translation_Start_Site"
+  ],
+  "PAM50_class_order_checked_against_original_TCGA_frozen_partitions": true,
+  "PIK3CA_profiled_denominator": 122,
+  "PIK3CA_variants": 45,
+  "PIK3CA_qualifying_variants": 45,
+  "clinical_HER2_proxy_substitution": false,
+  "equivocal_or_missing_HER2_excluded": true,
+  "external_recalibration_allowed": false,
+  "external_outcome_model_selection_allowed": false,
+  "image_QC_pending": true,
+  "same_assayed_block_linkage": "Not demonstrated; analysis is linked at patient level",
+  "PIK3CA_limitations": "Negatives mean no qualifying reported mutation in the WXS-profiled reference, not guaranteed base-level callability or clinical wild type. Upstream somatic filtering differs across source cohorts.",
+  "files_sha256": {
+    "endpoint_reference_freeze.csv": "d03cdc49c79f9e7f0a746db906d77ed52f6a2190d2c023f9126e3dd36854c57e",
+    "TCGA_pik3ca_audit_v2.py": "eed8f033db91caa8cf30e5e8399aa5760cab5fd5423d783eb1bf6964532b7ea1",
+    "WXS_profile_matrix": "c9c3e6d321e46737459950e69dbe9c91f771f6208654843e795666ce27b00046"
+  }
+}

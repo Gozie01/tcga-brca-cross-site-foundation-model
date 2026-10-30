@@ -1,0 +1,8 @@
+test_input_hash_tampering_and_inventory_zip (__main__.AssetTests.test_input_hash_tampering_and_inventory_zip) ... ok
+test_inventory_missing_duplicate_and_overlapping_roots (__main__.AssetTests.test_inventory_missing_duplicate_and_overlapping_roots) ... ok
+test_receptor_candidate_detection_does_not_treat_erbb2_as_er (__main__.AssetTests.test_receptor_candidate_detection_does_not_treat_erbb2_as_er) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.004s
+
+OK

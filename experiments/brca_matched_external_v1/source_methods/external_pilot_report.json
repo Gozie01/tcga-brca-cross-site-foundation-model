@@ -1,0 +1,137 @@
+{
+  "status": "PILOT_COMPLETE_REVIEW_PENDING",
+  "errors": [],
+  "models": {
+    "UNI": {
+      "status": "PILOT_COMPLETE",
+      "revision": "b55a5ec6cade1a39edfe6534189a9b8ca7a022f0",
+      "verified_files": [
+        {
+          "name": "config.json",
+          "bytes": 686,
+          "sha256": "c14c59fb26102bdc95a23a67fb42d3dd04d4d5763ef526cbddf467819a05166e"
+        },
+        {
+          "name": "pytorch_model.bin",
+          "bytes": 1213527781,
+          "sha256": "56ef09b44a25dc5c7eedc55551b3d47bcd17659a7a33837cf9abc9ec4e2ffb40"
+        }
+      ],
+      "shape": [
+        128,
+        1024
+      ],
+      "extraction_seconds_excluding_slide_reads": 0.8524603999976534,
+      "patches_per_second": 150.15360244341244,
+      "peak_allocated_gpu_bytes": 1279430656,
+      "repeat_batch_max_absolute_difference": 0.0,
+      "settings": {
+        "data_config": {
+          "input_size": [
+            3,
+            224,
+            224
+          ],
+          "interpolation": "bilinear",
+          "mean": [
+            0.485,
+            0.456,
+            0.406
+          ],
+          "std": [
+            0.229,
+            0.224,
+            0.225
+          ],
+          "crop_pct": 1,
+          "crop_mode": "center"
+        },
+        "transform": "Compose(\n    Resize(size=224, interpolation=bilinear, max_size=None, antialias=True)\n    CenterCrop(size=[224, 224])\n    MaybeToTensor()\n    Normalize(mean=tensor([0.4850, 0.4560, 0.4060]), std=tensor([0.2290, 0.2240, 0.2250]))\n)",
+        "precision": "float16_autocast"
+      },
+      "batch_size": 8,
+      "feature_sha256": "fe973a8f969d4912db9544f70d64a09f2db0d2301f9a3b66a2751888347facf7"
+    },
+    "Hibou": {
+      "status": "PILOT_COMPLETE",
+      "revision": "7fdc8cce365ebfd9e7e60ee6ee9a8d4d59388f3c",
+      "verified_files": [
+        {
+          "name": "config.json",
+          "bytes": 1109,
+          "sha256": "d0b02042054800cdfafd6413747ae3cdd3de1ba62ed0784fba1fad4565024207"
+        },
+        {
+          "name": "configuration_dinov2.py",
+          "bytes": 8354,
+          "sha256": "3047b88921b3eb70cc1281d4c52f42c3f55c7d55948678ca7ae4db4ea9290915"
+        },
+        {
+          "name": "model.safetensors",
+          "bytes": 342988656,
+          "sha256": "2121db3cac83bc9abf13a458a37b0740e2ce725609ff8d4b8e6b6c56c30c3ab6"
+        },
+        {
+          "name": "modeling_dinov2.py",
+          "bytes": 38682,
+          "sha256": "f173346569b9da0ac0098ba7ad802f0dd3a80a18c865460ddd5d34f504df8061"
+        },
+        {
+          "name": "preprocessor_config.json",
+          "bytes": 754,
+          "sha256": "4837d3be9c91d2ee13e8c5e05dcd27c0d5758f87b3b5fc1ee8b028a333b1334c"
+        }
+      ],
+      "shape": [
+        128,
+        768
+      ],
+      "extraction_seconds_excluding_slide_reads": 1.129391399997985,
+      "patches_per_second": 113.33537691205048,
+      "peak_allocated_gpu_bytes": 1679755264,
+      "repeat_batch_max_absolute_difference": 0.0,
+      "settings": {
+        "processor": {
+          "_processor_class": null,
+          "image_processor_type": "BitImageProcessor",
+          "do_resize": true,
+          "size": {
+            "shortest_edge": 224
+          },
+          "resample": 3,
+          "do_center_crop": true,
+          "crop_size": {
+            "height": 224,
+            "width": 224
+          },
+          "do_rescale": true,
+          "rescale_factor": 0.00392156862745098,
+          "do_normalize": true,
+          "image_mean": [
+            0.7068,
+            0.5755,
+            0.722
+          ],
+          "image_std": [
+            0.195,
+            0.2316,
+            0.1816
+          ],
+          "do_convert_rgb": true
+        },
+        "precision": "float32_no_autocast"
+      },
+      "batch_size": 8,
+      "feature_sha256": "45e893367f985e1540bb73a5245b7923300329fe25603aeb518bbfce760183fb"
+    }
+  },
+  "full_cohort_extraction": false,
+  "predictions_computed": false,
+  "original_tcga_weight_identity_confirmed": false,
+  "patches_per_slide": 32,
+  "gpu": "NVIDIA GeForce RTX 4070 SUPER",
+  "torch": "2.13.0+cu130",
+  "qc_coordinates_sha256": "d282035f0e34b2961b9f6e0f141fc6bddbf1d884e9e7e6d2a4decc6c1e4dc6fe",
+  "patch_count": 128,
+  "slide_count": 4
+}

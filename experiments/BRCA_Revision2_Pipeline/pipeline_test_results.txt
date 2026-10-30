@@ -1,0 +1,10 @@
+test_identical_encoder_paired_effects_are_exactly_zero (__main__.PipelineTests.test_identical_encoder_paired_effects_are_exactly_zero) ... ok
+test_internal_and_site_identity_for_every_endpoint (__main__.PipelineTests.test_internal_and_site_identity_for_every_endpoint) ... ok
+test_patient_pooling_is_equal_slide_weight_and_preserves_order (__main__.PipelineTests.test_patient_pooling_is_equal_slide_weight_and_preserves_order) ... ok
+test_pilot_not_accepted_as_complete_feature_freeze (__main__.PipelineTests.test_pilot_not_accepted_as_complete_feature_freeze) ... ok
+test_slide_mean_streaming_and_batch_boundary_parity (__main__.PipelineTests.test_slide_mean_streaming_and_batch_boundary_parity) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 7.793s
+
+OK

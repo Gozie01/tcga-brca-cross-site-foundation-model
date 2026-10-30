@@ -1,0 +1,8 @@
+{
+  "syntax": "passed",
+  "checkpoint_tests_passed": 4,
+  "scope": "UNI only, batch32",
+  "source_registry_entries": 391,
+  "output_directory": "features_uni32_v1",
+  "gpu_run": "pending on user computer"
+}

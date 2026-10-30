@@ -1,0 +1,20 @@
+{
+  "purpose": "Exploratory automated tissue-assessment pilot",
+  "selection": "Six slides per cohort; four fixed ordered locations per slide",
+  "tcga_selection": "Unresolved case; A2/C8/E2/BH; additional BCSS metadata match",
+  "cptac_selection": "Three previously flagged and three without recorded flags",
+  "limitations": [
+    "No recorded flag does not establish slide adequacy",
+    "Pilot is purposive and not representative of cohort prevalence",
+    "TCGA stain-unresolved case is exploratory, not stain confirmation",
+    "No molecular outcomes used for selection",
+    "No automatic exclusions or changes to frozen predictions"
+  ],
+  "input_sha256": {
+    "TCGA_BRCA_Mutation_Audit\\batch01_final_patch_manifest_v1\\batch01_final_patch_coordinate_manifest_v1.csv": "69b6bcd27ca42b0be151a65188a74d5b162a3513921538fdcf54a2a15094bf60",
+    "TCGA_BRCA_Mutation_Audit\\uni_multisite_embeddings_v1\\multisite_frozen_v1\\multisite_uni_embeddings_index_v1.csv": "216a164f1216e03b59856b152cd35ed75cfbf9a236c543b715816755092d44d2",
+    "BRCA_ExternalValidation_Stage2_FullQC\\full_qc_v1\\retained_coordinates.csv": "d282035f0e34b2961b9f6e0f141fc6bddbf1d884e9e7e6d2a4decc6c1e4dc6fe",
+    "brca_revision2_asset_audit_20261019_165032\\slide_inventory.csv": "1a09a27b11b0a597fc590ae850cced824df4e4d20481cb2872ba7a5f7720405a",
+    "BRCA_AI_Tissue_Assessment\\overlap_audit_20261029_142357\\cohort_metadata_comparison.csv": "886518a171c867658bceb3f02bb10b04e4129737b04a577da95bf925436fcfb8"
+  }
+}

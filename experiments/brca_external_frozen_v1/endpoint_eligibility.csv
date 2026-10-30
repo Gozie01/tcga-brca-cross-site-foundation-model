@@ -1,0 +1,6 @@
+endpoint,total_patients,evaluable,excluded,class_counts
+ER_binary,120,118,2,"{""0"": 37, ""1"": 81}"
+HER2_binary,120,95,25,"{""0"": 82, ""1"": 13}"
+PAM50_primary_4class,120,114,6,"{""0"": 56, ""1"": 17, ""2"": 27, ""3"": 14}"
+PIK3CA_binary,120,120,0,"{""0"": 81, ""1"": 39}"
+PR_binary,120,112,8,"{""0"": 45, ""1"": 67}"

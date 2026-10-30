@@ -1,0 +1,140 @@
+{
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "packages": {
+    "torch": "2.13.0+cu130",
+    "torchvision": "0.28.0+cu130",
+    "timm": "1.0.29",
+    "transformers": "4.57.6",
+    "huggingface-hub": "0.36.2",
+    "openslide-python": "1.4.6",
+    "Pillow": "11.3.0",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "errors": [],
+  "encoder_inference_run": false,
+  "network_access_used": false,
+  "cuda_available": true,
+  "torch_cuda": "13.0",
+  "gpus": [
+    {
+      "name": "NVIDIA GeForce RTX 4070 SUPER",
+      "memory_bytes": 12878086144
+    }
+  ],
+  "cached_models": [
+    {
+      "repository": "models--MahmoodLab--uni",
+      "revision": "b55a5ec6cade1a39edfe6534189a9b8ca7a022f0",
+      "path": "C:\\Users\\Gozie\\.cache\\huggingface\\hub\\models--MahmoodLab--uni\\snapshots\\b55a5ec6cade1a39edfe6534189a9b8ca7a022f0",
+      "files": [
+        {
+          "name": "config.json",
+          "bytes": 686,
+          "sha256": "c14c59fb26102bdc95a23a67fb42d3dd04d4d5763ef526cbddf467819a05166e"
+        },
+        {
+          "name": "pytorch_model.bin",
+          "bytes": 1213527781,
+          "sha256": "56ef09b44a25dc5c7eedc55551b3d47bcd17659a7a33837cf9abc9ec4e2ffb40"
+        }
+      ]
+    },
+    {
+      "repository": "models--histai--hibou-b",
+      "revision": "7fdc8cce365ebfd9e7e60ee6ee9a8d4d59388f3c",
+      "path": "C:\\Users\\Gozie\\.cache\\huggingface\\hub\\models--histai--hibou-b\\snapshots\\7fdc8cce365ebfd9e7e60ee6ee9a8d4d59388f3c",
+      "files": [
+        {
+          "name": "config.json",
+          "bytes": 1109,
+          "sha256": "d0b02042054800cdfafd6413747ae3cdd3de1ba62ed0784fba1fad4565024207"
+        },
+        {
+          "name": "configuration_dinov2.py",
+          "bytes": 8354,
+          "sha256": "3047b88921b3eb70cc1281d4c52f42c3f55c7d55948678ca7ae4db4ea9290915"
+        },
+        {
+          "name": "model.safetensors",
+          "bytes": 342988656,
+          "sha256": "2121db3cac83bc9abf13a458a37b0740e2ce725609ff8d4b8e6b6c56c30c3ab6"
+        },
+        {
+          "name": "modeling_dinov2.py",
+          "bytes": 38682,
+          "sha256": "f173346569b9da0ac0098ba7ad802f0dd3a80a18c865460ddd5d34f504df8061"
+        },
+        {
+          "name": "preprocessor_config.json",
+          "bytes": 754,
+          "sha256": "4837d3be9c91d2ee13e8c5e05dcd27c0d5758f87b3b5fc1ee8b028a333b1334c"
+        }
+      ]
+    }
+  ],
+  "qc_coordinates_sha256": "d282035f0e34b2961b9f6e0f141fc6bddbf1d884e9e7e6d2a4decc6c1e4dc6fe",
+  "boundary_patches": [
+    {
+      "file_name": "11BR073-2169ae85-751c-4578-8e98-3e2637.svs",
+      "patch_id": "64",
+      "x": 81415,
+      "y": 2304,
+      "read_size": 259,
+      "slide_dimensions": [
+        81671,
+        37539
+      ],
+      "preview": "297_64.png"
+    },
+    {
+      "file_name": "16BR012-84d6a813-77a8-44c4-a05d-61d6ac.svs",
+      "patch_id": "144",
+      "x": 68618,
+      "y": 34821,
+      "read_size": 512,
+      "slide_dimensions": [
+        69120,
+        50446
+      ],
+      "preview": "329_144.png"
+    },
+    {
+      "file_name": "16BR012-8961f004-789c-450e-9292-370729.svs",
+      "patch_id": "497",
+      "x": 53257,
+      "y": 17411,
+      "read_size": 512,
+      "slide_dimensions": [
+        53760,
+        46479
+      ],
+      "preview": "330_497.png"
+    },
+    {
+      "file_name": "16BR012-8961f004-789c-450e-9292-370729.svs",
+      "patch_id": "550",
+      "x": 53257,
+      "y": 20483,
+      "read_size": 512,
+      "slide_dimensions": [
+        53760,
+        46479
+      ],
+      "preview": "330_550.png"
+    },
+    {
+      "file_name": "16BR012-8961f004-789c-450e-9292-370729.svs",
+      "patch_id": "568",
+      "x": 53257,
+      "y": 20995,
+      "read_size": 512,
+      "slide_dimensions": [
+        53760,
+        46479
+      ],
+      "preview": "330_568.png"
+    }
+  ],
+  "status": "PREFLIGHT_REVIEW_REQUIRED"
+}

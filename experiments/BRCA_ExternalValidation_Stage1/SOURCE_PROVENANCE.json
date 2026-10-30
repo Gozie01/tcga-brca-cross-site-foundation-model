@@ -1,0 +1,61 @@
+{
+  "audit_date": "2026-10-20",
+  "public_sources": [
+    {
+      "source_url": "https://pathdb.cancerimagingarchive.net/system/files/collectionmetadata/202401/cohort_builder_v1_01-16-2024.csv",
+      "source_bytes": 193185212,
+      "sha256": "bb8a3726117ef0e2beebea0d3871916c1a66e7fafcef5c5f57dafcfd03288d1f",
+      "included_whole": false
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/ImagingDataCommons/idc-wsi-conversion/main/MetadataFromTCIAJSONAPIDownload.zip",
+      "source_bytes": 309075,
+      "sha256": "9eb536f1b29da76c89709746c8863c6c1a60e21a88875927d6be92cb9d34af03",
+      "included_whole": false
+    },
+    {
+      "source_url": "https://pathdb.cancerimagingarchive.net/system/files/collectionmetadata/202401/cohort_builder_01-27-2024.json",
+      "source_bytes": 5697,
+      "sha256": "9b1edd46d9c95aa20ac4a126e55fc7b7fb47cfad352beeb896e94cc7c8e281c6",
+      "included_whole": false
+    },
+    {
+      "source_url": "https://media.githubusercontent.com/media/cBioPortal/datahub/master/public/brca_cptac_2020/data_gene_panel_matrix.txt",
+      "source_bytes": 2102,
+      "sha256": "c9c3e6d321e46737459950e69dbe9c91f771f6208654843e795666ce27b00046",
+      "included_whole": true
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/cBioPortal/datahub/master/public/brca_cptac_2020/README.md",
+      "source_bytes": 2568,
+      "sha256": "7c47bd9daaa989cb508ab584f87cbc06285c07d82051369c81a9a0e3c46f626a",
+      "included_whole": false
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/mahmoodlab/UNI/main/README.md",
+      "source_bytes": 32804,
+      "sha256": "4ac024c83dbcdc39987a81f4983474b0e6c6f15352226677809a6fb492f9cdb8",
+      "included_whole": false
+    },
+    {
+      "source_url": "https://raw.githubusercontent.com/HistAI/hibou/main/README.md",
+      "source_bytes": 4737,
+      "sha256": "efa8b0fcbf36a4c1652afedbb6f14d497ca59bf040faa9fe9ee9ee638cf9b4f4",
+      "included_whole": false
+    }
+  ],
+  "collection_subset": {
+    "source": "cohort_builder.txt",
+    "rule": "csv.DictReader encoding UTF-8 with replacement in unrelated records; keep exact collection CPTAC-BRCA; assert no replacement character in selected records",
+    "output": "evidence/source_metadata/pathdb_cptac_brca_inventory.csv",
+    "sha256": "636e86aaa900344bfb7cb20d71be94fff376fa3032b7a247368d884e60cf4794"
+  },
+  "specimen_member": {
+    "archive": "archived_specimens.zip",
+    "member": "MetadataFromTCIAJSONAPIDownload_CPTAC2/BR.json",
+    "output": "evidence/source_metadata/archived_BR.json",
+    "sha256": "b99203dfea16478c01a57e32d21e49a5c84e764c10982aaf9676dc4b5715babd"
+  },
+  "clinical_sources": "API URLs and original response hashes are retained in evidence/clinical/*sources.json and initial_metadata_audit.json. The initial audit predates image linkage and the new endpoint reference freeze.",
+  "individual_slides": "Each node was fetched from https://pathdb.cancerimagingarchive.net/node/{pathdb_node_id}?_format=json; file probe URLs are stored with results."
+}

@@ -1,0 +1,10 @@
+{
+  "status": "COMPUTATIONAL_COMPARISON_COMPLETE_TUMOR_REVIEW_PENDING",
+  "model_fits": 20,
+  "external_training": false,
+  "external_calibration": false,
+  "bootstrap_reps": 1000,
+  "exploratory": true,
+  "protocol_sha256": "5534f316c0b3d1c79495cfff62b69ad851cdd8c3b8962ca005ff34b459d2effd",
+  "recorded_hibou_checkpoint_provenance": "RESOLVED_BY_ORIGINAL_ARCHIVE"
+}

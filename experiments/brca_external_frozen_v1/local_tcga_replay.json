@@ -1,0 +1,142 @@
+[
+  {
+    "model": "ER_binary_A2_model.joblib",
+    "n": 85,
+    "raw_max_abs": 1.6653345369377348e-16,
+    "calibrated_max_abs": 2.7755575615628914e-16,
+    "passed": true
+  },
+  {
+    "model": "ER_binary_BH_model.joblib",
+    "n": 122,
+    "raw_max_abs": 1.3877787807814457e-16,
+    "calibrated_max_abs": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "model": "ER_binary_C8_model.joblib",
+    "n": 42,
+    "raw_max_abs": 2.220446049250313e-16,
+    "calibrated_max_abs": 3.885780586188048e-16,
+    "passed": true
+  },
+  {
+    "model": "ER_binary_E2_model.joblib",
+    "n": 71,
+    "raw_max_abs": 1.6653345369377348e-16,
+    "calibrated_max_abs": 2.7755575615628914e-16,
+    "passed": true
+  },
+  {
+    "model": "HER2_binary_A2_model.joblib",
+    "n": 84,
+    "raw_max_abs": 1.1102230246251565e-16,
+    "calibrated_max_abs": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "model": "HER2_binary_BH_model.joblib",
+    "n": 113,
+    "raw_max_abs": 1.1102230246251565e-16,
+    "calibrated_max_abs": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "model": "HER2_binary_C8_model.joblib",
+    "n": 32,
+    "raw_max_abs": 1.1102230246251565e-16,
+    "calibrated_max_abs": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "model": "HER2_binary_E2_model.joblib",
+    "n": 70,
+    "raw_max_abs": 3.3306690738754696e-16,
+    "calibrated_max_abs": 3.885780586188048e-16,
+    "passed": true
+  },
+  {
+    "model": "PAM50_primary_4class_A2_model.joblib",
+    "n": 80,
+    "raw_max_abs": 1.6653345369377348e-16,
+    "calibrated_max_abs": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "model": "PAM50_primary_4class_BH_model.joblib",
+    "n": 123,
+    "raw_max_abs": 1.1102230246251565e-16,
+    "calibrated_max_abs": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "model": "PAM50_primary_4class_C8_model.joblib",
+    "n": 45,
+    "raw_max_abs": 1.1102230246251565e-16,
+    "calibrated_max_abs": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "model": "PAM50_primary_4class_E2_model.joblib",
+    "n": 71,
+    "raw_max_abs": 1.1102230246251565e-16,
+    "calibrated_max_abs": 9.71445146547012e-17,
+    "passed": true
+  },
+  {
+    "model": "PIK3CA_binary_A2_model.joblib",
+    "n": 85,
+    "raw_max_abs": 1.1102230246251565e-16,
+    "calibrated_max_abs": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "model": "PIK3CA_binary_BH_model.joblib",
+    "n": 126,
+    "raw_max_abs": 1.6653345369377348e-16,
+    "calibrated_max_abs": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "model": "PIK3CA_binary_C8_model.joblib",
+    "n": 46,
+    "raw_max_abs": 1.1102230246251565e-16,
+    "calibrated_max_abs": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "model": "PIK3CA_binary_E2_model.joblib",
+    "n": 71,
+    "raw_max_abs": 1.1102230246251565e-16,
+    "calibrated_max_abs": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "model": "PR_binary_A2_model.joblib",
+    "n": 85,
+    "raw_max_abs": 2.220446049250313e-16,
+    "calibrated_max_abs": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "model": "PR_binary_BH_model.joblib",
+    "n": 122,
+    "raw_max_abs": 1.1102230246251565e-16,
+    "calibrated_max_abs": 2.7755575615628914e-16,
+    "passed": true
+  },
+  {
+    "model": "PR_binary_C8_model.joblib",
+    "n": 42,
+    "raw_max_abs": 1.1102230246251565e-16,
+    "calibrated_max_abs": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "model": "PR_binary_E2_model.joblib",
+    "n": 71,
+    "raw_max_abs": 1.1102230246251565e-16,
+    "calibrated_max_abs": 1.1102230246251565e-16,
+    "passed": true
+  }
+]

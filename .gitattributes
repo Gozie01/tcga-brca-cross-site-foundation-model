@@ -2,3 +2,11 @@
 *.png binary
 *.pdf binary
 *.npy binary
+
+# Preserve archived audit bytes and hashes across platforms.
+experiments/** -text
+manuscript_assets/figure4_rebuild/** -text
+manuscript_assets/figure5_rebuild/** -text
+docs/EXPERIMENT_UPDATE_2026_10.md -text
+scripts/verify_october_update.py -text
+UPDATE_FILES_SHA256.json -text

@@ -1,0 +1,25 @@
+METHODS CLARIFICATIONS
+
+Please answer in your reply, using "not recorded" where applicable.
+
+1. Earlier AI-assisted overview screening:
+   Product:
+   Model/version shown at the time:
+   Approximate screening date:
+   Human checking performed:
+
+2. CPTAC acquisition:
+   How were the 120 imaging patients selected?
+   Were patients/slides excluded before or during acquisition? Why?
+   Imaging acquisition/access dates:
+   Clinical/PAM50/mutation annotation source and export dates:
+   Any known source/version identifiers:
+
+3. Encoder identifiers:
+   Any checkpoint/revision identifiers not preserved?
+   Were TCGA and CPTAC features extracted with the same checkpoint
+   for each encoder? What existing record supports this?
+
+Do not infer historical model versions from currently installed software.
+Repository file timestamps alone do not establish access/export dates.
+Candidate class-count files require inspection before use in the paper.

@@ -1,0 +1,43 @@
+{
+  "status": "LINKAGE_AND_REMOTE_PREFLIGHT_COMPLETE",
+  "molecular_patients": 122,
+  "pathdb_inventory_rows": 654,
+  "pathdb_inventory_patient_ids": 199,
+  "patients_with_any_pathdb_image": 120,
+  "candidate_linked_tumor_slides": 391,
+  "ready_slides": 391,
+  "ready_patients": 120,
+  "ready_bytes": 67909207719,
+  "linkage_counts": {
+    "exact": 298,
+    "unique_abbreviated_specimen_alias": 93
+  },
+  "excluded_counts": {
+    "NO_MATCHED_MOLECULAR_RECORD": 259,
+    "NO_UNIQUE_SPECIMEN_LINK": 4
+  },
+  "remote_failures": 0,
+  "patients_without_any_image": [
+    "CPT000814",
+    "CPT001846"
+  ],
+  "pilot_slides": 3,
+  "pilot_bytes": 514539339,
+  "demographic_agreement": {
+    "age": {
+      "AGREE": 27,
+      "MISSING_ONE_OR_BOTH": 18,
+      "AGREE_COMPLETED_YEARS": 77
+    },
+    "sex": {
+      "AGREE": 105,
+      "MISSING_ONE_OR_BOTH": 17
+    }
+  },
+  "same_assayed_block_proven": false,
+  "visual_QC_complete": false,
+  "external_features_extracted": false,
+  "external_metrics_computed": false,
+  "pretraining_overlap": "NOT_YET_ESTABLISHED",
+  "selection": "All uniquely linked tumor-tissue slides with matching patient records and passing remote checks; no selection by outcome or model score"
+}

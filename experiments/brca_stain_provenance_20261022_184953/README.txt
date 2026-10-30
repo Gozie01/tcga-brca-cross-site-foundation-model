@@ -1,0 +1,1 @@
+Technical source identity and stain-provenance evidence only. No diagnostic review or eligibility change. Stain type is not inferred automatically. GDC diagnostic-slide classification does not by itself establish the stain.

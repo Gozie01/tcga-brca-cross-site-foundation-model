@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETE",
+  "patients_requested": 40,
+  "patches_requested": 320,
+  "patches_read": 320,
+  "errors": [],
+  "dataset_or_models_changed": false,
+  "diagnostic_review_performed": false,
+  "software": {
+    "python": "3.11.9",
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "openslide": "1.4.6"
+  }
+}

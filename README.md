@@ -63,3 +63,9 @@ Code is released under the MIT License. Original documentation and derived data 
 ## Contact
 
 Correspondence: Dong-Seong Kim, Department of IT Convergence Engineering, Kumoh National Institute of Technology, Gumi, Republic of Korea; `dskim@kumoh.ac.kr`.
+
+## October 2026 external evaluation and audit update
+
+Archived CPTAC evaluation, matched UNI/Hibou-B analyses, downstream classifiers, predictions, extraction/QC evidence and sensitivity results are available under `experiments/`. See [the update documentation](docs/EXPERIMENT_UPDATE_2026_10.md) for environments, interpretation boundaries and regeneration gaps. The original TCGA sections above describe the earlier release.
+
+Verify the added release files with `python scripts/verify_october_update.py`. PDFs are excluded from the current release; existing local PDF copies are preserved.

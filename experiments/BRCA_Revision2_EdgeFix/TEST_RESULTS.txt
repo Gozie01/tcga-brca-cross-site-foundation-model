@@ -1,0 +1,37 @@
+test_inbounds_matches_legacy_at_multiple_batch_sizes (__main__.EdgeTests.test_inbounds_matches_legacy_at_multiple_batch_sizes) ... ok
+test_invalid_coordinates_and_bad_encoder_outputs_still_rejected (__main__.EdgeTests.test_invalid_coordinates_and_bad_encoder_outputs_still_rejected) ... ok
+test_right_bottom_corner_and_outside_match_original_uni_pixel_reads (__main__.EdgeTests.test_right_bottom_corner_and_outside_match_original_uni_pixel_reads) ... ok
+test_changed_model_settings_are_rejected (__main__.MigrationTests.test_changed_model_settings_are_rejected) ... ok
+test_changed_source_image_is_rejected_before_mutation (__main__.MigrationTests.test_changed_source_image_is_rejected_before_mutation) ... VERIFY LEGACY CHECKPOINT 1/1 a.svs
+ok
+test_changed_vector_is_rejected_before_mutation (__main__.MigrationTests.test_changed_vector_is_rejected_before_mutation) ... ok
+test_inherited_edge_checkpoint_is_rejected (__main__.MigrationTests.test_inherited_edge_checkpoint_is_rejected) ... VERIFY LEGACY CHECKPOINT 1/1 a.svs
+ok
+test_interrupted_metadata_migration_can_resume (__main__.MigrationTests.test_interrupted_metadata_migration_can_resume) ... VERIFY LEGACY CHECKPOINT 1/1 a.svs
+CHECKPOINT PREFLIGHT 1/1 VERIFIED
+VERIFY LEGACY CHECKPOINT 1/1 a.svs
+CHECKPOINT PREFLIGHT 1/1 VERIFIED
+MIGRATION COMPLETE: 1 verified vectors retained unchanged
+ok
+test_migration_retains_vector_bytes_and_backs_up_lineage (__main__.MigrationTests.test_migration_retains_vector_bytes_and_backs_up_lineage) ... VERIFY LEGACY CHECKPOINT 1/1 a.svs
+CHECKPOINT PREFLIGHT 1/1 VERIFIED
+MIGRATION COMPLETE: 1 verified vectors retained unchanged
+ok
+test_orphan_checkpoint_is_rejected_before_mutation (__main__.MigrationTests.test_orphan_checkpoint_is_rejected_before_mutation) ... ok
+test_resume_after_checkpoint_rewrite_before_protocol_transition (__main__.MigrationTests.test_resume_after_checkpoint_rewrite_before_protocol_transition) ... VERIFY LEGACY CHECKPOINT 1/1 a.svs
+CHECKPOINT PREFLIGHT 1/1 VERIFIED
+VERIFY LEGACY CHECKPOINT 1/1 a.svs
+CHECKPOINT PREFLIGHT 1/1 VERIFIED
+MIGRATION COMPLETE: 1 verified vectors retained unchanged
+ok
+test_resume_after_protocol_transition_before_journal_completion (__main__.MigrationTests.test_resume_after_protocol_transition_before_journal_completion) ... VERIFY LEGACY CHECKPOINT 1/1 a.svs
+CHECKPOINT PREFLIGHT 1/1 VERIFIED
+VERIFY LEGACY CHECKPOINT 1/1 a.svs
+CHECKPOINT PREFLIGHT 1/1 VERIFIED
+MIGRATION COMPLETE: 1 verified vectors retained unchanged
+ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.179s
+
+OK

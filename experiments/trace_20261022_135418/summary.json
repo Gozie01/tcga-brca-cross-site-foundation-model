@@ -1,0 +1,99 @@
+{
+  "status": "COMPLETE",
+  "slides_requested": 9,
+  "patches_requested": 144,
+  "patches_reread": 144,
+  "errors": [],
+  "source_files": {
+    "R090": {
+      "dimensions": [
+        61440,
+        55304
+      ],
+      "source_bytes": 60476263,
+      "mtime_ns": 1792493150032452600,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR054\\11BR054-b10c7b72-1d44-4668-a637-a536b2.svs"
+    },
+    "R145": {
+      "dimensions": [
+        67727,
+        42746
+      ],
+      "source_bytes": 256378121,
+      "mtime_ns": 1792487494459825100,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR020\\11BR020-6b3094ee-73cb-48a2-8444-1fc52d.svs"
+    },
+    "R150": {
+      "dimensions": [
+        75695,
+        49738
+      ],
+      "source_bytes": 256428969,
+      "mtime_ns": 1792489948555911700,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR028\\11BR028-885fe794-a98e-4f81-a284-ac4bb8.svs"
+    },
+    "R156": {
+      "dimensions": [
+        61751,
+        24170
+      ],
+      "source_bytes": 242998269,
+      "mtime_ns": 1792467771434870600,
+      "path": "D:\\CPTAC_BRCA_WSI\\01BR023\\01BR023-7aa930f5-4933-4cea-9f24-a132f7.svs"
+    },
+    "R261": {
+      "dimensions": [
+        97920,
+        89310
+      ],
+      "source_bytes": 155480507,
+      "mtime_ns": 1792494108705158800,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR060\\11BR060-97cc4d46-cf80-41f1-b99c-bc4829.svs"
+    },
+    "R332": {
+      "dimensions": [
+        105600,
+        89270
+      ],
+      "source_bytes": 186015579,
+      "mtime_ns": 1792483921094141800,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR009\\11BR009-b5e2b61c-e6bb-4f4e-aa7f-e5ce4c.svs"
+    },
+    "R338": {
+      "dimensions": [
+        85655,
+        30569
+      ],
+      "source_bytes": 276503409,
+      "mtime_ns": 1792486586301614900,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR017\\11BR017-628e6c0e-f7cc-4acc-9d1d-f78b6b.svs"
+    },
+    "R355": {
+      "dimensions": [
+        77687,
+        40872
+      ],
+      "source_bytes": 420153629,
+      "mtime_ns": 1792490082312975600,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR030\\11BR030-4749ba99-d3b8-4ae3-b6f6-458bc7.svs"
+    },
+    "R389": {
+      "dimensions": [
+        81671,
+        37539
+      ],
+      "source_bytes": 311134819,
+      "mtime_ns": 1792494557761279900,
+      "path": "D:\\CPTAC_BRCA_WSI\\11BR073\\11BR073-2169ae85-751c-4578-8e98-3e2637.svs"
+    }
+  },
+  "qc_zip_sha256": "141cc163945cfc6ef1eabd680491b69a04d7c81a2b298644301ff38108f82423",
+  "python": "3.11.9",
+  "openslide_python": "1.4.6",
+  "numpy": "2.4.4",
+  "script_sha256": "191ad73caac23ea96c6cc091aded9b1b7771734b9f8dea82b8cdb39a2b0cde6e",
+  "source_WSI_hash_recomputed": false,
+  "features_or_models_changed": false,
+  "diagnosis_or_eligibility_assigned": false,
+  "interpretation": "Preview/WSI pixel differences include contact-sheet JPEG compression. Inspect paired images; descriptive metrics are not validated exclusion rules. This task does not establish tumor content."
+}

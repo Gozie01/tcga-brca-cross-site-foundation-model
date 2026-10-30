@@ -1,0 +1,27 @@
+{
+  "status": "LOCKED_BEFORE_HIBOU_FITS",
+  "comparison": "All four existing site-holdout models, no external model selection or ensemble",
+  "training": "TCGA frozen train partition only; StandardScaler + balanced L2 LR; C grid .001,.01,.1,1,10,100; stratified min(4,minority_n) CV; binary AP / multiclass negative log loss; seed 20260905; max_iter 5000",
+  "calibration": "TCGA frozen validation only; original binary Platt / PAM50 temperature protocol",
+  "external": "Same endpoint-evaluable patients and labels as external UNI v1",
+  "bootstrap": "1000 paired ordinary patient resamples; absent-class draws rejected; exploratory percentile CIs without multiplicity adjustment",
+  "known_limits": [
+    "tumor review pending",
+    "historical TCGA Hibou model revision/hash unavailable in supplied freeze; source code uses official processor and float32 inference, but cross-cohort numerical replay not demonstrated",
+    "encoder pretraining independence unestablished",
+    "image-to-assayed-block correspondence unproven"
+  ],
+  "code_sha256": "b4332b94b9bcd09a0a3b51db2d044a7461aa02794c8a1a2076191827ff6c63c9",
+  "input_hashes": {
+    "external_feature_summary.json": "88a7d8bebf52f29f05c18c51bb653e379ff12e87837b5cc5b08def91402003e4",
+    "external_hibou.npy": "ed5bc4da54c7f5c9d0107d36a682b1e9b3b6cc4ea0adbddcee4f779a958db1f5",
+    "external_index.csv": "bfe287b7d14b498cffb34b24c9d6c84d3052b7f58182218e395fca423e873fcb",
+    "labels.csv": "d03cdc49c79f9e7f0a746db906d77ed52f6a2190d2c023f9126e3dd36854c57e",
+    "site_splits.csv": "1ec113b4db1bd49f1e7921c0f53d626d5fd33ef1c08f4d5def9d85afdc90f11c",
+    "tcga_feature_freeze.json": "1d7f72d02ea7c216da9b65d0f4de98a8ed2aa45b30ac0337909be33055c86417",
+    "tcga_hibou.npy": "006cf7ecdb6fcf3d3670504a31fe99efeead8d546e567acbda64c50bf00db590",
+    "tcga_index.csv": "5dbc53c6cad835022205029a5783c5c8d75f33e5e89aa69e99c0c86447a1b4c1",
+    "tcga_uni_predictions.csv": "752574f93aa6762033ca2b393196967a477b6d0dab34cf69851960ce3d3b8651",
+    "uni_predictions.csv": "b4e0530a0447eca0e94746e816fd9334cf640608bfe9de7ff909e89ec38b90e4"
+  }
+}

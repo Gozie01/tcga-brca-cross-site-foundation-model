@@ -1,0 +1,12 @@
+{
+  "manifest_sha256": "09616e3f749b88b76401475b113f324d3f9da71908d0ff1cd86b773970489c6a",
+  "rendering": "Exact frozen footprint, bilinear resize to 256x256",
+  "focus": "Interior Laplacian variance and Sobel gradient magnitude",
+  "colour": "HSV saturation and brightness descriptive probes",
+  "limitations": [
+    "Pale pixels may include genuine tissue, fat spaces or background",
+    "Focus measurements depend on tissue texture and staining",
+    "No diagnostic or tissue-adequacy thresholds validated",
+    "No exclusions or modifications to frozen molecular predictions"
+  ]
+}

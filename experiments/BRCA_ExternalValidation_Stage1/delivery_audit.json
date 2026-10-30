@@ -1,0 +1,20 @@
+{
+  "status": "VERIFIED",
+  "image_records_checked": 391,
+  "patients": 120,
+  "endpoint_rows": 610,
+  "metadata_node_corrections": [
+    [
+      "211934",
+      "211933"
+    ],
+    [
+      "211933",
+      "211934"
+    ]
+  ],
+  "identical_remote_prefix_groups": 0,
+  "source_full_file_checksums_available": false,
+  "image_decoding": "PENDING_LOCAL_PILOT",
+  "external_features_or_metrics_computed": false
+}

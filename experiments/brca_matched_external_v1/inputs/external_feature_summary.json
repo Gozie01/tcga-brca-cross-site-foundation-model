@@ -1,0 +1,45 @@
+{
+  "status": "COMPLETE",
+  "completed_slides": 391,
+  "completed_patches": 368985,
+  "reused_slides": 0,
+  "dimension": 768,
+  "patient_count": 120,
+  "pilot_max_absolute_difference": 0.0,
+  "revision": "7fdc8cce365ebfd9e7e60ee6ee9a8d4d59388f3c",
+  "settings": {
+    "processor": {
+      "_processor_class": null,
+      "image_processor_type": "BitImageProcessor",
+      "do_resize": true,
+      "size": {
+        "shortest_edge": 224
+      },
+      "resample": 3,
+      "do_center_crop": true,
+      "crop_size": {
+        "height": 224,
+        "width": 224
+      },
+      "do_rescale": true,
+      "rescale_factor": 0.00392156862745098,
+      "do_normalize": true,
+      "image_mean": [
+        0.7068,
+        0.5755,
+        0.722
+      ],
+      "image_std": [
+        0.195,
+        0.2316,
+        0.1816
+      ],
+      "do_convert_rgb": true
+    },
+    "precision": "float32_no_autocast"
+  },
+  "model_identity": "0f0819afdc519ce53954f85b43dfa86e729f173d19052f850b1ee71fbbc09ad3",
+  "elapsed_seconds_this_invocation": 6419.060944900004,
+  "peak_allocated_gpu_bytes": 1679755264,
+  "inventory_sha256": "d229b905ac406d34dc9f16693fc6d74f959e094fc7962d8878d4bf9b724f3dd0"
+}
